@@ -110,7 +110,7 @@ function ImageUploadField({ label, value, onUpload, onUrlChange }) {
       </div>
       {value && (
         <div className="mt-2 relative rounded-xl overflow-hidden border border-surface-200 h-28 bg-surface-50">
-          <img src={value.startsWith('/') ? `http://localhost:8080${value}` : value} alt="preview" className="w-full h-full object-cover" />
+          <img src={value} alt="preview" className="w-full h-full object-cover" />
           <span className="absolute top-1.5 right-1.5 px-2 py-0.5 rounded-full bg-black/50 text-white text-[10px] font-medium">Preview</span>
         </div>
       )}
@@ -945,7 +945,7 @@ export default function CmsEditor() {
                 {gallery.map(g => (
                   <div key={g.id} className="group rounded-2xl overflow-hidden bg-surface-50 border border-surface-200 hover:border-indigo-300 transition-all relative flex flex-col justify-between">
                     <div className="h-44 overflow-hidden bg-slate-900 relative">
-                      <img src={g.mediaUrl?.startsWith('/') ? `http://localhost:8080${g.mediaUrl}` : g.mediaUrl} alt={g.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                      <img src={g.mediaUrl} alt={g.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
                       <span className="absolute top-2 left-2 px-2.5 py-0.5 rounded-full bg-black/60 backdrop-blur-md text-white text-[11px] font-bold">
                         {g.category || 'General'}
                       </span>

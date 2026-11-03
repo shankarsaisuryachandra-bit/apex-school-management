@@ -107,7 +107,7 @@ export default function LandingPage() {
     const url = heroImageUrl || '/uploads/hero_campus_quad.png'
     return url.startsWith('http') || url.startsWith('data:') || url.startsWith('blob:')
       ? url
-      : `http://localhost:8080${url.startsWith('/') ? '' : '/'}${url}`
+      : (url.startsWith('/') ? url : `/${url}`)
   })()
 
   // Curated facilities data with real architectural photography
