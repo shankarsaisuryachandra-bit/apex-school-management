@@ -38,6 +38,9 @@ WORKDIR /app
 # Create directory for persistent embedded H2 database & file uploads
 RUN mkdir -p /app/data /app/uploads
 
+# Pre-populate production uploads directory with initial media assets & campus imagery
+COPY backend/uploads /app/uploads
+
 # Copy executable jar from builder stage
 COPY --from=backend-builder /app/backend/target/school-management-system-*.jar app.jar
 

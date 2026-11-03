@@ -103,6 +103,8 @@ export default function LandingPage() {
     ? stats.map(s => ({ value: parseInt(s.value), label: s.label, suffix: s.value?.includes('+') ? '+' : s.value?.includes('%') ? '%' : '' }))
     : defaultStats
 
+  const FALLBACK_HERO_IMAGE = 'https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&w=1200&q=80'
+
   const heroSrc = (() => {
     const url = heroImageUrl || '/uploads/hero_campus_quad.png'
     return url.startsWith('http') || url.startsWith('data:') || url.startsWith('blob:')
@@ -360,6 +362,12 @@ export default function LandingPage() {
               <img
                 src={heroSrc}
                 alt="Apex Academy Quadrangle Campus"
+                onError={(e) => {
+                  if (e.currentTarget.src !== FALLBACK_HERO_IMAGE) {
+                    e.currentTarget.onerror = null
+                    e.currentTarget.src = FALLBACK_HERO_IMAGE
+                  }
+                }}
                 className="w-full h-80 sm:h-96 object-cover object-center filter brightness-95 hover:scale-105 transition-transform duration-700 ease-out"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#0B1B2B] via-transparent to-transparent opacity-80"></div>
@@ -525,6 +533,12 @@ export default function LandingPage() {
                 <img
                   src={facilities[activeTab].image}
                   alt={facilities[activeTab].title}
+                  onError={(e) => {
+                    if (e.currentTarget.src !== FALLBACK_HERO_IMAGE) {
+                      e.currentTarget.onerror = null
+                      e.currentTarget.src = FALLBACK_HERO_IMAGE
+                    }
+                  }}
                   className="w-full h-full object-cover filter brightness-95 hover:scale-105 transition-transform duration-700 ease-out"
                 />
               </div>

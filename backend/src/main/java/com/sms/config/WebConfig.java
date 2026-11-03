@@ -20,7 +20,7 @@ public class WebConfig implements WebMvcConfigurer {
             uploadPath += "/";
         }
         registry.addResourceHandler("/uploads/**")
-                .addResourceLocations(uploadPath)
+                .addResourceLocations(uploadPath, "classpath:/static/uploads/", "classpath:/static/")
                 .setCacheControl(org.springframework.http.CacheControl.maxAge(1, java.util.concurrent.TimeUnit.DAYS).cachePublic());
     }
 }
