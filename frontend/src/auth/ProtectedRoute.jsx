@@ -19,6 +19,23 @@ export default function ProtectedRoute({ role }) {
   const { user } = useAuth()
   const { theme, toggleTheme } = useTheme()
   const { openPalette } = useCommandPalette()
+  const [sidebarOpen, setSidebarOpen] = useState(() => {
+    const saved = localStorage.getItem('apex_sidebar_open')
+    return saved !== null ? saved === 'true' : true
+  })
+
+  const toggleSidebar = () => {
+    setSidebarOpen((prev) => {
+      const next = !prev
+      localStorage.setItem('apex_sidebar_open', String(next))
+      return next
+    })
+  }
+
+  const closeSidebar = () => {
+    setSidebarOpen(false)
+    localStorage.setItem('apex_sidebar_open', 'false')
+  }
 
   if (!user) {
     return <Navigate to="/login" replace />
@@ -40,14 +57,69 @@ export default function ProtectedRoute({ role }) {
 
   return (
     <div className="flex h-screen bg-[#FAF9F5] dark:bg-[#0B1120] font-sans text-[#1A1F26] dark:text-[#E2E8F0] overflow-hidden transition-colors duration-300">
-      {/* Handcrafted Oxford Navy Institutional Sidebar */}
-      <Sidebar role={user.role} />
+      {/* Desktop Collapsible Oxford Navy Sidebar */}
+      <div
+        className={`hidden md:block transition-all duration-300 ease-in-out shrink-0 h-full overflow-hidden ${
+          sidebarOpen ? 'w-72' : 'w-0'
+        }`}
+      >
+        <div className="w-72 h-full">
+          <Sidebar role={user.role} onClose={closeSidebar} />
+        </div>
+      </div>
+
+      {/* Mobile / Tablet Off-Canvas Drawer with Backdrop */}
+      <div
+        className={`md:hidden fixed inset-0 z-50 transition-opacity duration-300 ${
+          sidebarOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'
+        }`}
+      >
+        <div
+          className="absolute inset-0 bg-black/60 backdrop-blur-sm transition-opacity"
+          onClick={closeSidebar}
+          aria-hidden="true"
+        />
+        <div
+          className={`relative w-72 h-full transition-transform duration-300 ease-in-out ${
+            sidebarOpen ? 'translate-x-0' : '-translate-x-full'
+          }`}
+        >
+          <Sidebar role={user.role} onClose={closeSidebar} />
+        </div>
+      </div>
 
       {/* Main Workspace Container */}
       <div className="flex-1 flex flex-col h-full min-w-0 overflow-hidden">
         {/* Executive Institutional Top Bar */}
         <header className="h-14 bg-white dark:bg-[#0F172A] border-b border-[#E8E6DF] dark:border-[#1E293B] px-4 sm:px-6 flex items-center justify-between shrink-0 shadow-[0_1px_3px_rgba(11,27,43,0.03)] z-10 transition-colors duration-300">
-          <div className="flex items-center gap-3 min-w-0">
+          <div className="flex items-center gap-2.5 sm:gap-3 min-w-0">
+            {/* Sidebar Toggle Button — Simple Logo (not an 'X') */}
+            <button
+              onClick={toggleSidebar}
+              type="button"
+              className="p-1.5 sm:p-2 -ml-1 sm:-ml-2 rounded-xl text-surface-600 dark:text-slate-300 hover:text-[#0B1B2B] dark:hover:text-[#DFBF77] hover:bg-surface-100 dark:hover:bg-slate-800 border border-surface-200/80 dark:border-slate-700/80 transition-all shadow-sm active:scale-95 flex items-center justify-center group"
+              title={sidebarOpen ? 'Close / Hide Sidebar' : 'Open / Show Sidebar'}
+              aria-label={sidebarOpen ? 'Close Sidebar' : 'Open Sidebar'}
+            >
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="w-5 h-5 text-surface-600 dark:text-slate-300 group-hover:text-[#C5A059] transition-colors"
+              >
+                <rect x="3" y="3" width="18" height="18" rx="3" ry="3" />
+                <line x1="9" y1="3" x2="9" y2="21" />
+                {sidebarOpen ? (
+                  <polyline points="14 9 11 12 14 15" />
+                ) : (
+                  <polyline points="12 9 15 12 12 15" />
+                )}
+              </svg>
+            </button>
+
             <span className="text-[11px] font-bold tracking-[0.16em] uppercase text-[#0B1B2B] dark:text-[#DFBF77] font-serif truncate">
               Apex International Academy
             </span>
