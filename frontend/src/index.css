@@ -1,0 +1,291 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#FAF9F5] text-[#1A1F26] font-sans antialiased;
+    letter-spacing: -0.01em;
+  }
+
+  h1, h2, h3 {
+    @apply font-serif tracking-tight text-[#0B1B2B];
+  }
+
+  h4, h5, h6 {
+    @apply font-sans font-semibold text-[#0B1B2B];
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply px-6 py-3 bg-[#0B1B2B] text-white rounded-lg font-medium text-sm
+           hover:bg-[#162E48] active:bg-[#071320]
+           border border-[#0B1B2B] hover:border-[#C5A059]
+           transition-all duration-200 ease-out
+           shadow-sm hover:shadow-md hover:-translate-y-0.5
+           focus:outline-none focus:ring-2 focus:ring-[#C5A059] focus:ring-offset-2;
+  }
+
+  .btn-gold {
+    @apply px-6 py-3 bg-gradient-to-r from-[#C5A059] via-[#DFBF77] to-[#C5A059]
+           text-[#0B1B2B] rounded-lg font-semibold text-sm
+           border border-[#B38D45]
+           hover:brightness-105 active:brightness-95
+           transition-all duration-200 ease-out
+           shadow-sm hover:shadow-md hover:-translate-y-0.5
+           focus:outline-none focus:ring-2 focus:ring-[#0B1B2B] focus:ring-offset-2;
+  }
+
+  .btn-secondary {
+    @apply px-6 py-3 bg-white text-[#0B1B2B] rounded-lg font-medium text-sm
+           border border-[#E2E0D8] hover:border-[#0B1B2B] hover:bg-[#F5F4EE]
+           transition-all duration-200 ease-out
+           focus:outline-none focus:ring-2 focus:ring-[#0B1B2B] focus:ring-offset-2;
+  }
+
+  .btn-outline-white {
+    @apply px-6 py-3 bg-transparent text-white rounded-lg font-medium text-sm
+           border border-white/40 hover:border-white hover:bg-white/10
+           transition-all duration-200 ease-out;
+  }
+
+  .card {
+    @apply bg-white rounded-xl border border-[#E8E6DF] shadow-[0_2px_8px_-2px_rgba(11,27,43,0.06)]
+           hover:shadow-[0_8px_24px_-4px_rgba(11,27,43,0.1)] transition-all duration-300;
+  }
+
+  .card-cream {
+    @apply bg-[#F6F5EF] rounded-xl border border-[#E5E2D6] shadow-sm;
+  }
+
+  .card-glass {
+    @apply bg-white/80 backdrop-blur-md rounded-xl border border-white/60
+           shadow-[0_8px_30px_rgb(0,0,0,0.06)];
+  }
+
+  .input-field {
+    @apply w-full px-4 py-3 rounded-lg border border-[#DCD9CE]
+           bg-white text-[#0B1B2B] placeholder:text-gray-400
+           focus:outline-none focus:ring-2 focus:ring-[#C5A059] focus:border-[#C5A059]
+           transition-all duration-200 text-sm;
+  }
+
+  .sidebar-link {
+    @apply flex items-center gap-3 px-4 py-3 rounded-xl text-surface-700
+           hover:bg-primary-50 hover:text-primary-700
+           transition-all duration-200 font-medium;
+  }
+
+  .sidebar-link-active {
+    @apply flex items-center gap-3 px-4 py-3 rounded-xl
+           bg-primary-600 text-white shadow-lg shadow-primary-600/25
+           font-medium;
+  }
+
+  .stat-card {
+    @apply card p-6 flex flex-col gap-2;
+  }
+
+  .badge {
+    @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-semibold;
+  }
+
+  .badge-paid {
+    @apply badge bg-accent-100 text-accent-800;
+  }
+
+  .badge-unpaid {
+    @apply badge bg-red-100 text-red-800;
+  }
+
+  .badge-partial {
+    @apply badge bg-amber-100 text-amber-800;
+  }
+
+  .table-container {
+    @apply overflow-x-auto rounded-2xl border border-surface-200/60;
+  }
+
+  .table-container table {
+    @apply w-full text-sm;
+  }
+
+  .table-container thead {
+    @apply bg-surface-50 border-b border-surface-200;
+  }
+
+  .table-container th {
+    @apply px-6 py-4 text-left font-semibold text-surface-700;
+  }
+
+  .table-container td {
+    @apply px-6 py-4 text-surface-700 border-b border-surface-100;
+  }
+
+  .table-container tbody tr:hover {
+    @apply bg-primary-50/30;
+  }
+}
+
+/* Custom scrollbar */
+/* Corporate color palette */
+.corp-primary { background-color: #003366; color: #ffffff; }
+.corp-accent { background-color: #006699; color: #ffffff; }
+.corp-accent-dark { background-color: #004c80; }
+.corp-footer { background-color: #f2f2f2; color: #333333; }
+
+/* Custom button for corporate accent */
+.btn-corp {
+  @apply px-6 py-2.5 rounded-md font-medium transition-colors duration-200;
+  background-color: #006699;
+  color: #ffffff;
+}
+.btn-corp:hover {
+  background-color: #004c80;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-surface-200 rounded-full;
+}
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-surface-700/40;
+}
+
+/* ======================================================== */
+/* COMPREHENSIVE DUAL-THEME ENGINE (DARK & LIGHT)           */
+/* ======================================================== */
+
+/* --- GLOBAL TRANSITIONS --- */
+html, body, header, main, div, table, tr, td, th, input, select, textarea, button {
+  transition: background-color 0.2s ease, border-color 0.2s ease, color 0.15s ease;
+}
+
+/* --- LIGHT MODE BASE --- */
+html:not(.dark),
+body:not(.dark) {
+  background-color: #faf9f5;
+  color: #1a1f26;
+  color-scheme: light;
+}
+
+/* --- DARK MODE BASE --- */
+html.dark,
+body.dark,
+[data-theme="dark"] {
+  background-color: #0b1120 !important;
+  color: #e2e8f0 !important;
+  color-scheme: dark;
+}
+
+.dark #root {
+  background-color: #0b1120 !important;
+}
+
+/* Typography in Dark Mode */
+.dark h1,
+.dark h2,
+.dark h3,
+.dark h4,
+.dark h5,
+.dark h6 {
+  color: #f8fafc !important;
+}
+
+/* Layout Containers in Dark Mode */
+.dark header {
+  background-color: #0f172a !important;
+  border-color: #1e293b !important;
+  color: #f8fafc !important;
+}
+
+.dark main {
+  background-color: #0b1120 !important;
+}
+
+/* Cards & Panels in Dark Mode */
+.dark .card,
+.dark .card-cream,
+.dark .card-glass,
+.dark .card-bordered {
+  background-color: #111c2e !important;
+  border-color: #1e293b !important;
+  color: #f8fafc !important;
+  box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.4) !important;
+}
+
+/* Table styling in Dark Mode */
+.dark .table-container,
+.dark table {
+  border-color: #1e293b !important;
+  background-color: #0f172a !important;
+}
+
+.dark .table-container thead,
+.dark table thead {
+  background-color: #0b1120 !important;
+  border-color: #1e293b !important;
+}
+
+.dark .table-container th,
+.dark table th {
+  background-color: #0b1120 !important;
+  color: #cbd5e1 !important;
+  border-color: #1e293b !important;
+}
+
+.dark .table-container td,
+.dark table td {
+  border-color: #1e293b !important;
+  color: #e2e8f0 !important;
+}
+
+.dark .table-container tbody tr:hover,
+.dark table tbody tr:hover td {
+  background-color: rgba(30, 41, 59, 0.7) !important;
+}
+
+/* Form Controls in Dark Mode */
+.dark .input-field,
+.dark input:not([type="checkbox"]):not([type="radio"]):not([type="submit"]):not([type="button"]),
+.dark select,
+.dark textarea {
+  background-color: #0f172a !important;
+  border-color: #334155 !important;
+  color: #f8fafc !important;
+}
+
+.dark .input-field:focus,
+.dark input:focus,
+.dark select:focus,
+.dark textarea:focus {
+  border-color: #c5a059 !important;
+  outline: none;
+}
+
+.dark input::placeholder,
+.dark textarea::placeholder {
+  color: #64748b !important;
+}
+
+/* Buttons in Dark Mode */
+.dark .btn-secondary {
+  background-color: #1e293b !important;
+  color: #f8fafc !important;
+  border-color: #334155 !important;
+}
+
+.dark .btn-secondary:hover {
+  background-color: #334155 !important;
+  border-color: #c5a059 !important;
+}
+
+
+

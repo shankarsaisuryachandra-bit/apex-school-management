@@ -1,0 +1,10 @@
+node_modules
+dist
+target
+backend/target
+backend/data/*.lock.db
+backend/src/main/java/com/sms/oracleJdk-26
+.git
+.idea
+*.log
+

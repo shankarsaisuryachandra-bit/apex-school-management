@@ -1,0 +1,5546 @@
+{
+  "metadata" : {
+    "backupId" : "APEX-BK-20261010-234227",
+    "institution" : "Apex International Academy",
+    "directorate" : "Institutional Executive Administration",
+    "engineVersion" : "2.5.0-ENTERPRISE",
+    "schemaVersion" : "2026.2",
+    "academicYear" : "2026-2027 (Term II)",
+    "generatedAt" : "2026-10-10T23:42:27.1715186",
+    "totalRecords" : 137,
+    "recordSummary" : {
+      "users" : 26,
+      "managementProfiles" : 5,
+      "teachers" : 4,
+      "students" : 9,
+      "classes" : 2,
+      "subjects" : 4,
+      "curriculumSubjects" : 8,
+      "teacherAssignments" : 9,
+      "attendance" : 7,
+      "studentFees" : 9,
+      "paymentHistory" : 5,
+      "libraryBooks" : 2,
+      "studyMaterials" : 13,
+      "timetableSlots" : 4,
+      "timetablePeriodConfigs" : 6,
+      "teacherSalaries" : 0,
+      "studentHealth" : 0,
+      "schoolAssets" : 0,
+      "transportRoutes" : 7,
+      "notices" : 3,
+      "schoolEvents" : 1,
+      "ptmAppointments" : 5,
+      "leaveRequests" : 4,
+      "admissions" : 3,
+      "alumni" : 1,
+      "substitutions" : 0
+    },
+    "checksum" : "aa1c8b931fcc1f372acd764eea623dc03bd69a3fc14bf2baaa075ef266e42e05",
+    "status" : "VERIFIED_CONSISTENT"
+  },
+  "data" : {
+    "users" : [ {
+      "createdAt" : "2026-09-05T07:26:33.146207",
+      "role" : "MANAGEMENT",
+      "staffRole" : "SUPER_ADMIN",
+      "permissions" : "*",
+      "id" : 1,
+      "isActive" : true,
+      "username" : "admin"
+    }, {
+      "createdAt" : "2026-09-05T07:26:33.351429",
+      "role" : "TEACHER",
+      "staffRole" : null,
+      "permissions" : null,
+      "id" : 2,
+      "isActive" : true,
+      "username" : "teacher1"
+    }, {
+      "createdAt" : "2026-09-05T07:26:33.509023",
+      "role" : "STUDENT",
+      "staffRole" : null,
+      "permissions" : null,
+      "id" : 3,
+      "isActive" : true,
+      "username" : "student1"
+    }, {
+      "createdAt" : "2026-10-07T18:17:16.744912",
+      "role" : "TEACHER",
+      "staffRole" : null,
+      "permissions" : null,
+      "id" : 4,
+      "isActive" : true,
+      "username" : "SHANKAR@1"
+    }, {
+      "createdAt" : "2026-10-07T18:24:34.967455",
+      "role" : "TEACHER",
+      "staffRole" : null,
+      "permissions" : null,
+      "id" : 5,
+      "isActive" : true,
+      "username" : "s"
+    }, {
+      "createdAt" : "2026-10-07T19:08:40.115284",
+      "role" : "STUDENT",
+      "staffRole" : null,
+      "permissions" : null,
+      "id" : 6,
+      "isActive" : true,
+      "username" : "Shankarrr"
+    }, {
+      "createdAt" : "2026-10-07T19:09:36.541643",
+      "role" : "STUDENT",
+      "staffRole" : null,
+      "permissions" : null,
+      "id" : 7,
+      "isActive" : true,
+      "username" : "shankarrr"
+    }, {
+      "createdAt" : "2026-10-07T19:11:15.423409",
+      "role" : "STUDENT",
+      "staffRole" : null,
+      "permissions" : null,
+      "id" : 8,
+      "isActive" : true,
+      "username" : "teststudent1"
+    }, {
+      "createdAt" : "2026-10-07T19:11:21.897395",
+      "role" : "STUDENT",
+      "staffRole" : null,
+      "permissions" : null,
+      "id" : 9,
+      "isActive" : true,
+      "username" : "teststudent2"
+    }, {
+      "createdAt" : "2026-10-07T19:11:29.200243",
+      "role" : "STUDENT",
+      "staffRole" : null,
+      "permissions" : null,
+      "id" : 10,
+      "isActive" : true,
+      "username" : "dobtest1791380489056"
+    }, {
+      "createdAt" : "2026-10-07T19:14:12.375898",
+      "role" : "STUDENT",
+      "staffRole" : null,
+      "permissions" : null,
+      "id" : 11,
+      "isActive" : true,
+      "username" : "rohansharma"
+    }, {
+      "createdAt" : "2026-10-07T19:15:04.394018",
+      "role" : "STUDENT",
+      "staffRole" : null,
+      "permissions" : null,
+      "id" : 12,
+      "isActive" : true,
+      "username" : "priya.sundaram.2025"
+    }, {
+      "createdAt" : "2026-10-07T19:16:07.219746",
+      "role" : "STUDENT",
+      "staffRole" : null,
+      "permissions" : null,
+      "id" : 13,
+      "isActive" : true,
+      "username" : "shankarsaisai"
+    }, {
+      "createdAt" : "2026-10-07T20:38:16.661746",
+      "role" : "STUDENT",
+      "staffRole" : null,
+      "permissions" : null,
+      "id" : 14,
+      "isActive" : true,
+      "username" : "v"
+    }, {
+      "createdAt" : "2026-10-07T20:51:55.478349",
+      "role" : "STUDENT",
+      "staffRole" : null,
+      "permissions" : null,
+      "id" : 15,
+      "isActive" : true,
+      "username" : "ss"
+    }, {
+      "createdAt" : "2026-10-08T00:23:40.338671",
+      "role" : "TEACHER",
+      "staffRole" : null,
+      "permissions" : null,
+      "id" : 16,
+      "isActive" : true,
+      "username" : "G"
+    }, {
+      "createdAt" : "2026-10-08T19:55:35.551435",
+      "role" : "STUDENT",
+      "staffRole" : null,
+      "permissions" : null,
+      "id" : 17,
+      "isActive" : true,
+      "username" : "sss"
+    }, {
+      "createdAt" : "2026-10-08T20:30:12.124828",
+      "role" : "STUDENT",
+      "staffRole" : null,
+      "permissions" : null,
+      "id" : 18,
+      "isActive" : true,
+      "username" : "rohansharma1"
+    }, {
+      "createdAt" : "2026-10-09T21:56:38.380458",
+      "role" : "TEACHER",
+      "staffRole" : null,
+      "permissions" : null,
+      "id" : 19,
+      "isActive" : true,
+      "username" : "SURYA"
+    }, {
+      "createdAt" : "2026-10-10T13:44:58.325766",
+      "role" : "MANAGEMENT",
+      "staffRole" : "ACCOUNTANT",
+      "permissions" : "DASHBOARD,FEES,PAYROLL,INVENTORY,AUDIT_LOGS",
+      "id" : 20,
+      "isActive" : true,
+      "username" : "bursar"
+    }, {
+      "createdAt" : "2026-10-10T13:44:58.472986",
+      "role" : "MANAGEMENT",
+      "staffRole" : "LIBRARIAN",
+      "permissions" : "DASHBOARD,LIBRARY,INVENTORY,EVENTS",
+      "id" : 21,
+      "isActive" : true,
+      "username" : "librarian"
+    }, {
+      "createdAt" : "2026-10-10T13:44:58.617898",
+      "role" : "MANAGEMENT",
+      "staffRole" : "REGISTRAR",
+      "permissions" : "DASHBOARD,STUDENTS,PROMOTIONS,CLASSES,ADMIT_CARDS,EVENTS,ALUMNI",
+      "id" : 22,
+      "isActive" : true,
+      "username" : "registrar"
+    }, {
+      "createdAt" : "2026-10-10T13:48:53.273789",
+      "role" : "MANAGEMENT",
+      "staffRole" : "ACADEMIC_DEAN",
+      "permissions" : "DASHBOARD,TEACHERS,CLASSES,ASSIGNMENTS,SUBSTITUTIONS,LEAVES,ADMIT_CARDS,EVENTS,PTM,LIBRARY",
+      "id" : 23,
+      "isActive" : true,
+      "username" : "dean_academics"
+    }, {
+      "createdAt" : "2026-10-10T19:07:14.730391",
+      "role" : "BUS_OPERATOR",
+      "staffRole" : "BUS_OPERATOR",
+      "permissions" : "TRANSPORT,BUS_CONSOLE,GPS_TRACKER",
+      "id" : 25,
+      "isActive" : true,
+      "username" : "bus01"
+    }, {
+      "createdAt" : "2026-10-10T19:07:14.940078",
+      "role" : "BUS_OPERATOR",
+      "staffRole" : "BUS_OPERATOR",
+      "permissions" : "TRANSPORT,BUS_CONSOLE,GPS_TRACKER",
+      "id" : 26,
+      "isActive" : true,
+      "username" : "bus02"
+    }, {
+      "createdAt" : "2026-10-10T19:07:15.133837",
+      "role" : "MANAGEMENT",
+      "staffRole" : "TRANSPORT_OFFICER",
+      "permissions" : "DASHBOARD,TRANSPORT,INVENTORY",
+      "id" : 27,
+      "isActive" : true,
+      "username" : "transport_officer"
+    } ],
+    "managementProfiles" : [ {
+      "id" : 1,
+      "user" : {
+        "id" : 1,
+        "username" : "admin",
+        "role" : "MANAGEMENT",
+        "staffRole" : "SUPER_ADMIN",
+        "permissions" : "*",
+        "isActive" : true,
+        "createdAt" : "2026-09-05T07:26:33.146207"
+      },
+      "fullName" : "System Administrator",
+      "designation" : "Principal",
+      "phone" : "9999999999",
+      "email" : null
+    }, {
+      "id" : 2,
+      "user" : {
+        "id" : 20,
+        "username" : "bursar",
+        "role" : "MANAGEMENT",
+        "staffRole" : "ACCOUNTANT",
+        "permissions" : "DASHBOARD,FEES,PAYROLL,INVENTORY,AUDIT_LOGS",
+        "isActive" : true,
+        "createdAt" : "2026-10-10T13:44:58.325766"
+      },
+      "fullName" : "Marcus Vance",
+      "designation" : "Chief Bursar & Accounts Officer",
+      "phone" : "+1 555-0145",
+      "email" : "bursar@apex-academy.edu"
+    }, {
+      "id" : 3,
+      "user" : {
+        "id" : 21,
+        "username" : "librarian",
+        "role" : "MANAGEMENT",
+        "staffRole" : "LIBRARIAN",
+        "permissions" : "DASHBOARD,LIBRARY,INVENTORY,EVENTS",
+        "isActive" : true,
+        "createdAt" : "2026-10-10T13:44:58.472986"
+      },
+      "fullName" : "Clara Higgins",
+      "designation" : "Senior Head Librarian",
+      "phone" : "+1 555-0188",
+      "email" : "library@apex-academy.edu"
+    }, {
+      "id" : 4,
+      "user" : {
+        "id" : 22,
+        "username" : "registrar",
+        "role" : "MANAGEMENT",
+        "staffRole" : "REGISTRAR",
+        "permissions" : "DASHBOARD,STUDENTS,PROMOTIONS,CLASSES,ADMIT_CARDS,EVENTS,ALUMNI",
+        "isActive" : true,
+        "createdAt" : "2026-10-10T13:44:58.617898"
+      },
+      "fullName" : "Eleanor Vance",
+      "designation" : "Registrar & Admissions Officer",
+      "phone" : "+1 555-0192",
+      "email" : "admissions@apex-academy.edu"
+    }, {
+      "id" : 5,
+      "user" : {
+        "id" : 23,
+        "username" : "dean_academics",
+        "role" : "MANAGEMENT",
+        "staffRole" : "ACADEMIC_DEAN",
+        "permissions" : "DASHBOARD,TEACHERS,CLASSES,ASSIGNMENTS,SUBSTITUTIONS,LEAVES,ADMIT_CARDS,EVENTS,PTM,LIBRARY",
+        "isActive" : true,
+        "createdAt" : "2026-10-10T13:48:53.273789"
+      },
+      "fullName" : "Dr. Eleanor Vance (Dean of Faculty)",
+      "designation" : "Staff Officer",
+      "phone" : null,
+      "email" : "dean.vance@apex-academy.edu"
+    } ],
+    "teachers" : [ {
+      "id" : 1,
+      "user" : {
+        "id" : 2,
+        "username" : "teacher1",
+        "role" : "TEACHER",
+        "staffRole" : null,
+        "permissions" : null,
+        "isActive" : true,
+        "createdAt" : "2026-09-05T07:26:33.351429"
+      },
+      "fullName" : "Sarah Jenkins",
+      "employeeId" : "T101",
+      "phone" : "9876543210",
+      "email" : "sarah.jenkins@school.edu",
+      "qualification" : "M.Sc. Mathematics",
+      "dateOfJoining" : "2020-06-01"
+    }, {
+      "id" : 3,
+      "user" : {
+        "id" : 5,
+        "username" : "s",
+        "role" : "TEACHER",
+        "staffRole" : null,
+        "permissions" : null,
+        "isActive" : true,
+        "createdAt" : "2026-10-07T18:24:34.967455"
+      },
+      "fullName" : "Shankarr",
+      "employeeId" : "102",
+      "phone" : "",
+      "email" : "",
+      "qualification" : "",
+      "dateOfJoining" : "2026-10-07"
+    }, {
+      "id" : 4,
+      "user" : {
+        "id" : 16,
+        "username" : "G",
+        "role" : "TEACHER",
+        "staffRole" : null,
+        "permissions" : null,
+        "isActive" : true,
+        "createdAt" : "2026-10-08T00:23:40.338671"
+      },
+      "fullName" : "GOPI",
+      "employeeId" : "G1000",
+      "phone" : "",
+      "email" : "",
+      "qualification" : "",
+      "dateOfJoining" : "2026-10-08"
+    }, {
+      "id" : 5,
+      "user" : {
+        "id" : 19,
+        "username" : "SURYA",
+        "role" : "TEACHER",
+        "staffRole" : null,
+        "permissions" : null,
+        "isActive" : true,
+        "createdAt" : "2026-10-09T21:56:38.380458"
+      },
+      "fullName" : "SURYA",
+      "employeeId" : "EMP121",
+      "phone" : "",
+      "email" : "",
+      "qualification" : "CN",
+      "dateOfJoining" : "2026-10-09"
+    } ],
+    "students" : [ {
+      "id" : 1,
+      "user" : {
+        "id" : 3,
+        "username" : "student1",
+        "role" : "STUDENT",
+        "staffRole" : null,
+        "permissions" : null,
+        "isActive" : true,
+        "createdAt" : "2026-09-05T07:26:33.509023"
+      },
+      "fullName" : "Alex Morgan",
+      "admissionNumber" : "ADM2025001",
+      "schoolClass" : {
+        "id" : 1,
+        "name" : "Grade 10",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 3,
+          "user" : {
+            "id" : 5,
+            "username" : "s",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-10-07T18:24:34.967455"
+          },
+          "fullName" : "Shankarr",
+          "employeeId" : "102",
+          "phone" : "",
+          "email" : "",
+          "qualification" : "",
+          "dateOfJoining" : "2026-10-07"
+        }
+      },
+      "transportRoute" : {
+        "id" : 8,
+        "routeName" : "Route 1 — Northern Metro & Hillside Corridor",
+        "busNumber" : "BUS-01 (Apex Eagle)",
+        "plateNumber" : "DL-01-AX-9942",
+        "driverName" : "Capt. Rajesh Sharma",
+        "driverPhone" : "+91 98765 43210",
+        "driverLicense" : "DL-COMM-2021-99881",
+        "conductorName" : "Suresh Kumar",
+        "conductorPhone" : "+91 98765 43211",
+        "monthlyFee" : 2400.00,
+        "capacity" : 45,
+        "currentStatus" : "IN_TRANSIT",
+        "currentSpeedKmh" : 51,
+        "fuelLevelPercent" : 84,
+        "currentLat" : 28.654738316315658,
+        "currentLng" : 77.21380840266089,
+        "nextStop" : "St. Xavier Circle",
+        "nextStopEtaMinutes" : 1,
+        "morningDepartureTime" : "06:45 AM",
+        "morningArrivalTime" : "07:50 AM",
+        "eveningDepartureTime" : "03:15 PM",
+        "eveningArrivalTime" : "04:30 PM",
+        "stopsJson" : "[{\"id\":1,\"name\":\"Greenfield Heights Gate 2\",\"time\":\"06:50 AM\",\"lat\":17.7832524,\"lng\":83.3755486,\"students\":8},{\"id\":2,\"name\":\"St. Xavier Circle\",\"time\":\"07:05 AM\",\"lat\":28.652,\"lng\":77.21,\"students\":12},{\"id\":3,\"name\":\"Civil Lines Metro Interchange\",\"time\":\"07:20 AM\",\"lat\":28.64,\"lng\":77.218,\"students\":9},{\"id\":4,\"name\":\"Diplomatic Avenue Point\",\"time\":\"07:35 AM\",\"lat\":28.625,\"lng\":77.228,\"students\":7},{\"id\":5,\"name\":\"Apex International Main Quadrangle\",\"time\":\"07:50 AM\",\"lat\":28.61,\"lng\":77.235,\"students\":0}]",
+        "heading" : 335.0,
+        "gpsAccuracyMeters" : 3.5,
+        "isBroadcasting" : true,
+        "lastGpsTimestamp" : "2026-10-10T13:47:55.591053100Z",
+        "hardwareDeviceId" : "GPS-APEX-01",
+        "isIgnitionOn" : true,
+        "tripStatus" : "TRIP_STARTED",
+        "tripStartTime" : "07:13 PM",
+        "sourceName" : "Greenfield Heights Terminal",
+        "destinationName" : "Apex International Main Quadrangle",
+        "operatorUsername" : "bus01",
+        "emergencyStatus" : "NORMAL",
+        "sosAlertMessage" : null
+      },
+      "busStop" : "St. Xavier Circle",
+      "dateOfBirth" : "2010-05-15",
+      "gender" : "MALE",
+      "address" : "123 Education Lane, Tech City",
+      "admissionDate" : "2025-04-01",
+      "academicYear" : "2025-2026",
+      "isActive" : false
+    }, {
+      "id" : 2,
+      "user" : {
+        "id" : 8,
+        "username" : "teststudent1",
+        "role" : "STUDENT",
+        "staffRole" : null,
+        "permissions" : null,
+        "isActive" : true,
+        "createdAt" : "2026-10-07T19:11:15.423409"
+      },
+      "fullName" : "Test Student",
+      "admissionNumber" : "ADM1791380475273",
+      "schoolClass" : {
+        "id" : 1,
+        "name" : "Grade 10",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 3,
+          "user" : {
+            "id" : 5,
+            "username" : "s",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-10-07T18:24:34.967455"
+          },
+          "fullName" : "Shankarr",
+          "employeeId" : "102",
+          "phone" : "",
+          "email" : "",
+          "qualification" : "",
+          "dateOfJoining" : "2026-10-07"
+        }
+      },
+      "transportRoute" : {
+        "id" : 8,
+        "routeName" : "Route 1 — Northern Metro & Hillside Corridor",
+        "busNumber" : "BUS-01 (Apex Eagle)",
+        "plateNumber" : "DL-01-AX-9942",
+        "driverName" : "Capt. Rajesh Sharma",
+        "driverPhone" : "+91 98765 43210",
+        "driverLicense" : "DL-COMM-2021-99881",
+        "conductorName" : "Suresh Kumar",
+        "conductorPhone" : "+91 98765 43211",
+        "monthlyFee" : 2400.00,
+        "capacity" : 45,
+        "currentStatus" : "IN_TRANSIT",
+        "currentSpeedKmh" : 51,
+        "fuelLevelPercent" : 84,
+        "currentLat" : 28.654738316315658,
+        "currentLng" : 77.21380840266089,
+        "nextStop" : "St. Xavier Circle",
+        "nextStopEtaMinutes" : 1,
+        "morningDepartureTime" : "06:45 AM",
+        "morningArrivalTime" : "07:50 AM",
+        "eveningDepartureTime" : "03:15 PM",
+        "eveningArrivalTime" : "04:30 PM",
+        "stopsJson" : "[{\"id\":1,\"name\":\"Greenfield Heights Gate 2\",\"time\":\"06:50 AM\",\"lat\":17.7832524,\"lng\":83.3755486,\"students\":8},{\"id\":2,\"name\":\"St. Xavier Circle\",\"time\":\"07:05 AM\",\"lat\":28.652,\"lng\":77.21,\"students\":12},{\"id\":3,\"name\":\"Civil Lines Metro Interchange\",\"time\":\"07:20 AM\",\"lat\":28.64,\"lng\":77.218,\"students\":9},{\"id\":4,\"name\":\"Diplomatic Avenue Point\",\"time\":\"07:35 AM\",\"lat\":28.625,\"lng\":77.228,\"students\":7},{\"id\":5,\"name\":\"Apex International Main Quadrangle\",\"time\":\"07:50 AM\",\"lat\":28.61,\"lng\":77.235,\"students\":0}]",
+        "heading" : 335.0,
+        "gpsAccuracyMeters" : 3.5,
+        "isBroadcasting" : true,
+        "lastGpsTimestamp" : "2026-10-10T13:47:55.591053100Z",
+        "hardwareDeviceId" : "GPS-APEX-01",
+        "isIgnitionOn" : true,
+        "tripStatus" : "TRIP_STARTED",
+        "tripStartTime" : "07:13 PM",
+        "sourceName" : "Greenfield Heights Terminal",
+        "destinationName" : "Apex International Main Quadrangle",
+        "operatorUsername" : "bus01",
+        "emergencyStatus" : "NORMAL",
+        "sosAlertMessage" : null
+      },
+      "busStop" : "Civil Lines Metro Interchange",
+      "dateOfBirth" : "2010-01-01",
+      "gender" : "MALE",
+      "address" : "Test Address",
+      "admissionDate" : "2026-10-07",
+      "academicYear" : "2025-2026",
+      "isActive" : true
+    }, {
+      "id" : 4,
+      "user" : {
+        "id" : 11,
+        "username" : "rohansharma",
+        "role" : "STUDENT",
+        "staffRole" : null,
+        "permissions" : null,
+        "isActive" : true,
+        "createdAt" : "2026-10-07T19:14:12.375898"
+      },
+      "fullName" : "Rohan Sharma",
+      "admissionNumber" : "ADM2025003",
+      "schoolClass" : {
+        "id" : 1,
+        "name" : "Grade 10",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 3,
+          "user" : {
+            "id" : 5,
+            "username" : "s",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-10-07T18:24:34.967455"
+          },
+          "fullName" : "Shankarr",
+          "employeeId" : "102",
+          "phone" : "",
+          "email" : "",
+          "qualification" : "",
+          "dateOfJoining" : "2026-10-07"
+        }
+      },
+      "transportRoute" : {
+        "id" : 9,
+        "routeName" : "Route 2 — South City & Tech Park Express",
+        "busNumber" : "BUS-02 (Apex Falcon)",
+        "plateNumber" : "DL-02-BX-8819",
+        "driverName" : "Mahesh Verma",
+        "driverPhone" : "+91 98765 43220",
+        "driverLicense" : "DL-COMM-2019-44321",
+        "conductorName" : "Ramesh Rao",
+        "conductorPhone" : "+91 98765 43221",
+        "monthlyFee" : 2800.00,
+        "capacity" : 40,
+        "currentStatus" : "IN_TRANSIT",
+        "currentSpeedKmh" : 38,
+        "fuelLevelPercent" : 78,
+        "currentLat" : 28.5355,
+        "currentLng" : 77.241,
+        "nextStop" : "Cyber City Crossing",
+        "nextStopEtaMinutes" : 6,
+        "morningDepartureTime" : "06:30 AM",
+        "morningArrivalTime" : "07:45 AM",
+        "eveningDepartureTime" : "03:15 PM",
+        "eveningArrivalTime" : "04:40 PM",
+        "stopsJson" : "[{\"id\":1,\"name\":\"Prestige Cyber Enclave\",\"time\":\"06:40 AM\",\"lat\":28.510,\"lng\":77.230,\"students\":10},{\"id\":2,\"name\":\"Cyber City Crossing\",\"time\":\"07:00 AM\",\"lat\":28.530,\"lng\":77.240,\"students\":14},{\"id\":3,\"name\":\"Royal Palm Boulevard\",\"time\":\"07:20 AM\",\"lat\":28.565,\"lng\":77.238,\"students\":8},{\"id\":4,\"name\":\"Heritage Clock Tower\",\"time\":\"07:35 AM\",\"lat\":28.590,\"lng\":77.236,\"students\":5},{\"id\":5,\"name\":\"Apex International Main Quadrangle\",\"time\":\"07:45 AM\",\"lat\":28.610,\"lng\":77.235,\"students\":0}]",
+        "heading" : 95.0,
+        "gpsAccuracyMeters" : 3.5,
+        "isBroadcasting" : true,
+        "lastGpsTimestamp" : null,
+        "hardwareDeviceId" : "GPS-APEX-02",
+        "isIgnitionOn" : true,
+        "tripStatus" : "IN_TRANSIT",
+        "tripStartTime" : "06:30 AM",
+        "sourceName" : "Prestige Cyber Enclave",
+        "destinationName" : "Apex International Main Quadrangle",
+        "operatorUsername" : "bus02",
+        "emergencyStatus" : "NORMAL",
+        "sosAlertMessage" : null
+      },
+      "busStop" : "Cyber City Crossing",
+      "dateOfBirth" : null,
+      "gender" : "MALE",
+      "address" : null,
+      "admissionDate" : "2026-10-07",
+      "academicYear" : "2025-2026",
+      "isActive" : true
+    }, {
+      "id" : 5,
+      "user" : {
+        "id" : 12,
+        "username" : "priya.sundaram.2025",
+        "role" : "STUDENT",
+        "staffRole" : null,
+        "permissions" : null,
+        "isActive" : true,
+        "createdAt" : "2026-10-07T19:15:04.394018"
+      },
+      "fullName" : "Priya Sundaram (Updated)",
+      "admissionNumber" : "ADM2025004",
+      "schoolClass" : {
+        "id" : 1,
+        "name" : "Grade 10",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 3,
+          "user" : {
+            "id" : 5,
+            "username" : "s",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-10-07T18:24:34.967455"
+          },
+          "fullName" : "Shankarr",
+          "employeeId" : "102",
+          "phone" : "",
+          "email" : "",
+          "qualification" : "",
+          "dateOfJoining" : "2026-10-07"
+        }
+      },
+      "transportRoute" : null,
+      "busStop" : null,
+      "dateOfBirth" : "2010-08-14",
+      "gender" : "FEMALE",
+      "address" : null,
+      "admissionDate" : "2026-10-07",
+      "academicYear" : "2025-2026",
+      "isActive" : true
+    }, {
+      "id" : 6,
+      "user" : {
+        "id" : 13,
+        "username" : "shankarsaisai",
+        "role" : "STUDENT",
+        "staffRole" : null,
+        "permissions" : null,
+        "isActive" : true,
+        "createdAt" : "2026-10-07T19:16:07.219746"
+      },
+      "fullName" : "shankar sai Sai",
+      "admissionNumber" : "ADM2025005",
+      "schoolClass" : {
+        "id" : 1,
+        "name" : "Grade 10",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 3,
+          "user" : {
+            "id" : 5,
+            "username" : "s",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-10-07T18:24:34.967455"
+          },
+          "fullName" : "Shankarr",
+          "employeeId" : "102",
+          "phone" : "",
+          "email" : "",
+          "qualification" : "",
+          "dateOfJoining" : "2026-10-07"
+        }
+      },
+      "transportRoute" : null,
+      "busStop" : null,
+      "dateOfBirth" : null,
+      "gender" : "MALE",
+      "address" : "",
+      "admissionDate" : "2026-10-07",
+      "academicYear" : "2025-2026",
+      "isActive" : true
+    }, {
+      "id" : 7,
+      "user" : {
+        "id" : 14,
+        "username" : "v",
+        "role" : "STUDENT",
+        "staffRole" : null,
+        "permissions" : null,
+        "isActive" : true,
+        "createdAt" : "2026-10-07T20:38:16.661746"
+      },
+      "fullName" : "vishwa",
+      "admissionNumber" : "ADM2025006",
+      "schoolClass" : {
+        "id" : 2,
+        "name" : "Grade 9",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 1,
+          "user" : {
+            "id" : 2,
+            "username" : "teacher1",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-09-05T07:26:33.351429"
+          },
+          "fullName" : "Sarah Jenkins",
+          "employeeId" : "T101",
+          "phone" : "9876543210",
+          "email" : "sarah.jenkins@school.edu",
+          "qualification" : "M.Sc. Mathematics",
+          "dateOfJoining" : "2020-06-01"
+        }
+      },
+      "transportRoute" : null,
+      "busStop" : null,
+      "dateOfBirth" : null,
+      "gender" : "MALE",
+      "address" : "",
+      "admissionDate" : "2026-10-07",
+      "academicYear" : "2025-2026",
+      "isActive" : true
+    }, {
+      "id" : 8,
+      "user" : {
+        "id" : 15,
+        "username" : "ss",
+        "role" : "STUDENT",
+        "staffRole" : null,
+        "permissions" : null,
+        "isActive" : true,
+        "createdAt" : "2026-10-07T20:51:55.478349"
+      },
+      "fullName" : "Surya",
+      "admissionNumber" : "ADM2025007",
+      "schoolClass" : {
+        "id" : 2,
+        "name" : "Grade 9",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 1,
+          "user" : {
+            "id" : 2,
+            "username" : "teacher1",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-09-05T07:26:33.351429"
+          },
+          "fullName" : "Sarah Jenkins",
+          "employeeId" : "T101",
+          "phone" : "9876543210",
+          "email" : "sarah.jenkins@school.edu",
+          "qualification" : "M.Sc. Mathematics",
+          "dateOfJoining" : "2020-06-01"
+        }
+      },
+      "transportRoute" : null,
+      "busStop" : null,
+      "dateOfBirth" : null,
+      "gender" : "MALE",
+      "address" : "",
+      "admissionDate" : "2026-10-07",
+      "academicYear" : "2025-2026",
+      "isActive" : true
+    }, {
+      "id" : 9,
+      "user" : {
+        "id" : 17,
+        "username" : "sss",
+        "role" : "STUDENT",
+        "staffRole" : null,
+        "permissions" : null,
+        "isActive" : true,
+        "createdAt" : "2026-10-08T19:55:35.551435"
+      },
+      "fullName" : "Surya",
+      "admissionNumber" : "ADM2025008",
+      "schoolClass" : {
+        "id" : 1,
+        "name" : "Grade 10",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 3,
+          "user" : {
+            "id" : 5,
+            "username" : "s",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-10-07T18:24:34.967455"
+          },
+          "fullName" : "Shankarr",
+          "employeeId" : "102",
+          "phone" : "",
+          "email" : "",
+          "qualification" : "",
+          "dateOfJoining" : "2026-10-07"
+        }
+      },
+      "transportRoute" : null,
+      "busStop" : null,
+      "dateOfBirth" : null,
+      "gender" : "MALE",
+      "address" : "",
+      "admissionDate" : "2026-10-08",
+      "academicYear" : "2025-2026",
+      "isActive" : true
+    }, {
+      "id" : 10,
+      "user" : {
+        "id" : 18,
+        "username" : "rohansharma1",
+        "role" : "STUDENT",
+        "staffRole" : null,
+        "permissions" : null,
+        "isActive" : true,
+        "createdAt" : "2026-10-08T20:30:12.124828"
+      },
+      "fullName" : "Rohan Sharma",
+      "admissionNumber" : "ADM_TEST_1793",
+      "schoolClass" : {
+        "id" : 1,
+        "name" : "Grade 10",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 3,
+          "user" : {
+            "id" : 5,
+            "username" : "s",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-10-07T18:24:34.967455"
+          },
+          "fullName" : "Shankarr",
+          "employeeId" : "102",
+          "phone" : "",
+          "email" : "",
+          "qualification" : "",
+          "dateOfJoining" : "2026-10-07"
+        }
+      },
+      "transportRoute" : null,
+      "busStop" : null,
+      "dateOfBirth" : null,
+      "gender" : "MALE",
+      "address" : null,
+      "admissionDate" : "2026-10-08",
+      "academicYear" : "2025-2026",
+      "isActive" : true
+    } ],
+    "classes" : [ {
+      "id" : 1,
+      "name" : "Grade 10",
+      "section" : "A",
+      "academicYear" : "2025-2026",
+      "sortOrder" : 1,
+      "classTeacher" : {
+        "id" : 3,
+        "user" : {
+          "id" : 5,
+          "username" : "s",
+          "role" : "TEACHER",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-10-07T18:24:34.967455"
+        },
+        "fullName" : "Shankarr",
+        "employeeId" : "102",
+        "phone" : "",
+        "email" : "",
+        "qualification" : "",
+        "dateOfJoining" : "2026-10-07"
+      }
+    }, {
+      "id" : 2,
+      "name" : "Grade 9",
+      "section" : "A",
+      "academicYear" : "2025-2026",
+      "sortOrder" : 1,
+      "classTeacher" : {
+        "id" : 1,
+        "user" : {
+          "id" : 2,
+          "username" : "teacher1",
+          "role" : "TEACHER",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-09-05T07:26:33.351429"
+        },
+        "fullName" : "Sarah Jenkins",
+        "employeeId" : "T101",
+        "phone" : "9876543210",
+        "email" : "sarah.jenkins@school.edu",
+        "qualification" : "M.Sc. Mathematics",
+        "dateOfJoining" : "2020-06-01"
+      }
+    } ],
+    "subjects" : [ {
+      "id" : 1,
+      "name" : "Maths",
+      "code" : "MATHS101"
+    }, {
+      "id" : 2,
+      "name" : "Physics",
+      "code" : "PHY102"
+    }, {
+      "id" : 3,
+      "name" : "AI",
+      "code" : "AI1000"
+    }, {
+      "id" : 4,
+      "name" : "CN121",
+      "code" : "CN"
+    } ],
+    "curriculumSubjects" : [ {
+      "id" : 1,
+      "schoolClass" : {
+        "id" : 1,
+        "name" : "Grade 10",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 3,
+          "user" : {
+            "id" : 5,
+            "username" : "s",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-10-07T18:24:34.967455"
+          },
+          "fullName" : "Shankarr",
+          "employeeId" : "102",
+          "phone" : "",
+          "email" : "",
+          "qualification" : "",
+          "dateOfJoining" : "2026-10-07"
+        }
+      },
+      "subject" : {
+        "id" : 1,
+        "name" : "Maths",
+        "code" : "MATHS101"
+      },
+      "academicYear" : "2025-2026",
+      "isOffered" : true,
+      "weeklyPeriods" : 5
+    }, {
+      "id" : 2,
+      "schoolClass" : {
+        "id" : 1,
+        "name" : "Grade 10",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 3,
+          "user" : {
+            "id" : 5,
+            "username" : "s",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-10-07T18:24:34.967455"
+          },
+          "fullName" : "Shankarr",
+          "employeeId" : "102",
+          "phone" : "",
+          "email" : "",
+          "qualification" : "",
+          "dateOfJoining" : "2026-10-07"
+        }
+      },
+      "subject" : {
+        "id" : 2,
+        "name" : "Physics",
+        "code" : "PHY102"
+      },
+      "academicYear" : "2025-2026",
+      "isOffered" : true,
+      "weeklyPeriods" : 5
+    }, {
+      "id" : 3,
+      "schoolClass" : {
+        "id" : 1,
+        "name" : "Grade 10",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 3,
+          "user" : {
+            "id" : 5,
+            "username" : "s",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-10-07T18:24:34.967455"
+          },
+          "fullName" : "Shankarr",
+          "employeeId" : "102",
+          "phone" : "",
+          "email" : "",
+          "qualification" : "",
+          "dateOfJoining" : "2026-10-07"
+        }
+      },
+      "subject" : {
+        "id" : 3,
+        "name" : "AI",
+        "code" : "AI1000"
+      },
+      "academicYear" : "2025-2026",
+      "isOffered" : true,
+      "weeklyPeriods" : 5
+    }, {
+      "id" : 4,
+      "schoolClass" : {
+        "id" : 1,
+        "name" : "Grade 10",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 3,
+          "user" : {
+            "id" : 5,
+            "username" : "s",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-10-07T18:24:34.967455"
+          },
+          "fullName" : "Shankarr",
+          "employeeId" : "102",
+          "phone" : "",
+          "email" : "",
+          "qualification" : "",
+          "dateOfJoining" : "2026-10-07"
+        }
+      },
+      "subject" : {
+        "id" : 4,
+        "name" : "CN121",
+        "code" : "CN"
+      },
+      "academicYear" : "2025-2026",
+      "isOffered" : true,
+      "weeklyPeriods" : 5
+    }, {
+      "id" : 5,
+      "schoolClass" : {
+        "id" : 2,
+        "name" : "Grade 9",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 1,
+          "user" : {
+            "id" : 2,
+            "username" : "teacher1",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-09-05T07:26:33.351429"
+          },
+          "fullName" : "Sarah Jenkins",
+          "employeeId" : "T101",
+          "phone" : "9876543210",
+          "email" : "sarah.jenkins@school.edu",
+          "qualification" : "M.Sc. Mathematics",
+          "dateOfJoining" : "2020-06-01"
+        }
+      },
+      "subject" : {
+        "id" : 1,
+        "name" : "Maths",
+        "code" : "MATHS101"
+      },
+      "academicYear" : "2025-2026",
+      "isOffered" : true,
+      "weeklyPeriods" : 5
+    }, {
+      "id" : 6,
+      "schoolClass" : {
+        "id" : 2,
+        "name" : "Grade 9",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 1,
+          "user" : {
+            "id" : 2,
+            "username" : "teacher1",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-09-05T07:26:33.351429"
+          },
+          "fullName" : "Sarah Jenkins",
+          "employeeId" : "T101",
+          "phone" : "9876543210",
+          "email" : "sarah.jenkins@school.edu",
+          "qualification" : "M.Sc. Mathematics",
+          "dateOfJoining" : "2020-06-01"
+        }
+      },
+      "subject" : {
+        "id" : 2,
+        "name" : "Physics",
+        "code" : "PHY102"
+      },
+      "academicYear" : "2025-2026",
+      "isOffered" : true,
+      "weeklyPeriods" : 5
+    }, {
+      "id" : 7,
+      "schoolClass" : {
+        "id" : 2,
+        "name" : "Grade 9",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 1,
+          "user" : {
+            "id" : 2,
+            "username" : "teacher1",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-09-05T07:26:33.351429"
+          },
+          "fullName" : "Sarah Jenkins",
+          "employeeId" : "T101",
+          "phone" : "9876543210",
+          "email" : "sarah.jenkins@school.edu",
+          "qualification" : "M.Sc. Mathematics",
+          "dateOfJoining" : "2020-06-01"
+        }
+      },
+      "subject" : {
+        "id" : 3,
+        "name" : "AI",
+        "code" : "AI1000"
+      },
+      "academicYear" : "2025-2026",
+      "isOffered" : true,
+      "weeklyPeriods" : 5
+    }, {
+      "id" : 8,
+      "schoolClass" : {
+        "id" : 2,
+        "name" : "Grade 9",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 1,
+          "user" : {
+            "id" : 2,
+            "username" : "teacher1",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-09-05T07:26:33.351429"
+          },
+          "fullName" : "Sarah Jenkins",
+          "employeeId" : "T101",
+          "phone" : "9876543210",
+          "email" : "sarah.jenkins@school.edu",
+          "qualification" : "M.Sc. Mathematics",
+          "dateOfJoining" : "2020-06-01"
+        }
+      },
+      "subject" : {
+        "id" : 4,
+        "name" : "CN121",
+        "code" : "CN"
+      },
+      "academicYear" : "2025-2026",
+      "isOffered" : true,
+      "weeklyPeriods" : 5
+    } ],
+    "teacherAssignments" : [ {
+      "id" : 18,
+      "teacher" : {
+        "id" : 1,
+        "user" : {
+          "id" : 2,
+          "username" : "teacher1",
+          "role" : "TEACHER",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-09-05T07:26:33.351429"
+        },
+        "fullName" : "Sarah Jenkins",
+        "employeeId" : "T101",
+        "phone" : "9876543210",
+        "email" : "sarah.jenkins@school.edu",
+        "qualification" : "M.Sc. Mathematics",
+        "dateOfJoining" : "2020-06-01"
+      },
+      "schoolClass" : {
+        "id" : 1,
+        "name" : "Grade 10",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 3,
+          "user" : {
+            "id" : 5,
+            "username" : "s",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-10-07T18:24:34.967455"
+          },
+          "fullName" : "Shankarr",
+          "employeeId" : "102",
+          "phone" : "",
+          "email" : "",
+          "qualification" : "",
+          "dateOfJoining" : "2026-10-07"
+        }
+      },
+      "subject" : {
+        "id" : 1,
+        "name" : "Maths",
+        "code" : "MATHS101"
+      },
+      "academicYear" : "2025-2026"
+    }, {
+      "id" : 16,
+      "teacher" : {
+        "id" : 1,
+        "user" : {
+          "id" : 2,
+          "username" : "teacher1",
+          "role" : "TEACHER",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-09-05T07:26:33.351429"
+        },
+        "fullName" : "Sarah Jenkins",
+        "employeeId" : "T101",
+        "phone" : "9876543210",
+        "email" : "sarah.jenkins@school.edu",
+        "qualification" : "M.Sc. Mathematics",
+        "dateOfJoining" : "2020-06-01"
+      },
+      "schoolClass" : {
+        "id" : 1,
+        "name" : "Grade 10",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 3,
+          "user" : {
+            "id" : 5,
+            "username" : "s",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-10-07T18:24:34.967455"
+          },
+          "fullName" : "Shankarr",
+          "employeeId" : "102",
+          "phone" : "",
+          "email" : "",
+          "qualification" : "",
+          "dateOfJoining" : "2026-10-07"
+        }
+      },
+      "subject" : {
+        "id" : 2,
+        "name" : "Physics",
+        "code" : "PHY102"
+      },
+      "academicYear" : "2025-2026"
+    }, {
+      "id" : 5,
+      "teacher" : {
+        "id" : 1,
+        "user" : {
+          "id" : 2,
+          "username" : "teacher1",
+          "role" : "TEACHER",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-09-05T07:26:33.351429"
+        },
+        "fullName" : "Sarah Jenkins",
+        "employeeId" : "T101",
+        "phone" : "9876543210",
+        "email" : "sarah.jenkins@school.edu",
+        "qualification" : "M.Sc. Mathematics",
+        "dateOfJoining" : "2020-06-01"
+      },
+      "schoolClass" : {
+        "id" : 2,
+        "name" : "Grade 9",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 1,
+          "user" : {
+            "id" : 2,
+            "username" : "teacher1",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-09-05T07:26:33.351429"
+          },
+          "fullName" : "Sarah Jenkins",
+          "employeeId" : "T101",
+          "phone" : "9876543210",
+          "email" : "sarah.jenkins@school.edu",
+          "qualification" : "M.Sc. Mathematics",
+          "dateOfJoining" : "2020-06-01"
+        }
+      },
+      "subject" : {
+        "id" : 1,
+        "name" : "Maths",
+        "code" : "MATHS101"
+      },
+      "academicYear" : "2025-2026"
+    }, {
+      "id" : 17,
+      "teacher" : {
+        "id" : 3,
+        "user" : {
+          "id" : 5,
+          "username" : "s",
+          "role" : "TEACHER",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-10-07T18:24:34.967455"
+        },
+        "fullName" : "Shankarr",
+        "employeeId" : "102",
+        "phone" : "",
+        "email" : "",
+        "qualification" : "",
+        "dateOfJoining" : "2026-10-07"
+      },
+      "schoolClass" : {
+        "id" : 1,
+        "name" : "Grade 10",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 3,
+          "user" : {
+            "id" : 5,
+            "username" : "s",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-10-07T18:24:34.967455"
+          },
+          "fullName" : "Shankarr",
+          "employeeId" : "102",
+          "phone" : "",
+          "email" : "",
+          "qualification" : "",
+          "dateOfJoining" : "2026-10-07"
+        }
+      },
+      "subject" : {
+        "id" : 1,
+        "name" : "Maths",
+        "code" : "MATHS101"
+      },
+      "academicYear" : "2025-2026"
+    }, {
+      "id" : 9,
+      "teacher" : {
+        "id" : 3,
+        "user" : {
+          "id" : 5,
+          "username" : "s",
+          "role" : "TEACHER",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-10-07T18:24:34.967455"
+        },
+        "fullName" : "Shankarr",
+        "employeeId" : "102",
+        "phone" : "",
+        "email" : "",
+        "qualification" : "",
+        "dateOfJoining" : "2026-10-07"
+      },
+      "schoolClass" : {
+        "id" : 2,
+        "name" : "Grade 9",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 1,
+          "user" : {
+            "id" : 2,
+            "username" : "teacher1",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-09-05T07:26:33.351429"
+          },
+          "fullName" : "Sarah Jenkins",
+          "employeeId" : "T101",
+          "phone" : "9876543210",
+          "email" : "sarah.jenkins@school.edu",
+          "qualification" : "M.Sc. Mathematics",
+          "dateOfJoining" : "2020-06-01"
+        }
+      },
+      "subject" : {
+        "id" : 2,
+        "name" : "Physics",
+        "code" : "PHY102"
+      },
+      "academicYear" : "2025-2026"
+    }, {
+      "id" : 12,
+      "teacher" : {
+        "id" : 4,
+        "user" : {
+          "id" : 16,
+          "username" : "G",
+          "role" : "TEACHER",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-10-08T00:23:40.338671"
+        },
+        "fullName" : "GOPI",
+        "employeeId" : "G1000",
+        "phone" : "",
+        "email" : "",
+        "qualification" : "",
+        "dateOfJoining" : "2026-10-08"
+      },
+      "schoolClass" : {
+        "id" : 1,
+        "name" : "Grade 10",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 3,
+          "user" : {
+            "id" : 5,
+            "username" : "s",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-10-07T18:24:34.967455"
+          },
+          "fullName" : "Shankarr",
+          "employeeId" : "102",
+          "phone" : "",
+          "email" : "",
+          "qualification" : "",
+          "dateOfJoining" : "2026-10-07"
+        }
+      },
+      "subject" : {
+        "id" : 3,
+        "name" : "AI",
+        "code" : "AI1000"
+      },
+      "academicYear" : "2025-2026"
+    }, {
+      "id" : 7,
+      "teacher" : {
+        "id" : 4,
+        "user" : {
+          "id" : 16,
+          "username" : "G",
+          "role" : "TEACHER",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-10-08T00:23:40.338671"
+        },
+        "fullName" : "GOPI",
+        "employeeId" : "G1000",
+        "phone" : "",
+        "email" : "",
+        "qualification" : "",
+        "dateOfJoining" : "2026-10-08"
+      },
+      "schoolClass" : {
+        "id" : 2,
+        "name" : "Grade 9",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 1,
+          "user" : {
+            "id" : 2,
+            "username" : "teacher1",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-09-05T07:26:33.351429"
+          },
+          "fullName" : "Sarah Jenkins",
+          "employeeId" : "T101",
+          "phone" : "9876543210",
+          "email" : "sarah.jenkins@school.edu",
+          "qualification" : "M.Sc. Mathematics",
+          "dateOfJoining" : "2020-06-01"
+        }
+      },
+      "subject" : {
+        "id" : 3,
+        "name" : "AI",
+        "code" : "AI1000"
+      },
+      "academicYear" : "2025-2026"
+    }, {
+      "id" : 13,
+      "teacher" : {
+        "id" : 5,
+        "user" : {
+          "id" : 19,
+          "username" : "SURYA",
+          "role" : "TEACHER",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-10-09T21:56:38.380458"
+        },
+        "fullName" : "SURYA",
+        "employeeId" : "EMP121",
+        "phone" : "",
+        "email" : "",
+        "qualification" : "CN",
+        "dateOfJoining" : "2026-10-09"
+      },
+      "schoolClass" : {
+        "id" : 1,
+        "name" : "Grade 10",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 3,
+          "user" : {
+            "id" : 5,
+            "username" : "s",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-10-07T18:24:34.967455"
+          },
+          "fullName" : "Shankarr",
+          "employeeId" : "102",
+          "phone" : "",
+          "email" : "",
+          "qualification" : "",
+          "dateOfJoining" : "2026-10-07"
+        }
+      },
+      "subject" : {
+        "id" : 4,
+        "name" : "CN121",
+        "code" : "CN"
+      },
+      "academicYear" : "2025-2026"
+    }, {
+      "id" : 14,
+      "teacher" : {
+        "id" : 5,
+        "user" : {
+          "id" : 19,
+          "username" : "SURYA",
+          "role" : "TEACHER",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-10-09T21:56:38.380458"
+        },
+        "fullName" : "SURYA",
+        "employeeId" : "EMP121",
+        "phone" : "",
+        "email" : "",
+        "qualification" : "CN",
+        "dateOfJoining" : "2026-10-09"
+      },
+      "schoolClass" : {
+        "id" : 2,
+        "name" : "Grade 9",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 1,
+          "user" : {
+            "id" : 2,
+            "username" : "teacher1",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-09-05T07:26:33.351429"
+          },
+          "fullName" : "Sarah Jenkins",
+          "employeeId" : "T101",
+          "phone" : "9876543210",
+          "email" : "sarah.jenkins@school.edu",
+          "qualification" : "M.Sc. Mathematics",
+          "dateOfJoining" : "2020-06-01"
+        }
+      },
+      "subject" : {
+        "id" : 4,
+        "name" : "CN121",
+        "code" : "CN"
+      },
+      "academicYear" : "2025-2026"
+    } ],
+    "attendance" : [ {
+      "id" : 1,
+      "student" : {
+        "id" : 1,
+        "user" : {
+          "id" : 3,
+          "username" : "student1",
+          "role" : "STUDENT",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-09-05T07:26:33.509023"
+        },
+        "fullName" : "Alex Morgan",
+        "admissionNumber" : "ADM2025001",
+        "schoolClass" : {
+          "id" : 1,
+          "name" : "Grade 10",
+          "section" : "A",
+          "academicYear" : "2025-2026",
+          "sortOrder" : 1,
+          "classTeacher" : {
+            "id" : 3,
+            "user" : {
+              "id" : 5,
+              "username" : "s",
+              "role" : "TEACHER",
+              "staffRole" : null,
+              "permissions" : null,
+              "isActive" : true,
+              "createdAt" : "2026-10-07T18:24:34.967455"
+            },
+            "fullName" : "Shankarr",
+            "employeeId" : "102",
+            "phone" : "",
+            "email" : "",
+            "qualification" : "",
+            "dateOfJoining" : "2026-10-07"
+          }
+        },
+        "transportRoute" : {
+          "id" : 8,
+          "routeName" : "Route 1 — Northern Metro & Hillside Corridor",
+          "busNumber" : "BUS-01 (Apex Eagle)",
+          "plateNumber" : "DL-01-AX-9942",
+          "driverName" : "Capt. Rajesh Sharma",
+          "driverPhone" : "+91 98765 43210",
+          "driverLicense" : "DL-COMM-2021-99881",
+          "conductorName" : "Suresh Kumar",
+          "conductorPhone" : "+91 98765 43211",
+          "monthlyFee" : 2400.00,
+          "capacity" : 45,
+          "currentStatus" : "IN_TRANSIT",
+          "currentSpeedKmh" : 51,
+          "fuelLevelPercent" : 84,
+          "currentLat" : 28.654738316315658,
+          "currentLng" : 77.21380840266089,
+          "nextStop" : "St. Xavier Circle",
+          "nextStopEtaMinutes" : 1,
+          "morningDepartureTime" : "06:45 AM",
+          "morningArrivalTime" : "07:50 AM",
+          "eveningDepartureTime" : "03:15 PM",
+          "eveningArrivalTime" : "04:30 PM",
+          "stopsJson" : "[{\"id\":1,\"name\":\"Greenfield Heights Gate 2\",\"time\":\"06:50 AM\",\"lat\":17.7832524,\"lng\":83.3755486,\"students\":8},{\"id\":2,\"name\":\"St. Xavier Circle\",\"time\":\"07:05 AM\",\"lat\":28.652,\"lng\":77.21,\"students\":12},{\"id\":3,\"name\":\"Civil Lines Metro Interchange\",\"time\":\"07:20 AM\",\"lat\":28.64,\"lng\":77.218,\"students\":9},{\"id\":4,\"name\":\"Diplomatic Avenue Point\",\"time\":\"07:35 AM\",\"lat\":28.625,\"lng\":77.228,\"students\":7},{\"id\":5,\"name\":\"Apex International Main Quadrangle\",\"time\":\"07:50 AM\",\"lat\":28.61,\"lng\":77.235,\"students\":0}]",
+          "heading" : 335.0,
+          "gpsAccuracyMeters" : 3.5,
+          "isBroadcasting" : true,
+          "lastGpsTimestamp" : "2026-10-10T13:47:55.591053100Z",
+          "hardwareDeviceId" : "GPS-APEX-01",
+          "isIgnitionOn" : true,
+          "tripStatus" : "TRIP_STARTED",
+          "tripStartTime" : "07:13 PM",
+          "sourceName" : "Greenfield Heights Terminal",
+          "destinationName" : "Apex International Main Quadrangle",
+          "operatorUsername" : "bus01",
+          "emergencyStatus" : "NORMAL",
+          "sosAlertMessage" : null
+        },
+        "busStop" : "St. Xavier Circle",
+        "dateOfBirth" : "2010-05-15",
+        "gender" : "MALE",
+        "address" : "123 Education Lane, Tech City",
+        "admissionDate" : "2025-04-01",
+        "academicYear" : "2025-2026",
+        "isActive" : false
+      },
+      "schoolClass" : {
+        "id" : 1,
+        "name" : "Grade 10",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 3,
+          "user" : {
+            "id" : 5,
+            "username" : "s",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-10-07T18:24:34.967455"
+          },
+          "fullName" : "Shankarr",
+          "employeeId" : "102",
+          "phone" : "",
+          "email" : "",
+          "qualification" : "",
+          "dateOfJoining" : "2026-10-07"
+        }
+      },
+      "subject" : null,
+      "date" : "2026-10-07",
+      "status" : "PRESENT",
+      "markedBy" : {
+        "id" : 5,
+        "username" : "s",
+        "role" : "TEACHER",
+        "staffRole" : null,
+        "permissions" : null,
+        "isActive" : true,
+        "createdAt" : "2026-10-07T18:24:34.967455"
+      }
+    }, {
+      "id" : 2,
+      "student" : {
+        "id" : 2,
+        "user" : {
+          "id" : 8,
+          "username" : "teststudent1",
+          "role" : "STUDENT",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-10-07T19:11:15.423409"
+        },
+        "fullName" : "Test Student",
+        "admissionNumber" : "ADM1791380475273",
+        "schoolClass" : {
+          "id" : 1,
+          "name" : "Grade 10",
+          "section" : "A",
+          "academicYear" : "2025-2026",
+          "sortOrder" : 1,
+          "classTeacher" : {
+            "id" : 3,
+            "user" : {
+              "id" : 5,
+              "username" : "s",
+              "role" : "TEACHER",
+              "staffRole" : null,
+              "permissions" : null,
+              "isActive" : true,
+              "createdAt" : "2026-10-07T18:24:34.967455"
+            },
+            "fullName" : "Shankarr",
+            "employeeId" : "102",
+            "phone" : "",
+            "email" : "",
+            "qualification" : "",
+            "dateOfJoining" : "2026-10-07"
+          }
+        },
+        "transportRoute" : {
+          "id" : 8,
+          "routeName" : "Route 1 — Northern Metro & Hillside Corridor",
+          "busNumber" : "BUS-01 (Apex Eagle)",
+          "plateNumber" : "DL-01-AX-9942",
+          "driverName" : "Capt. Rajesh Sharma",
+          "driverPhone" : "+91 98765 43210",
+          "driverLicense" : "DL-COMM-2021-99881",
+          "conductorName" : "Suresh Kumar",
+          "conductorPhone" : "+91 98765 43211",
+          "monthlyFee" : 2400.00,
+          "capacity" : 45,
+          "currentStatus" : "IN_TRANSIT",
+          "currentSpeedKmh" : 51,
+          "fuelLevelPercent" : 84,
+          "currentLat" : 28.654738316315658,
+          "currentLng" : 77.21380840266089,
+          "nextStop" : "St. Xavier Circle",
+          "nextStopEtaMinutes" : 1,
+          "morningDepartureTime" : "06:45 AM",
+          "morningArrivalTime" : "07:50 AM",
+          "eveningDepartureTime" : "03:15 PM",
+          "eveningArrivalTime" : "04:30 PM",
+          "stopsJson" : "[{\"id\":1,\"name\":\"Greenfield Heights Gate 2\",\"time\":\"06:50 AM\",\"lat\":17.7832524,\"lng\":83.3755486,\"students\":8},{\"id\":2,\"name\":\"St. Xavier Circle\",\"time\":\"07:05 AM\",\"lat\":28.652,\"lng\":77.21,\"students\":12},{\"id\":3,\"name\":\"Civil Lines Metro Interchange\",\"time\":\"07:20 AM\",\"lat\":28.64,\"lng\":77.218,\"students\":9},{\"id\":4,\"name\":\"Diplomatic Avenue Point\",\"time\":\"07:35 AM\",\"lat\":28.625,\"lng\":77.228,\"students\":7},{\"id\":5,\"name\":\"Apex International Main Quadrangle\",\"time\":\"07:50 AM\",\"lat\":28.61,\"lng\":77.235,\"students\":0}]",
+          "heading" : 335.0,
+          "gpsAccuracyMeters" : 3.5,
+          "isBroadcasting" : true,
+          "lastGpsTimestamp" : "2026-10-10T13:47:55.591053100Z",
+          "hardwareDeviceId" : "GPS-APEX-01",
+          "isIgnitionOn" : true,
+          "tripStatus" : "TRIP_STARTED",
+          "tripStartTime" : "07:13 PM",
+          "sourceName" : "Greenfield Heights Terminal",
+          "destinationName" : "Apex International Main Quadrangle",
+          "operatorUsername" : "bus01",
+          "emergencyStatus" : "NORMAL",
+          "sosAlertMessage" : null
+        },
+        "busStop" : "Civil Lines Metro Interchange",
+        "dateOfBirth" : "2010-01-01",
+        "gender" : "MALE",
+        "address" : "Test Address",
+        "admissionDate" : "2026-10-07",
+        "academicYear" : "2025-2026",
+        "isActive" : true
+      },
+      "schoolClass" : {
+        "id" : 1,
+        "name" : "Grade 10",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 3,
+          "user" : {
+            "id" : 5,
+            "username" : "s",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-10-07T18:24:34.967455"
+          },
+          "fullName" : "Shankarr",
+          "employeeId" : "102",
+          "phone" : "",
+          "email" : "",
+          "qualification" : "",
+          "dateOfJoining" : "2026-10-07"
+        }
+      },
+      "subject" : null,
+      "date" : "2026-10-07",
+      "status" : "PRESENT",
+      "markedBy" : {
+        "id" : 5,
+        "username" : "s",
+        "role" : "TEACHER",
+        "staffRole" : null,
+        "permissions" : null,
+        "isActive" : true,
+        "createdAt" : "2026-10-07T18:24:34.967455"
+      }
+    }, {
+      "id" : 3,
+      "student" : {
+        "id" : 4,
+        "user" : {
+          "id" : 11,
+          "username" : "rohansharma",
+          "role" : "STUDENT",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-10-07T19:14:12.375898"
+        },
+        "fullName" : "Rohan Sharma",
+        "admissionNumber" : "ADM2025003",
+        "schoolClass" : {
+          "id" : 1,
+          "name" : "Grade 10",
+          "section" : "A",
+          "academicYear" : "2025-2026",
+          "sortOrder" : 1,
+          "classTeacher" : {
+            "id" : 3,
+            "user" : {
+              "id" : 5,
+              "username" : "s",
+              "role" : "TEACHER",
+              "staffRole" : null,
+              "permissions" : null,
+              "isActive" : true,
+              "createdAt" : "2026-10-07T18:24:34.967455"
+            },
+            "fullName" : "Shankarr",
+            "employeeId" : "102",
+            "phone" : "",
+            "email" : "",
+            "qualification" : "",
+            "dateOfJoining" : "2026-10-07"
+          }
+        },
+        "transportRoute" : {
+          "id" : 9,
+          "routeName" : "Route 2 — South City & Tech Park Express",
+          "busNumber" : "BUS-02 (Apex Falcon)",
+          "plateNumber" : "DL-02-BX-8819",
+          "driverName" : "Mahesh Verma",
+          "driverPhone" : "+91 98765 43220",
+          "driverLicense" : "DL-COMM-2019-44321",
+          "conductorName" : "Ramesh Rao",
+          "conductorPhone" : "+91 98765 43221",
+          "monthlyFee" : 2800.00,
+          "capacity" : 40,
+          "currentStatus" : "IN_TRANSIT",
+          "currentSpeedKmh" : 38,
+          "fuelLevelPercent" : 78,
+          "currentLat" : 28.5355,
+          "currentLng" : 77.241,
+          "nextStop" : "Cyber City Crossing",
+          "nextStopEtaMinutes" : 6,
+          "morningDepartureTime" : "06:30 AM",
+          "morningArrivalTime" : "07:45 AM",
+          "eveningDepartureTime" : "03:15 PM",
+          "eveningArrivalTime" : "04:40 PM",
+          "stopsJson" : "[{\"id\":1,\"name\":\"Prestige Cyber Enclave\",\"time\":\"06:40 AM\",\"lat\":28.510,\"lng\":77.230,\"students\":10},{\"id\":2,\"name\":\"Cyber City Crossing\",\"time\":\"07:00 AM\",\"lat\":28.530,\"lng\":77.240,\"students\":14},{\"id\":3,\"name\":\"Royal Palm Boulevard\",\"time\":\"07:20 AM\",\"lat\":28.565,\"lng\":77.238,\"students\":8},{\"id\":4,\"name\":\"Heritage Clock Tower\",\"time\":\"07:35 AM\",\"lat\":28.590,\"lng\":77.236,\"students\":5},{\"id\":5,\"name\":\"Apex International Main Quadrangle\",\"time\":\"07:45 AM\",\"lat\":28.610,\"lng\":77.235,\"students\":0}]",
+          "heading" : 95.0,
+          "gpsAccuracyMeters" : 3.5,
+          "isBroadcasting" : true,
+          "lastGpsTimestamp" : null,
+          "hardwareDeviceId" : "GPS-APEX-02",
+          "isIgnitionOn" : true,
+          "tripStatus" : "IN_TRANSIT",
+          "tripStartTime" : "06:30 AM",
+          "sourceName" : "Prestige Cyber Enclave",
+          "destinationName" : "Apex International Main Quadrangle",
+          "operatorUsername" : "bus02",
+          "emergencyStatus" : "NORMAL",
+          "sosAlertMessage" : null
+        },
+        "busStop" : "Cyber City Crossing",
+        "dateOfBirth" : null,
+        "gender" : "MALE",
+        "address" : null,
+        "admissionDate" : "2026-10-07",
+        "academicYear" : "2025-2026",
+        "isActive" : true
+      },
+      "schoolClass" : {
+        "id" : 1,
+        "name" : "Grade 10",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 3,
+          "user" : {
+            "id" : 5,
+            "username" : "s",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-10-07T18:24:34.967455"
+          },
+          "fullName" : "Shankarr",
+          "employeeId" : "102",
+          "phone" : "",
+          "email" : "",
+          "qualification" : "",
+          "dateOfJoining" : "2026-10-07"
+        }
+      },
+      "subject" : null,
+      "date" : "2026-10-07",
+      "status" : "PRESENT",
+      "markedBy" : {
+        "id" : 5,
+        "username" : "s",
+        "role" : "TEACHER",
+        "staffRole" : null,
+        "permissions" : null,
+        "isActive" : true,
+        "createdAt" : "2026-10-07T18:24:34.967455"
+      }
+    }, {
+      "id" : 4,
+      "student" : {
+        "id" : 5,
+        "user" : {
+          "id" : 12,
+          "username" : "priya.sundaram.2025",
+          "role" : "STUDENT",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-10-07T19:15:04.394018"
+        },
+        "fullName" : "Priya Sundaram (Updated)",
+        "admissionNumber" : "ADM2025004",
+        "schoolClass" : {
+          "id" : 1,
+          "name" : "Grade 10",
+          "section" : "A",
+          "academicYear" : "2025-2026",
+          "sortOrder" : 1,
+          "classTeacher" : {
+            "id" : 3,
+            "user" : {
+              "id" : 5,
+              "username" : "s",
+              "role" : "TEACHER",
+              "staffRole" : null,
+              "permissions" : null,
+              "isActive" : true,
+              "createdAt" : "2026-10-07T18:24:34.967455"
+            },
+            "fullName" : "Shankarr",
+            "employeeId" : "102",
+            "phone" : "",
+            "email" : "",
+            "qualification" : "",
+            "dateOfJoining" : "2026-10-07"
+          }
+        },
+        "transportRoute" : null,
+        "busStop" : null,
+        "dateOfBirth" : "2010-08-14",
+        "gender" : "FEMALE",
+        "address" : null,
+        "admissionDate" : "2026-10-07",
+        "academicYear" : "2025-2026",
+        "isActive" : true
+      },
+      "schoolClass" : {
+        "id" : 1,
+        "name" : "Grade 10",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 3,
+          "user" : {
+            "id" : 5,
+            "username" : "s",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-10-07T18:24:34.967455"
+          },
+          "fullName" : "Shankarr",
+          "employeeId" : "102",
+          "phone" : "",
+          "email" : "",
+          "qualification" : "",
+          "dateOfJoining" : "2026-10-07"
+        }
+      },
+      "subject" : null,
+      "date" : "2026-10-07",
+      "status" : "PRESENT",
+      "markedBy" : {
+        "id" : 5,
+        "username" : "s",
+        "role" : "TEACHER",
+        "staffRole" : null,
+        "permissions" : null,
+        "isActive" : true,
+        "createdAt" : "2026-10-07T18:24:34.967455"
+      }
+    }, {
+      "id" : 5,
+      "student" : {
+        "id" : 6,
+        "user" : {
+          "id" : 13,
+          "username" : "shankarsaisai",
+          "role" : "STUDENT",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-10-07T19:16:07.219746"
+        },
+        "fullName" : "shankar sai Sai",
+        "admissionNumber" : "ADM2025005",
+        "schoolClass" : {
+          "id" : 1,
+          "name" : "Grade 10",
+          "section" : "A",
+          "academicYear" : "2025-2026",
+          "sortOrder" : 1,
+          "classTeacher" : {
+            "id" : 3,
+            "user" : {
+              "id" : 5,
+              "username" : "s",
+              "role" : "TEACHER",
+              "staffRole" : null,
+              "permissions" : null,
+              "isActive" : true,
+              "createdAt" : "2026-10-07T18:24:34.967455"
+            },
+            "fullName" : "Shankarr",
+            "employeeId" : "102",
+            "phone" : "",
+            "email" : "",
+            "qualification" : "",
+            "dateOfJoining" : "2026-10-07"
+          }
+        },
+        "transportRoute" : null,
+        "busStop" : null,
+        "dateOfBirth" : null,
+        "gender" : "MALE",
+        "address" : "",
+        "admissionDate" : "2026-10-07",
+        "academicYear" : "2025-2026",
+        "isActive" : true
+      },
+      "schoolClass" : {
+        "id" : 1,
+        "name" : "Grade 10",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 3,
+          "user" : {
+            "id" : 5,
+            "username" : "s",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-10-07T18:24:34.967455"
+          },
+          "fullName" : "Shankarr",
+          "employeeId" : "102",
+          "phone" : "",
+          "email" : "",
+          "qualification" : "",
+          "dateOfJoining" : "2026-10-07"
+        }
+      },
+      "subject" : null,
+      "date" : "2026-10-07",
+      "status" : "PRESENT",
+      "markedBy" : {
+        "id" : 5,
+        "username" : "s",
+        "role" : "TEACHER",
+        "staffRole" : null,
+        "permissions" : null,
+        "isActive" : true,
+        "createdAt" : "2026-10-07T18:24:34.967455"
+      }
+    }, {
+      "id" : 7,
+      "student" : {
+        "id" : 1,
+        "user" : {
+          "id" : 3,
+          "username" : "student1",
+          "role" : "STUDENT",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-09-05T07:26:33.509023"
+        },
+        "fullName" : "Alex Morgan",
+        "admissionNumber" : "ADM2025001",
+        "schoolClass" : {
+          "id" : 1,
+          "name" : "Grade 10",
+          "section" : "A",
+          "academicYear" : "2025-2026",
+          "sortOrder" : 1,
+          "classTeacher" : {
+            "id" : 3,
+            "user" : {
+              "id" : 5,
+              "username" : "s",
+              "role" : "TEACHER",
+              "staffRole" : null,
+              "permissions" : null,
+              "isActive" : true,
+              "createdAt" : "2026-10-07T18:24:34.967455"
+            },
+            "fullName" : "Shankarr",
+            "employeeId" : "102",
+            "phone" : "",
+            "email" : "",
+            "qualification" : "",
+            "dateOfJoining" : "2026-10-07"
+          }
+        },
+        "transportRoute" : {
+          "id" : 8,
+          "routeName" : "Route 1 — Northern Metro & Hillside Corridor",
+          "busNumber" : "BUS-01 (Apex Eagle)",
+          "plateNumber" : "DL-01-AX-9942",
+          "driverName" : "Capt. Rajesh Sharma",
+          "driverPhone" : "+91 98765 43210",
+          "driverLicense" : "DL-COMM-2021-99881",
+          "conductorName" : "Suresh Kumar",
+          "conductorPhone" : "+91 98765 43211",
+          "monthlyFee" : 2400.00,
+          "capacity" : 45,
+          "currentStatus" : "IN_TRANSIT",
+          "currentSpeedKmh" : 51,
+          "fuelLevelPercent" : 84,
+          "currentLat" : 28.654738316315658,
+          "currentLng" : 77.21380840266089,
+          "nextStop" : "St. Xavier Circle",
+          "nextStopEtaMinutes" : 1,
+          "morningDepartureTime" : "06:45 AM",
+          "morningArrivalTime" : "07:50 AM",
+          "eveningDepartureTime" : "03:15 PM",
+          "eveningArrivalTime" : "04:30 PM",
+          "stopsJson" : "[{\"id\":1,\"name\":\"Greenfield Heights Gate 2\",\"time\":\"06:50 AM\",\"lat\":17.7832524,\"lng\":83.3755486,\"students\":8},{\"id\":2,\"name\":\"St. Xavier Circle\",\"time\":\"07:05 AM\",\"lat\":28.652,\"lng\":77.21,\"students\":12},{\"id\":3,\"name\":\"Civil Lines Metro Interchange\",\"time\":\"07:20 AM\",\"lat\":28.64,\"lng\":77.218,\"students\":9},{\"id\":4,\"name\":\"Diplomatic Avenue Point\",\"time\":\"07:35 AM\",\"lat\":28.625,\"lng\":77.228,\"students\":7},{\"id\":5,\"name\":\"Apex International Main Quadrangle\",\"time\":\"07:50 AM\",\"lat\":28.61,\"lng\":77.235,\"students\":0}]",
+          "heading" : 335.0,
+          "gpsAccuracyMeters" : 3.5,
+          "isBroadcasting" : true,
+          "lastGpsTimestamp" : "2026-10-10T13:47:55.591053100Z",
+          "hardwareDeviceId" : "GPS-APEX-01",
+          "isIgnitionOn" : true,
+          "tripStatus" : "TRIP_STARTED",
+          "tripStartTime" : "07:13 PM",
+          "sourceName" : "Greenfield Heights Terminal",
+          "destinationName" : "Apex International Main Quadrangle",
+          "operatorUsername" : "bus01",
+          "emergencyStatus" : "NORMAL",
+          "sosAlertMessage" : null
+        },
+        "busStop" : "St. Xavier Circle",
+        "dateOfBirth" : "2010-05-15",
+        "gender" : "MALE",
+        "address" : "123 Education Lane, Tech City",
+        "admissionDate" : "2025-04-01",
+        "academicYear" : "2025-2026",
+        "isActive" : false
+      },
+      "schoolClass" : {
+        "id" : 1,
+        "name" : "Grade 10",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 3,
+          "user" : {
+            "id" : 5,
+            "username" : "s",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-10-07T18:24:34.967455"
+          },
+          "fullName" : "Shankarr",
+          "employeeId" : "102",
+          "phone" : "",
+          "email" : "",
+          "qualification" : "",
+          "dateOfJoining" : "2026-10-07"
+        }
+      },
+      "subject" : {
+        "id" : 1,
+        "name" : "Maths",
+        "code" : "MATHS101"
+      },
+      "date" : "2026-10-07",
+      "status" : "PRESENT",
+      "markedBy" : {
+        "id" : 2,
+        "username" : "teacher1",
+        "role" : "TEACHER",
+        "staffRole" : null,
+        "permissions" : null,
+        "isActive" : true,
+        "createdAt" : "2026-09-05T07:26:33.351429"
+      }
+    }, {
+      "id" : 8,
+      "student" : {
+        "id" : 1,
+        "user" : {
+          "id" : 3,
+          "username" : "student1",
+          "role" : "STUDENT",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-09-05T07:26:33.509023"
+        },
+        "fullName" : "Alex Morgan",
+        "admissionNumber" : "ADM2025001",
+        "schoolClass" : {
+          "id" : 1,
+          "name" : "Grade 10",
+          "section" : "A",
+          "academicYear" : "2025-2026",
+          "sortOrder" : 1,
+          "classTeacher" : {
+            "id" : 3,
+            "user" : {
+              "id" : 5,
+              "username" : "s",
+              "role" : "TEACHER",
+              "staffRole" : null,
+              "permissions" : null,
+              "isActive" : true,
+              "createdAt" : "2026-10-07T18:24:34.967455"
+            },
+            "fullName" : "Shankarr",
+            "employeeId" : "102",
+            "phone" : "",
+            "email" : "",
+            "qualification" : "",
+            "dateOfJoining" : "2026-10-07"
+          }
+        },
+        "transportRoute" : {
+          "id" : 8,
+          "routeName" : "Route 1 — Northern Metro & Hillside Corridor",
+          "busNumber" : "BUS-01 (Apex Eagle)",
+          "plateNumber" : "DL-01-AX-9942",
+          "driverName" : "Capt. Rajesh Sharma",
+          "driverPhone" : "+91 98765 43210",
+          "driverLicense" : "DL-COMM-2021-99881",
+          "conductorName" : "Suresh Kumar",
+          "conductorPhone" : "+91 98765 43211",
+          "monthlyFee" : 2400.00,
+          "capacity" : 45,
+          "currentStatus" : "IN_TRANSIT",
+          "currentSpeedKmh" : 51,
+          "fuelLevelPercent" : 84,
+          "currentLat" : 28.654738316315658,
+          "currentLng" : 77.21380840266089,
+          "nextStop" : "St. Xavier Circle",
+          "nextStopEtaMinutes" : 1,
+          "morningDepartureTime" : "06:45 AM",
+          "morningArrivalTime" : "07:50 AM",
+          "eveningDepartureTime" : "03:15 PM",
+          "eveningArrivalTime" : "04:30 PM",
+          "stopsJson" : "[{\"id\":1,\"name\":\"Greenfield Heights Gate 2\",\"time\":\"06:50 AM\",\"lat\":17.7832524,\"lng\":83.3755486,\"students\":8},{\"id\":2,\"name\":\"St. Xavier Circle\",\"time\":\"07:05 AM\",\"lat\":28.652,\"lng\":77.21,\"students\":12},{\"id\":3,\"name\":\"Civil Lines Metro Interchange\",\"time\":\"07:20 AM\",\"lat\":28.64,\"lng\":77.218,\"students\":9},{\"id\":4,\"name\":\"Diplomatic Avenue Point\",\"time\":\"07:35 AM\",\"lat\":28.625,\"lng\":77.228,\"students\":7},{\"id\":5,\"name\":\"Apex International Main Quadrangle\",\"time\":\"07:50 AM\",\"lat\":28.61,\"lng\":77.235,\"students\":0}]",
+          "heading" : 335.0,
+          "gpsAccuracyMeters" : 3.5,
+          "isBroadcasting" : true,
+          "lastGpsTimestamp" : "2026-10-10T13:47:55.591053100Z",
+          "hardwareDeviceId" : "GPS-APEX-01",
+          "isIgnitionOn" : true,
+          "tripStatus" : "TRIP_STARTED",
+          "tripStartTime" : "07:13 PM",
+          "sourceName" : "Greenfield Heights Terminal",
+          "destinationName" : "Apex International Main Quadrangle",
+          "operatorUsername" : "bus01",
+          "emergencyStatus" : "NORMAL",
+          "sosAlertMessage" : null
+        },
+        "busStop" : "St. Xavier Circle",
+        "dateOfBirth" : "2010-05-15",
+        "gender" : "MALE",
+        "address" : "123 Education Lane, Tech City",
+        "admissionDate" : "2025-04-01",
+        "academicYear" : "2025-2026",
+        "isActive" : false
+      },
+      "schoolClass" : {
+        "id" : 1,
+        "name" : "Grade 10",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 3,
+          "user" : {
+            "id" : 5,
+            "username" : "s",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-10-07T18:24:34.967455"
+          },
+          "fullName" : "Shankarr",
+          "employeeId" : "102",
+          "phone" : "",
+          "email" : "",
+          "qualification" : "",
+          "dateOfJoining" : "2026-10-07"
+        }
+      },
+      "subject" : {
+        "id" : 2,
+        "name" : "Physics",
+        "code" : "PHY102"
+      },
+      "date" : "2026-10-07",
+      "status" : "ABSENT",
+      "markedBy" : {
+        "id" : 2,
+        "username" : "teacher1",
+        "role" : "TEACHER",
+        "staffRole" : null,
+        "permissions" : null,
+        "isActive" : true,
+        "createdAt" : "2026-09-05T07:26:33.351429"
+      }
+    } ],
+    "studentFees" : [ {
+      "id" : 1,
+      "student" : {
+        "id" : 1,
+        "user" : {
+          "id" : 3,
+          "username" : "student1",
+          "role" : "STUDENT",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-09-05T07:26:33.509023"
+        },
+        "fullName" : "Alex Morgan",
+        "admissionNumber" : "ADM2025001",
+        "schoolClass" : {
+          "id" : 1,
+          "name" : "Grade 10",
+          "section" : "A",
+          "academicYear" : "2025-2026",
+          "sortOrder" : 1,
+          "classTeacher" : {
+            "id" : 3,
+            "user" : {
+              "id" : 5,
+              "username" : "s",
+              "role" : "TEACHER",
+              "staffRole" : null,
+              "permissions" : null,
+              "isActive" : true,
+              "createdAt" : "2026-10-07T18:24:34.967455"
+            },
+            "fullName" : "Shankarr",
+            "employeeId" : "102",
+            "phone" : "",
+            "email" : "",
+            "qualification" : "",
+            "dateOfJoining" : "2026-10-07"
+          }
+        },
+        "transportRoute" : {
+          "id" : 8,
+          "routeName" : "Route 1 — Northern Metro & Hillside Corridor",
+          "busNumber" : "BUS-01 (Apex Eagle)",
+          "plateNumber" : "DL-01-AX-9942",
+          "driverName" : "Capt. Rajesh Sharma",
+          "driverPhone" : "+91 98765 43210",
+          "driverLicense" : "DL-COMM-2021-99881",
+          "conductorName" : "Suresh Kumar",
+          "conductorPhone" : "+91 98765 43211",
+          "monthlyFee" : 2400.00,
+          "capacity" : 45,
+          "currentStatus" : "IN_TRANSIT",
+          "currentSpeedKmh" : 51,
+          "fuelLevelPercent" : 84,
+          "currentLat" : 28.654738316315658,
+          "currentLng" : 77.21380840266089,
+          "nextStop" : "St. Xavier Circle",
+          "nextStopEtaMinutes" : 1,
+          "morningDepartureTime" : "06:45 AM",
+          "morningArrivalTime" : "07:50 AM",
+          "eveningDepartureTime" : "03:15 PM",
+          "eveningArrivalTime" : "04:30 PM",
+          "stopsJson" : "[{\"id\":1,\"name\":\"Greenfield Heights Gate 2\",\"time\":\"06:50 AM\",\"lat\":17.7832524,\"lng\":83.3755486,\"students\":8},{\"id\":2,\"name\":\"St. Xavier Circle\",\"time\":\"07:05 AM\",\"lat\":28.652,\"lng\":77.21,\"students\":12},{\"id\":3,\"name\":\"Civil Lines Metro Interchange\",\"time\":\"07:20 AM\",\"lat\":28.64,\"lng\":77.218,\"students\":9},{\"id\":4,\"name\":\"Diplomatic Avenue Point\",\"time\":\"07:35 AM\",\"lat\":28.625,\"lng\":77.228,\"students\":7},{\"id\":5,\"name\":\"Apex International Main Quadrangle\",\"time\":\"07:50 AM\",\"lat\":28.61,\"lng\":77.235,\"students\":0}]",
+          "heading" : 335.0,
+          "gpsAccuracyMeters" : 3.5,
+          "isBroadcasting" : true,
+          "lastGpsTimestamp" : "2026-10-10T13:47:55.591053100Z",
+          "hardwareDeviceId" : "GPS-APEX-01",
+          "isIgnitionOn" : true,
+          "tripStatus" : "TRIP_STARTED",
+          "tripStartTime" : "07:13 PM",
+          "sourceName" : "Greenfield Heights Terminal",
+          "destinationName" : "Apex International Main Quadrangle",
+          "operatorUsername" : "bus01",
+          "emergencyStatus" : "NORMAL",
+          "sosAlertMessage" : null
+        },
+        "busStop" : "St. Xavier Circle",
+        "dateOfBirth" : "2010-05-15",
+        "gender" : "MALE",
+        "address" : "123 Education Lane, Tech City",
+        "admissionDate" : "2025-04-01",
+        "academicYear" : "2025-2026",
+        "isActive" : false
+      },
+      "academicYear" : "2025-2026",
+      "currentYearDue" : 0.00,
+      "previousYearPending" : 97000.00,
+      "totalPaid" : 0.00,
+      "grandTotal" : 97000.00,
+      "balanceDue" : 97000.00,
+      "status" : "UNPAID"
+    }, {
+      "id" : 2,
+      "student" : {
+        "id" : 2,
+        "user" : {
+          "id" : 8,
+          "username" : "teststudent1",
+          "role" : "STUDENT",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-10-07T19:11:15.423409"
+        },
+        "fullName" : "Test Student",
+        "admissionNumber" : "ADM1791380475273",
+        "schoolClass" : {
+          "id" : 1,
+          "name" : "Grade 10",
+          "section" : "A",
+          "academicYear" : "2025-2026",
+          "sortOrder" : 1,
+          "classTeacher" : {
+            "id" : 3,
+            "user" : {
+              "id" : 5,
+              "username" : "s",
+              "role" : "TEACHER",
+              "staffRole" : null,
+              "permissions" : null,
+              "isActive" : true,
+              "createdAt" : "2026-10-07T18:24:34.967455"
+            },
+            "fullName" : "Shankarr",
+            "employeeId" : "102",
+            "phone" : "",
+            "email" : "",
+            "qualification" : "",
+            "dateOfJoining" : "2026-10-07"
+          }
+        },
+        "transportRoute" : {
+          "id" : 8,
+          "routeName" : "Route 1 — Northern Metro & Hillside Corridor",
+          "busNumber" : "BUS-01 (Apex Eagle)",
+          "plateNumber" : "DL-01-AX-9942",
+          "driverName" : "Capt. Rajesh Sharma",
+          "driverPhone" : "+91 98765 43210",
+          "driverLicense" : "DL-COMM-2021-99881",
+          "conductorName" : "Suresh Kumar",
+          "conductorPhone" : "+91 98765 43211",
+          "monthlyFee" : 2400.00,
+          "capacity" : 45,
+          "currentStatus" : "IN_TRANSIT",
+          "currentSpeedKmh" : 51,
+          "fuelLevelPercent" : 84,
+          "currentLat" : 28.654738316315658,
+          "currentLng" : 77.21380840266089,
+          "nextStop" : "St. Xavier Circle",
+          "nextStopEtaMinutes" : 1,
+          "morningDepartureTime" : "06:45 AM",
+          "morningArrivalTime" : "07:50 AM",
+          "eveningDepartureTime" : "03:15 PM",
+          "eveningArrivalTime" : "04:30 PM",
+          "stopsJson" : "[{\"id\":1,\"name\":\"Greenfield Heights Gate 2\",\"time\":\"06:50 AM\",\"lat\":17.7832524,\"lng\":83.3755486,\"students\":8},{\"id\":2,\"name\":\"St. Xavier Circle\",\"time\":\"07:05 AM\",\"lat\":28.652,\"lng\":77.21,\"students\":12},{\"id\":3,\"name\":\"Civil Lines Metro Interchange\",\"time\":\"07:20 AM\",\"lat\":28.64,\"lng\":77.218,\"students\":9},{\"id\":4,\"name\":\"Diplomatic Avenue Point\",\"time\":\"07:35 AM\",\"lat\":28.625,\"lng\":77.228,\"students\":7},{\"id\":5,\"name\":\"Apex International Main Quadrangle\",\"time\":\"07:50 AM\",\"lat\":28.61,\"lng\":77.235,\"students\":0}]",
+          "heading" : 335.0,
+          "gpsAccuracyMeters" : 3.5,
+          "isBroadcasting" : true,
+          "lastGpsTimestamp" : "2026-10-10T13:47:55.591053100Z",
+          "hardwareDeviceId" : "GPS-APEX-01",
+          "isIgnitionOn" : true,
+          "tripStatus" : "TRIP_STARTED",
+          "tripStartTime" : "07:13 PM",
+          "sourceName" : "Greenfield Heights Terminal",
+          "destinationName" : "Apex International Main Quadrangle",
+          "operatorUsername" : "bus01",
+          "emergencyStatus" : "NORMAL",
+          "sosAlertMessage" : null
+        },
+        "busStop" : "Civil Lines Metro Interchange",
+        "dateOfBirth" : "2010-01-01",
+        "gender" : "MALE",
+        "address" : "Test Address",
+        "admissionDate" : "2026-10-07",
+        "academicYear" : "2025-2026",
+        "isActive" : true
+      },
+      "academicYear" : "2025-2026",
+      "currentYearDue" : 45000.00,
+      "previousYearPending" : 0.00,
+      "totalPaid" : 0.00,
+      "grandTotal" : 45000.00,
+      "balanceDue" : 45000.00,
+      "status" : "UNPAID"
+    }, {
+      "id" : 3,
+      "student" : {
+        "id" : 4,
+        "user" : {
+          "id" : 11,
+          "username" : "rohansharma",
+          "role" : "STUDENT",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-10-07T19:14:12.375898"
+        },
+        "fullName" : "Rohan Sharma",
+        "admissionNumber" : "ADM2025003",
+        "schoolClass" : {
+          "id" : 1,
+          "name" : "Grade 10",
+          "section" : "A",
+          "academicYear" : "2025-2026",
+          "sortOrder" : 1,
+          "classTeacher" : {
+            "id" : 3,
+            "user" : {
+              "id" : 5,
+              "username" : "s",
+              "role" : "TEACHER",
+              "staffRole" : null,
+              "permissions" : null,
+              "isActive" : true,
+              "createdAt" : "2026-10-07T18:24:34.967455"
+            },
+            "fullName" : "Shankarr",
+            "employeeId" : "102",
+            "phone" : "",
+            "email" : "",
+            "qualification" : "",
+            "dateOfJoining" : "2026-10-07"
+          }
+        },
+        "transportRoute" : {
+          "id" : 9,
+          "routeName" : "Route 2 — South City & Tech Park Express",
+          "busNumber" : "BUS-02 (Apex Falcon)",
+          "plateNumber" : "DL-02-BX-8819",
+          "driverName" : "Mahesh Verma",
+          "driverPhone" : "+91 98765 43220",
+          "driverLicense" : "DL-COMM-2019-44321",
+          "conductorName" : "Ramesh Rao",
+          "conductorPhone" : "+91 98765 43221",
+          "monthlyFee" : 2800.00,
+          "capacity" : 40,
+          "currentStatus" : "IN_TRANSIT",
+          "currentSpeedKmh" : 38,
+          "fuelLevelPercent" : 78,
+          "currentLat" : 28.5355,
+          "currentLng" : 77.241,
+          "nextStop" : "Cyber City Crossing",
+          "nextStopEtaMinutes" : 6,
+          "morningDepartureTime" : "06:30 AM",
+          "morningArrivalTime" : "07:45 AM",
+          "eveningDepartureTime" : "03:15 PM",
+          "eveningArrivalTime" : "04:40 PM",
+          "stopsJson" : "[{\"id\":1,\"name\":\"Prestige Cyber Enclave\",\"time\":\"06:40 AM\",\"lat\":28.510,\"lng\":77.230,\"students\":10},{\"id\":2,\"name\":\"Cyber City Crossing\",\"time\":\"07:00 AM\",\"lat\":28.530,\"lng\":77.240,\"students\":14},{\"id\":3,\"name\":\"Royal Palm Boulevard\",\"time\":\"07:20 AM\",\"lat\":28.565,\"lng\":77.238,\"students\":8},{\"id\":4,\"name\":\"Heritage Clock Tower\",\"time\":\"07:35 AM\",\"lat\":28.590,\"lng\":77.236,\"students\":5},{\"id\":5,\"name\":\"Apex International Main Quadrangle\",\"time\":\"07:45 AM\",\"lat\":28.610,\"lng\":77.235,\"students\":0}]",
+          "heading" : 95.0,
+          "gpsAccuracyMeters" : 3.5,
+          "isBroadcasting" : true,
+          "lastGpsTimestamp" : null,
+          "hardwareDeviceId" : "GPS-APEX-02",
+          "isIgnitionOn" : true,
+          "tripStatus" : "IN_TRANSIT",
+          "tripStartTime" : "06:30 AM",
+          "sourceName" : "Prestige Cyber Enclave",
+          "destinationName" : "Apex International Main Quadrangle",
+          "operatorUsername" : "bus02",
+          "emergencyStatus" : "NORMAL",
+          "sosAlertMessage" : null
+        },
+        "busStop" : "Cyber City Crossing",
+        "dateOfBirth" : null,
+        "gender" : "MALE",
+        "address" : null,
+        "admissionDate" : "2026-10-07",
+        "academicYear" : "2025-2026",
+        "isActive" : true
+      },
+      "academicYear" : "2025-2026",
+      "currentYearDue" : 45000.00,
+      "previousYearPending" : 0.00,
+      "totalPaid" : 0.00,
+      "grandTotal" : 45000.00,
+      "balanceDue" : 45000.00,
+      "status" : "UNPAID"
+    }, {
+      "id" : 4,
+      "student" : {
+        "id" : 5,
+        "user" : {
+          "id" : 12,
+          "username" : "priya.sundaram.2025",
+          "role" : "STUDENT",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-10-07T19:15:04.394018"
+        },
+        "fullName" : "Priya Sundaram (Updated)",
+        "admissionNumber" : "ADM2025004",
+        "schoolClass" : {
+          "id" : 1,
+          "name" : "Grade 10",
+          "section" : "A",
+          "academicYear" : "2025-2026",
+          "sortOrder" : 1,
+          "classTeacher" : {
+            "id" : 3,
+            "user" : {
+              "id" : 5,
+              "username" : "s",
+              "role" : "TEACHER",
+              "staffRole" : null,
+              "permissions" : null,
+              "isActive" : true,
+              "createdAt" : "2026-10-07T18:24:34.967455"
+            },
+            "fullName" : "Shankarr",
+            "employeeId" : "102",
+            "phone" : "",
+            "email" : "",
+            "qualification" : "",
+            "dateOfJoining" : "2026-10-07"
+          }
+        },
+        "transportRoute" : null,
+        "busStop" : null,
+        "dateOfBirth" : "2010-08-14",
+        "gender" : "FEMALE",
+        "address" : null,
+        "admissionDate" : "2026-10-07",
+        "academicYear" : "2025-2026",
+        "isActive" : true
+      },
+      "academicYear" : "2025-2026",
+      "currentYearDue" : 45000.00,
+      "previousYearPending" : 0.00,
+      "totalPaid" : 0.00,
+      "grandTotal" : 45000.00,
+      "balanceDue" : 45000.00,
+      "status" : "UNPAID"
+    }, {
+      "id" : 5,
+      "student" : {
+        "id" : 6,
+        "user" : {
+          "id" : 13,
+          "username" : "shankarsaisai",
+          "role" : "STUDENT",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-10-07T19:16:07.219746"
+        },
+        "fullName" : "shankar sai Sai",
+        "admissionNumber" : "ADM2025005",
+        "schoolClass" : {
+          "id" : 1,
+          "name" : "Grade 10",
+          "section" : "A",
+          "academicYear" : "2025-2026",
+          "sortOrder" : 1,
+          "classTeacher" : {
+            "id" : 3,
+            "user" : {
+              "id" : 5,
+              "username" : "s",
+              "role" : "TEACHER",
+              "staffRole" : null,
+              "permissions" : null,
+              "isActive" : true,
+              "createdAt" : "2026-10-07T18:24:34.967455"
+            },
+            "fullName" : "Shankarr",
+            "employeeId" : "102",
+            "phone" : "",
+            "email" : "",
+            "qualification" : "",
+            "dateOfJoining" : "2026-10-07"
+          }
+        },
+        "transportRoute" : null,
+        "busStop" : null,
+        "dateOfBirth" : null,
+        "gender" : "MALE",
+        "address" : "",
+        "admissionDate" : "2026-10-07",
+        "academicYear" : "2025-2026",
+        "isActive" : true
+      },
+      "academicYear" : "2025-2026",
+      "currentYearDue" : 45000.00,
+      "previousYearPending" : 0.00,
+      "totalPaid" : 0.00,
+      "grandTotal" : 45000.00,
+      "balanceDue" : 45000.00,
+      "status" : "UNPAID"
+    }, {
+      "id" : 6,
+      "student" : {
+        "id" : 7,
+        "user" : {
+          "id" : 14,
+          "username" : "v",
+          "role" : "STUDENT",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-10-07T20:38:16.661746"
+        },
+        "fullName" : "vishwa",
+        "admissionNumber" : "ADM2025006",
+        "schoolClass" : {
+          "id" : 2,
+          "name" : "Grade 9",
+          "section" : "A",
+          "academicYear" : "2025-2026",
+          "sortOrder" : 1,
+          "classTeacher" : {
+            "id" : 1,
+            "user" : {
+              "id" : 2,
+              "username" : "teacher1",
+              "role" : "TEACHER",
+              "staffRole" : null,
+              "permissions" : null,
+              "isActive" : true,
+              "createdAt" : "2026-09-05T07:26:33.351429"
+            },
+            "fullName" : "Sarah Jenkins",
+            "employeeId" : "T101",
+            "phone" : "9876543210",
+            "email" : "sarah.jenkins@school.edu",
+            "qualification" : "M.Sc. Mathematics",
+            "dateOfJoining" : "2020-06-01"
+          }
+        },
+        "transportRoute" : null,
+        "busStop" : null,
+        "dateOfBirth" : null,
+        "gender" : "MALE",
+        "address" : "",
+        "admissionDate" : "2026-10-07",
+        "academicYear" : "2025-2026",
+        "isActive" : true
+      },
+      "academicYear" : "2025-2026",
+      "currentYearDue" : 45000.00,
+      "previousYearPending" : 0.00,
+      "totalPaid" : 0.00,
+      "grandTotal" : 45000.00,
+      "balanceDue" : 45000.00,
+      "status" : "UNPAID"
+    }, {
+      "id" : 7,
+      "student" : {
+        "id" : 8,
+        "user" : {
+          "id" : 15,
+          "username" : "ss",
+          "role" : "STUDENT",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-10-07T20:51:55.478349"
+        },
+        "fullName" : "Surya",
+        "admissionNumber" : "ADM2025007",
+        "schoolClass" : {
+          "id" : 2,
+          "name" : "Grade 9",
+          "section" : "A",
+          "academicYear" : "2025-2026",
+          "sortOrder" : 1,
+          "classTeacher" : {
+            "id" : 1,
+            "user" : {
+              "id" : 2,
+              "username" : "teacher1",
+              "role" : "TEACHER",
+              "staffRole" : null,
+              "permissions" : null,
+              "isActive" : true,
+              "createdAt" : "2026-09-05T07:26:33.351429"
+            },
+            "fullName" : "Sarah Jenkins",
+            "employeeId" : "T101",
+            "phone" : "9876543210",
+            "email" : "sarah.jenkins@school.edu",
+            "qualification" : "M.Sc. Mathematics",
+            "dateOfJoining" : "2020-06-01"
+          }
+        },
+        "transportRoute" : null,
+        "busStop" : null,
+        "dateOfBirth" : null,
+        "gender" : "MALE",
+        "address" : "",
+        "admissionDate" : "2026-10-07",
+        "academicYear" : "2025-2026",
+        "isActive" : true
+      },
+      "academicYear" : "2025-2026",
+      "currentYearDue" : 60000.00,
+      "previousYearPending" : 0.00,
+      "totalPaid" : 50000.00,
+      "grandTotal" : 60000.00,
+      "balanceDue" : 10000.00,
+      "status" : "PARTIAL"
+    }, {
+      "id" : 8,
+      "student" : {
+        "id" : 9,
+        "user" : {
+          "id" : 17,
+          "username" : "sss",
+          "role" : "STUDENT",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-10-08T19:55:35.551435"
+        },
+        "fullName" : "Surya",
+        "admissionNumber" : "ADM2025008",
+        "schoolClass" : {
+          "id" : 1,
+          "name" : "Grade 10",
+          "section" : "A",
+          "academicYear" : "2025-2026",
+          "sortOrder" : 1,
+          "classTeacher" : {
+            "id" : 3,
+            "user" : {
+              "id" : 5,
+              "username" : "s",
+              "role" : "TEACHER",
+              "staffRole" : null,
+              "permissions" : null,
+              "isActive" : true,
+              "createdAt" : "2026-10-07T18:24:34.967455"
+            },
+            "fullName" : "Shankarr",
+            "employeeId" : "102",
+            "phone" : "",
+            "email" : "",
+            "qualification" : "",
+            "dateOfJoining" : "2026-10-07"
+          }
+        },
+        "transportRoute" : null,
+        "busStop" : null,
+        "dateOfBirth" : null,
+        "gender" : "MALE",
+        "address" : "",
+        "admissionDate" : "2026-10-08",
+        "academicYear" : "2025-2026",
+        "isActive" : true
+      },
+      "academicYear" : "2025-2026",
+      "currentYearDue" : 35000.00,
+      "previousYearPending" : 71000.00,
+      "totalPaid" : 0.00,
+      "grandTotal" : 106000.00,
+      "balanceDue" : 106000.00,
+      "status" : "UNPAID"
+    }, {
+      "id" : 9,
+      "student" : {
+        "id" : 10,
+        "user" : {
+          "id" : 18,
+          "username" : "rohansharma1",
+          "role" : "STUDENT",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-10-08T20:30:12.124828"
+        },
+        "fullName" : "Rohan Sharma",
+        "admissionNumber" : "ADM_TEST_1793",
+        "schoolClass" : {
+          "id" : 1,
+          "name" : "Grade 10",
+          "section" : "A",
+          "academicYear" : "2025-2026",
+          "sortOrder" : 1,
+          "classTeacher" : {
+            "id" : 3,
+            "user" : {
+              "id" : 5,
+              "username" : "s",
+              "role" : "TEACHER",
+              "staffRole" : null,
+              "permissions" : null,
+              "isActive" : true,
+              "createdAt" : "2026-10-07T18:24:34.967455"
+            },
+            "fullName" : "Shankarr",
+            "employeeId" : "102",
+            "phone" : "",
+            "email" : "",
+            "qualification" : "",
+            "dateOfJoining" : "2026-10-07"
+          }
+        },
+        "transportRoute" : null,
+        "busStop" : null,
+        "dateOfBirth" : null,
+        "gender" : "MALE",
+        "address" : null,
+        "admissionDate" : "2026-10-08",
+        "academicYear" : "2025-2026",
+        "isActive" : true
+      },
+      "academicYear" : "2025-2026",
+      "currentYearDue" : 0.00,
+      "previousYearPending" : 48500.00,
+      "totalPaid" : 0.00,
+      "grandTotal" : 48500.00,
+      "balanceDue" : 48500.00,
+      "status" : "UNPAID"
+    } ],
+    "paymentHistory" : [ {
+      "id" : 1,
+      "studentFee" : {
+        "id" : 7,
+        "student" : {
+          "id" : 8,
+          "user" : {
+            "id" : 15,
+            "username" : "ss",
+            "role" : "STUDENT",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-10-07T20:51:55.478349"
+          },
+          "fullName" : "Surya",
+          "admissionNumber" : "ADM2025007",
+          "schoolClass" : {
+            "id" : 2,
+            "name" : "Grade 9",
+            "section" : "A",
+            "academicYear" : "2025-2026",
+            "sortOrder" : 1,
+            "classTeacher" : {
+              "id" : 1,
+              "user" : {
+                "id" : 2,
+                "username" : "teacher1",
+                "role" : "TEACHER",
+                "staffRole" : null,
+                "permissions" : null,
+                "isActive" : true,
+                "createdAt" : "2026-09-05T07:26:33.351429"
+              },
+              "fullName" : "Sarah Jenkins",
+              "employeeId" : "T101",
+              "phone" : "9876543210",
+              "email" : "sarah.jenkins@school.edu",
+              "qualification" : "M.Sc. Mathematics",
+              "dateOfJoining" : "2020-06-01"
+            }
+          },
+          "transportRoute" : null,
+          "busStop" : null,
+          "dateOfBirth" : null,
+          "gender" : "MALE",
+          "address" : "",
+          "admissionDate" : "2026-10-07",
+          "academicYear" : "2025-2026",
+          "isActive" : true
+        },
+        "academicYear" : "2025-2026",
+        "currentYearDue" : 60000.00,
+        "previousYearPending" : 0.00,
+        "totalPaid" : 50000.00,
+        "grandTotal" : 60000.00,
+        "balanceDue" : 10000.00,
+        "status" : "PARTIAL"
+      },
+      "amountPaid" : 2000.00,
+      "paymentDate" : "2026-10-07T21:00:01.417653",
+      "paymentMode" : "CASH",
+      "receiptNumber" : "RCP-1791387001412-457F",
+      "recordedBy" : {
+        "id" : 1,
+        "username" : "admin",
+        "role" : "MANAGEMENT",
+        "staffRole" : "SUPER_ADMIN",
+        "permissions" : "*",
+        "isActive" : true,
+        "createdAt" : "2026-09-05T07:26:33.146207"
+      },
+      "notes" : ""
+    }, {
+      "id" : 2,
+      "studentFee" : {
+        "id" : 7,
+        "student" : {
+          "id" : 8,
+          "user" : {
+            "id" : 15,
+            "username" : "ss",
+            "role" : "STUDENT",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-10-07T20:51:55.478349"
+          },
+          "fullName" : "Surya",
+          "admissionNumber" : "ADM2025007",
+          "schoolClass" : {
+            "id" : 2,
+            "name" : "Grade 9",
+            "section" : "A",
+            "academicYear" : "2025-2026",
+            "sortOrder" : 1,
+            "classTeacher" : {
+              "id" : 1,
+              "user" : {
+                "id" : 2,
+                "username" : "teacher1",
+                "role" : "TEACHER",
+                "staffRole" : null,
+                "permissions" : null,
+                "isActive" : true,
+                "createdAt" : "2026-09-05T07:26:33.351429"
+              },
+              "fullName" : "Sarah Jenkins",
+              "employeeId" : "T101",
+              "phone" : "9876543210",
+              "email" : "sarah.jenkins@school.edu",
+              "qualification" : "M.Sc. Mathematics",
+              "dateOfJoining" : "2020-06-01"
+            }
+          },
+          "transportRoute" : null,
+          "busStop" : null,
+          "dateOfBirth" : null,
+          "gender" : "MALE",
+          "address" : "",
+          "admissionDate" : "2026-10-07",
+          "academicYear" : "2025-2026",
+          "isActive" : true
+        },
+        "academicYear" : "2025-2026",
+        "currentYearDue" : 60000.00,
+        "previousYearPending" : 0.00,
+        "totalPaid" : 50000.00,
+        "grandTotal" : 60000.00,
+        "balanceDue" : 10000.00,
+        "status" : "PARTIAL"
+      },
+      "amountPaid" : 43000.00,
+      "paymentDate" : "2026-10-07T21:00:26.381306",
+      "paymentMode" : "CASH",
+      "receiptNumber" : "RCP-1791387026381-D343",
+      "recordedBy" : {
+        "id" : 1,
+        "username" : "admin",
+        "role" : "MANAGEMENT",
+        "staffRole" : "SUPER_ADMIN",
+        "permissions" : "*",
+        "isActive" : true,
+        "createdAt" : "2026-09-05T07:26:33.146207"
+      },
+      "notes" : ""
+    }, {
+      "id" : 4,
+      "studentFee" : {
+        "id" : 1,
+        "student" : {
+          "id" : 1,
+          "user" : {
+            "id" : 3,
+            "username" : "student1",
+            "role" : "STUDENT",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-09-05T07:26:33.509023"
+          },
+          "fullName" : "Alex Morgan",
+          "admissionNumber" : "ADM2025001",
+          "schoolClass" : {
+            "id" : 1,
+            "name" : "Grade 10",
+            "section" : "A",
+            "academicYear" : "2025-2026",
+            "sortOrder" : 1,
+            "classTeacher" : {
+              "id" : 3,
+              "user" : {
+                "id" : 5,
+                "username" : "s",
+                "role" : "TEACHER",
+                "staffRole" : null,
+                "permissions" : null,
+                "isActive" : true,
+                "createdAt" : "2026-10-07T18:24:34.967455"
+              },
+              "fullName" : "Shankarr",
+              "employeeId" : "102",
+              "phone" : "",
+              "email" : "",
+              "qualification" : "",
+              "dateOfJoining" : "2026-10-07"
+            }
+          },
+          "transportRoute" : {
+            "id" : 8,
+            "routeName" : "Route 1 — Northern Metro & Hillside Corridor",
+            "busNumber" : "BUS-01 (Apex Eagle)",
+            "plateNumber" : "DL-01-AX-9942",
+            "driverName" : "Capt. Rajesh Sharma",
+            "driverPhone" : "+91 98765 43210",
+            "driverLicense" : "DL-COMM-2021-99881",
+            "conductorName" : "Suresh Kumar",
+            "conductorPhone" : "+91 98765 43211",
+            "monthlyFee" : 2400.00,
+            "capacity" : 45,
+            "currentStatus" : "IN_TRANSIT",
+            "currentSpeedKmh" : 51,
+            "fuelLevelPercent" : 84,
+            "currentLat" : 28.654738316315658,
+            "currentLng" : 77.21380840266089,
+            "nextStop" : "St. Xavier Circle",
+            "nextStopEtaMinutes" : 1,
+            "morningDepartureTime" : "06:45 AM",
+            "morningArrivalTime" : "07:50 AM",
+            "eveningDepartureTime" : "03:15 PM",
+            "eveningArrivalTime" : "04:30 PM",
+            "stopsJson" : "[{\"id\":1,\"name\":\"Greenfield Heights Gate 2\",\"time\":\"06:50 AM\",\"lat\":17.7832524,\"lng\":83.3755486,\"students\":8},{\"id\":2,\"name\":\"St. Xavier Circle\",\"time\":\"07:05 AM\",\"lat\":28.652,\"lng\":77.21,\"students\":12},{\"id\":3,\"name\":\"Civil Lines Metro Interchange\",\"time\":\"07:20 AM\",\"lat\":28.64,\"lng\":77.218,\"students\":9},{\"id\":4,\"name\":\"Diplomatic Avenue Point\",\"time\":\"07:35 AM\",\"lat\":28.625,\"lng\":77.228,\"students\":7},{\"id\":5,\"name\":\"Apex International Main Quadrangle\",\"time\":\"07:50 AM\",\"lat\":28.61,\"lng\":77.235,\"students\":0}]",
+            "heading" : 335.0,
+            "gpsAccuracyMeters" : 3.5,
+            "isBroadcasting" : true,
+            "lastGpsTimestamp" : "2026-10-10T13:47:55.591053100Z",
+            "hardwareDeviceId" : "GPS-APEX-01",
+            "isIgnitionOn" : true,
+            "tripStatus" : "TRIP_STARTED",
+            "tripStartTime" : "07:13 PM",
+            "sourceName" : "Greenfield Heights Terminal",
+            "destinationName" : "Apex International Main Quadrangle",
+            "operatorUsername" : "bus01",
+            "emergencyStatus" : "NORMAL",
+            "sosAlertMessage" : null
+          },
+          "busStop" : "St. Xavier Circle",
+          "dateOfBirth" : "2010-05-15",
+          "gender" : "MALE",
+          "address" : "123 Education Lane, Tech City",
+          "admissionDate" : "2025-04-01",
+          "academicYear" : "2025-2026",
+          "isActive" : false
+        },
+        "academicYear" : "2025-2026",
+        "currentYearDue" : 0.00,
+        "previousYearPending" : 97000.00,
+        "totalPaid" : 0.00,
+        "grandTotal" : 97000.00,
+        "balanceDue" : 97000.00,
+        "status" : "UNPAID"
+      },
+      "amountPaid" : 3000.00,
+      "paymentDate" : "2026-10-08T19:45:53.627167",
+      "paymentMode" : "UPI",
+      "receiptNumber" : "RCP-1791468953626-3BA8",
+      "recordedBy" : {
+        "id" : 1,
+        "username" : "admin",
+        "role" : "MANAGEMENT",
+        "staffRole" : "SUPER_ADMIN",
+        "permissions" : "*",
+        "isActive" : true,
+        "createdAt" : "2026-09-05T07:26:33.146207"
+      },
+      "notes" : "Testing UPI partial payment"
+    }, {
+      "id" : 5,
+      "studentFee" : {
+        "id" : 7,
+        "student" : {
+          "id" : 8,
+          "user" : {
+            "id" : 15,
+            "username" : "ss",
+            "role" : "STUDENT",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-10-07T20:51:55.478349"
+          },
+          "fullName" : "Surya",
+          "admissionNumber" : "ADM2025007",
+          "schoolClass" : {
+            "id" : 2,
+            "name" : "Grade 9",
+            "section" : "A",
+            "academicYear" : "2025-2026",
+            "sortOrder" : 1,
+            "classTeacher" : {
+              "id" : 1,
+              "user" : {
+                "id" : 2,
+                "username" : "teacher1",
+                "role" : "TEACHER",
+                "staffRole" : null,
+                "permissions" : null,
+                "isActive" : true,
+                "createdAt" : "2026-09-05T07:26:33.351429"
+              },
+              "fullName" : "Sarah Jenkins",
+              "employeeId" : "T101",
+              "phone" : "9876543210",
+              "email" : "sarah.jenkins@school.edu",
+              "qualification" : "M.Sc. Mathematics",
+              "dateOfJoining" : "2020-06-01"
+            }
+          },
+          "transportRoute" : null,
+          "busStop" : null,
+          "dateOfBirth" : null,
+          "gender" : "MALE",
+          "address" : "",
+          "admissionDate" : "2026-10-07",
+          "academicYear" : "2025-2026",
+          "isActive" : true
+        },
+        "academicYear" : "2025-2026",
+        "currentYearDue" : 60000.00,
+        "previousYearPending" : 0.00,
+        "totalPaid" : 50000.00,
+        "grandTotal" : 60000.00,
+        "balanceDue" : 10000.00,
+        "status" : "PARTIAL"
+      },
+      "amountPaid" : 5000.00,
+      "paymentDate" : "2026-10-08T19:53:32.474977",
+      "paymentMode" : "CASH",
+      "receiptNumber" : "RCP-1791469412474-19B3",
+      "recordedBy" : {
+        "id" : 1,
+        "username" : "admin",
+        "role" : "MANAGEMENT",
+        "staffRole" : "SUPER_ADMIN",
+        "permissions" : "*",
+        "isActive" : true,
+        "createdAt" : "2026-09-05T07:26:33.146207"
+      },
+      "notes" : "SHANKAR COLLECTED"
+    }, {
+      "id" : 6,
+      "studentFee" : {
+        "id" : 8,
+        "student" : {
+          "id" : 9,
+          "user" : {
+            "id" : 17,
+            "username" : "sss",
+            "role" : "STUDENT",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-10-08T19:55:35.551435"
+          },
+          "fullName" : "Surya",
+          "admissionNumber" : "ADM2025008",
+          "schoolClass" : {
+            "id" : 1,
+            "name" : "Grade 10",
+            "section" : "A",
+            "academicYear" : "2025-2026",
+            "sortOrder" : 1,
+            "classTeacher" : {
+              "id" : 3,
+              "user" : {
+                "id" : 5,
+                "username" : "s",
+                "role" : "TEACHER",
+                "staffRole" : null,
+                "permissions" : null,
+                "isActive" : true,
+                "createdAt" : "2026-10-07T18:24:34.967455"
+              },
+              "fullName" : "Shankarr",
+              "employeeId" : "102",
+              "phone" : "",
+              "email" : "",
+              "qualification" : "",
+              "dateOfJoining" : "2026-10-07"
+            }
+          },
+          "transportRoute" : null,
+          "busStop" : null,
+          "dateOfBirth" : null,
+          "gender" : "MALE",
+          "address" : "",
+          "admissionDate" : "2026-10-08",
+          "academicYear" : "2025-2026",
+          "isActive" : true
+        },
+        "academicYear" : "2025-2026",
+        "currentYearDue" : 35000.00,
+        "previousYearPending" : 71000.00,
+        "totalPaid" : 0.00,
+        "grandTotal" : 106000.00,
+        "balanceDue" : 106000.00,
+        "status" : "UNPAID"
+      },
+      "amountPaid" : 24000.00,
+      "paymentDate" : "2026-10-08T19:57:45.381287",
+      "paymentMode" : "CASH",
+      "receiptNumber" : "RCP-1791469665381-5CBA",
+      "recordedBy" : {
+        "id" : 1,
+        "username" : "admin",
+        "role" : "MANAGEMENT",
+        "staffRole" : "SUPER_ADMIN",
+        "permissions" : "*",
+        "isActive" : true,
+        "createdAt" : "2026-09-05T07:26:33.146207"
+      },
+      "notes" : "Shankar collected"
+    } ],
+    "libraryBooks" : [ {
+      "id" : 1,
+      "title" : "Concepts of Physics — Vol 1",
+      "author" : "H.C. Verma",
+      "isbn" : "978-8177091877",
+      "category" : "Physics",
+      "totalCopies" : 15,
+      "availableCopies" : 12
+    }, {
+      "id" : 2,
+      "title" : "Mathematics for Class 10",
+      "author" : "R.D. Sharma",
+      "isbn" : "978-9351448834",
+      "category" : "Mathematics",
+      "totalCopies" : 20,
+      "availableCopies" : 18
+    } ],
+    "studyMaterials" : [ {
+      "id" : 3,
+      "title" : "Physics Lab Manual — Ray Optics & Reflection Experiments",
+      "description" : "Comprehensive experimental setup diagram, observation tables, and precautions for optical bench experiments.",
+      "schoolClass" : {
+        "id" : 1,
+        "name" : "Grade 10",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 3,
+          "user" : {
+            "id" : 5,
+            "username" : "s",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-10-07T18:24:34.967455"
+          },
+          "fullName" : "Shankarr",
+          "employeeId" : "102",
+          "phone" : "",
+          "email" : "",
+          "qualification" : "",
+          "dateOfJoining" : "2026-10-07"
+        }
+      },
+      "subject" : {
+        "id" : 2,
+        "name" : "Physics",
+        "code" : "PHY102"
+      },
+      "teacher" : {
+        "id" : 1,
+        "user" : {
+          "id" : 2,
+          "username" : "teacher1",
+          "role" : "TEACHER",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-09-05T07:26:33.351429"
+        },
+        "fullName" : "Sarah Jenkins",
+        "employeeId" : "T101",
+        "phone" : "9876543210",
+        "email" : "sarah.jenkins@school.edu",
+        "qualification" : "M.Sc. Mathematics",
+        "dateOfJoining" : "2020-06-01"
+      },
+      "fileUrl" : "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "fileType" : "PDF",
+      "authorOrSource" : "Sarah Jenkins",
+      "uploadedByRole" : null,
+      "isInstituteWide" : null,
+      "uploadedDate" : "2026-10-07"
+    }, {
+      "id" : 4,
+      "title" : "Cell Division Diagram & Process Note",
+      "description" : "Detailed diagram of Mitosis and Meiosis phases.",
+      "schoolClass" : {
+        "id" : 1,
+        "name" : "Grade 10",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 3,
+          "user" : {
+            "id" : 5,
+            "username" : "s",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-10-07T18:24:34.967455"
+          },
+          "fullName" : "Shankarr",
+          "employeeId" : "102",
+          "phone" : "",
+          "email" : "",
+          "qualification" : "",
+          "dateOfJoining" : "2026-10-07"
+        }
+      },
+      "subject" : null,
+      "teacher" : null,
+      "fileUrl" : "data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"300\" height=\"200\"><rect width=\"300\" height=\"200\" fill=\"%23e0f2fe\"/><text x=\"20\" y=\"50\" fill=\"%230369a1\" font-size=\"20\">Cell Division Diagram</text></svg>",
+      "fileType" : "IMAGE",
+      "authorOrSource" : "Faculty",
+      "uploadedByRole" : null,
+      "isInstituteWide" : null,
+      "uploadedDate" : "2026-10-07"
+    }, {
+      "id" : 5,
+      "title" : "Cell Division Diagram & Process Note",
+      "description" : "Detailed diagram of Mitosis and Meiosis phases.",
+      "schoolClass" : {
+        "id" : 1,
+        "name" : "Grade 10",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 3,
+          "user" : {
+            "id" : 5,
+            "username" : "s",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-10-07T18:24:34.967455"
+          },
+          "fullName" : "Shankarr",
+          "employeeId" : "102",
+          "phone" : "",
+          "email" : "",
+          "qualification" : "",
+          "dateOfJoining" : "2026-10-07"
+        }
+      },
+      "subject" : null,
+      "teacher" : null,
+      "fileUrl" : "data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"300\" height=\"200\"><rect width=\"300\" height=\"200\" fill=\"%23e0f2fe\"/><text x=\"20\" y=\"50\" fill=\"%230369a1\" font-size=\"20\">Cell Division Diagram</text></svg>",
+      "fileType" : "IMAGE",
+      "authorOrSource" : "Faculty",
+      "uploadedByRole" : null,
+      "isInstituteWide" : null,
+      "uploadedDate" : "2026-10-07"
+    }, {
+      "id" : 6,
+      "title" : "Cell Division Diagram & Process Note",
+      "description" : "Detailed diagram of Mitosis and Meiosis phases.",
+      "schoolClass" : {
+        "id" : 1,
+        "name" : "Grade 10",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 3,
+          "user" : {
+            "id" : 5,
+            "username" : "s",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-10-07T18:24:34.967455"
+          },
+          "fullName" : "Shankarr",
+          "employeeId" : "102",
+          "phone" : "",
+          "email" : "",
+          "qualification" : "",
+          "dateOfJoining" : "2026-10-07"
+        }
+      },
+      "subject" : null,
+      "teacher" : null,
+      "fileUrl" : "data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"300\" height=\"200\"><rect width=\"300\" height=\"200\" fill=\"%23e0f2fe\"/><text x=\"20\" y=\"50\" fill=\"%230369a1\" font-size=\"20\">Cell Division Diagram</text></svg>",
+      "fileType" : "IMAGE",
+      "authorOrSource" : "Faculty",
+      "uploadedByRole" : null,
+      "isInstituteWide" : null,
+      "uploadedDate" : "2026-10-07"
+    }, {
+      "id" : 7,
+      "title" : "Cell Division Diagram & Process Note",
+      "description" : "Detailed diagram of Mitosis and Meiosis phases.",
+      "schoolClass" : {
+        "id" : 1,
+        "name" : "Grade 10",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 3,
+          "user" : {
+            "id" : 5,
+            "username" : "s",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-10-07T18:24:34.967455"
+          },
+          "fullName" : "Shankarr",
+          "employeeId" : "102",
+          "phone" : "",
+          "email" : "",
+          "qualification" : "",
+          "dateOfJoining" : "2026-10-07"
+        }
+      },
+      "subject" : null,
+      "teacher" : null,
+      "fileUrl" : "data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"300\" height=\"200\"><rect width=\"300\" height=\"200\" fill=\"%23e0f2fe\"/><text x=\"20\" y=\"50\" fill=\"%230369a1\" font-size=\"20\">Cell Division Diagram</text></svg>",
+      "fileType" : "IMAGE",
+      "authorOrSource" : "Faculty",
+      "uploadedByRole" : null,
+      "isInstituteWide" : null,
+      "uploadedDate" : "2026-10-07"
+    }, {
+      "id" : 8,
+      "title" : "Cell Division Diagram & Process Note",
+      "description" : "Detailed diagram of Mitosis and Meiosis phases.",
+      "schoolClass" : {
+        "id" : 1,
+        "name" : "Grade 10",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 3,
+          "user" : {
+            "id" : 5,
+            "username" : "s",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-10-07T18:24:34.967455"
+          },
+          "fullName" : "Shankarr",
+          "employeeId" : "102",
+          "phone" : "",
+          "email" : "",
+          "qualification" : "",
+          "dateOfJoining" : "2026-10-07"
+        }
+      },
+      "subject" : null,
+      "teacher" : null,
+      "fileUrl" : "data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"300\" height=\"200\"><rect width=\"300\" height=\"200\" fill=\"%23e0f2fe\"/><text x=\"20\" y=\"50\" fill=\"%230369a1\" font-size=\"20\">Cell Division Diagram</text></svg>",
+      "fileType" : "IMAGE",
+      "authorOrSource" : "Faculty",
+      "uploadedByRole" : null,
+      "isInstituteWide" : null,
+      "uploadedDate" : "2026-10-07"
+    }, {
+      "id" : 9,
+      "title" : "Trigonometry & Calculus Formula Diagrams",
+      "description" : "Handwritten chapter notes and mind-maps for upcoming unit test.",
+      "schoolClass" : {
+        "id" : 1,
+        "name" : "Grade 10",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 3,
+          "user" : {
+            "id" : 5,
+            "username" : "s",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-10-07T18:24:34.967455"
+          },
+          "fullName" : "Shankarr",
+          "employeeId" : "102",
+          "phone" : "",
+          "email" : "",
+          "qualification" : "",
+          "dateOfJoining" : "2026-10-07"
+        }
+      },
+      "subject" : null,
+      "teacher" : null,
+      "fileUrl" : "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=1200&auto=format&fit=crop&q=80",
+      "fileType" : "IMAGE",
+      "authorOrSource" : "Faculty",
+      "uploadedByRole" : null,
+      "isInstituteWide" : null,
+      "uploadedDate" : "2026-10-08"
+    }, {
+      "id" : 10,
+      "title" : "Springdale Institute Handbook & Annual Academic Calendar",
+      "description" : "Official institute rules, event schedules, and safety policies applicable to all classes.",
+      "schoolClass" : null,
+      "subject" : null,
+      "teacher" : null,
+      "fileUrl" : "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "fileType" : "PDF",
+      "authorOrSource" : "Faculty",
+      "uploadedByRole" : null,
+      "isInstituteWide" : null,
+      "uploadedDate" : "2026-10-08"
+    }, {
+      "id" : 11,
+      "title" : "Unauthorized Global Broadcast",
+      "description" : "Teacher trying to broadcast institute-wide",
+      "schoolClass" : null,
+      "subject" : null,
+      "teacher" : null,
+      "fileUrl" : "https://example.com/test.pdf",
+      "fileType" : "PDF",
+      "authorOrSource" : "Faculty",
+      "uploadedByRole" : null,
+      "isInstituteWide" : null,
+      "uploadedDate" : "2026-10-08"
+    }, {
+      "id" : 12,
+      "title" : "Grade 9 Mathematics Formula Guide & Mind Map",
+      "description" : "Quick revision sheets covering Quadratic Equations and Trigonometric ratios.",
+      "schoolClass" : {
+        "id" : 2,
+        "name" : "Grade 9",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 1,
+          "user" : {
+            "id" : 2,
+            "username" : "teacher1",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-09-05T07:26:33.351429"
+          },
+          "fullName" : "Sarah Jenkins",
+          "employeeId" : "T101",
+          "phone" : "9876543210",
+          "email" : "sarah.jenkins@school.edu",
+          "qualification" : "M.Sc. Mathematics",
+          "dateOfJoining" : "2020-06-01"
+        }
+      },
+      "subject" : {
+        "id" : 1,
+        "name" : "Maths",
+        "code" : "MATHS101"
+      },
+      "teacher" : null,
+      "fileUrl" : "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=1200&auto=format&fit=crop&q=80",
+      "fileType" : "IMAGE",
+      "authorOrSource" : "Faculty",
+      "uploadedByRole" : null,
+      "isInstituteWide" : null,
+      "uploadedDate" : "2026-10-08"
+    }, {
+      "id" : 13,
+      "title" : "Springdale Annual Student Handbook & Safety Guidelines 2026",
+      "description" : "Comprehensive code of conduct, campus library timings, and laboratory safety protocols.",
+      "schoolClass" : null,
+      "subject" : null,
+      "teacher" : null,
+      "fileUrl" : "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "fileType" : "PDF",
+      "authorOrSource" : "Faculty",
+      "uploadedByRole" : null,
+      "isInstituteWide" : null,
+      "uploadedDate" : "2026-10-08"
+    }, {
+      "id" : 15,
+      "title" : "Springdale Annual Student Handbook & Safety Guidelines 2026",
+      "description" : "Comprehensive code of conduct, campus library timings, and laboratory safety protocols.",
+      "schoolClass" : null,
+      "subject" : null,
+      "teacher" : null,
+      "fileUrl" : "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "fileType" : "PDF",
+      "authorOrSource" : "School Academic Directorate / Management",
+      "uploadedByRole" : "MANAGEMENT",
+      "isInstituteWide" : true,
+      "uploadedDate" : "2026-10-08"
+    }, {
+      "id" : 17,
+      "title" : "BIG DATA",
+      "description" : "",
+      "schoolClass" : null,
+      "subject" : null,
+      "teacher" : null,
+      "fileUrl" : "/uploads/ab489f31-a88e-464e-80fb-4237f93c5a42.pdf",
+      "fileType" : "PDF",
+      "authorOrSource" : "School Academic Directorate / Management",
+      "uploadedByRole" : "MANAGEMENT",
+      "isInstituteWide" : true,
+      "uploadedDate" : "2026-10-08"
+    } ],
+    "timetableSlots" : [ {
+      "id" : 1,
+      "schoolClass" : {
+        "id" : 1,
+        "name" : "Grade 10",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 3,
+          "user" : {
+            "id" : 5,
+            "username" : "s",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-10-07T18:24:34.967455"
+          },
+          "fullName" : "Shankarr",
+          "employeeId" : "102",
+          "phone" : "",
+          "email" : "",
+          "qualification" : "",
+          "dateOfJoining" : "2026-10-07"
+        }
+      },
+      "dayOfWeek" : "Monday",
+      "periodId" : "p1",
+      "periodLabel" : "Period 1",
+      "startTime" : "09:00 AM",
+      "endTime" : "09:45 AM",
+      "subject" : {
+        "id" : 2,
+        "name" : "Physics",
+        "code" : "PHY102"
+      },
+      "subjectName" : "Physics",
+      "teacher" : {
+        "id" : 1,
+        "user" : {
+          "id" : 2,
+          "username" : "teacher1",
+          "role" : "TEACHER",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-09-05T07:26:33.351429"
+        },
+        "fullName" : "Sarah Jenkins",
+        "employeeId" : "T101",
+        "phone" : "9876543210",
+        "email" : "sarah.jenkins@school.edu",
+        "qualification" : "M.Sc. Mathematics",
+        "dateOfJoining" : "2020-06-01"
+      },
+      "teacherName" : "Sarah Jenkins",
+      "room" : "Advanced Science Lab",
+      "academicYear" : "2025-2026"
+    }, {
+      "id" : 2,
+      "schoolClass" : {
+        "id" : 2,
+        "name" : "Grade 9",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 1,
+          "user" : {
+            "id" : 2,
+            "username" : "teacher1",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-09-05T07:26:33.351429"
+          },
+          "fullName" : "Sarah Jenkins",
+          "employeeId" : "T101",
+          "phone" : "9876543210",
+          "email" : "sarah.jenkins@school.edu",
+          "qualification" : "M.Sc. Mathematics",
+          "dateOfJoining" : "2020-06-01"
+        }
+      },
+      "dayOfWeek" : "Monday",
+      "periodId" : "p2",
+      "periodLabel" : "Period 2",
+      "startTime" : "09:45 AM",
+      "endTime" : "10:30 AM",
+      "subject" : {
+        "id" : 2,
+        "name" : "Physics",
+        "code" : "PHY102"
+      },
+      "subjectName" : "Physics",
+      "teacher" : {
+        "id" : 1,
+        "user" : {
+          "id" : 2,
+          "username" : "teacher1",
+          "role" : "TEACHER",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-09-05T07:26:33.351429"
+        },
+        "fullName" : "Sarah Jenkins",
+        "employeeId" : "T101",
+        "phone" : "9876543210",
+        "email" : "sarah.jenkins@school.edu",
+        "qualification" : "M.Sc. Mathematics",
+        "dateOfJoining" : "2020-06-01"
+      },
+      "teacherName" : "Sarah Jenkins",
+      "room" : "Room 202",
+      "academicYear" : "2025-2026"
+    }, {
+      "id" : 3,
+      "schoolClass" : {
+        "id" : 1,
+        "name" : "Grade 10",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 3,
+          "user" : {
+            "id" : 5,
+            "username" : "s",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-10-07T18:24:34.967455"
+          },
+          "fullName" : "Shankarr",
+          "employeeId" : "102",
+          "phone" : "",
+          "email" : "",
+          "qualification" : "",
+          "dateOfJoining" : "2026-10-07"
+        }
+      },
+      "dayOfWeek" : "Monday",
+      "periodId" : "p2",
+      "periodLabel" : "Period 2",
+      "startTime" : "09:45 AM",
+      "endTime" : "10:30 AM",
+      "subject" : {
+        "id" : 3,
+        "name" : "AI",
+        "code" : "AI1000"
+      },
+      "subjectName" : "AI",
+      "teacher" : {
+        "id" : 4,
+        "user" : {
+          "id" : 16,
+          "username" : "G",
+          "role" : "TEACHER",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-10-08T00:23:40.338671"
+        },
+        "fullName" : "GOPI",
+        "employeeId" : "G1000",
+        "phone" : "",
+        "email" : "",
+        "qualification" : "",
+        "dateOfJoining" : "2026-10-08"
+      },
+      "teacherName" : "GOPI",
+      "room" : "Room 101",
+      "academicYear" : "2025-2026"
+    }, {
+      "id" : 4,
+      "schoolClass" : {
+        "id" : 2,
+        "name" : "Grade 9",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 1,
+          "user" : {
+            "id" : 2,
+            "username" : "teacher1",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-09-05T07:26:33.351429"
+          },
+          "fullName" : "Sarah Jenkins",
+          "employeeId" : "T101",
+          "phone" : "9876543210",
+          "email" : "sarah.jenkins@school.edu",
+          "qualification" : "M.Sc. Mathematics",
+          "dateOfJoining" : "2020-06-01"
+        }
+      },
+      "dayOfWeek" : "Monday",
+      "periodId" : "p3",
+      "periodLabel" : "Period 3",
+      "startTime" : "10:45 AM",
+      "endTime" : "11:30 AM",
+      "subject" : null,
+      "subjectName" : "Computer Science",
+      "teacher" : {
+        "id" : 4,
+        "user" : {
+          "id" : 16,
+          "username" : "G",
+          "role" : "TEACHER",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-10-08T00:23:40.338671"
+        },
+        "fullName" : "GOPI",
+        "employeeId" : "G1000",
+        "phone" : "",
+        "email" : "",
+        "qualification" : "",
+        "dateOfJoining" : "2026-10-08"
+      },
+      "teacherName" : "GOPI",
+      "room" : "Room 101",
+      "academicYear" : "2025-2026"
+    } ],
+    "timetablePeriodConfigs" : [ {
+      "id" : 1,
+      "periodId" : "p1",
+      "periodLabel" : "Period 1",
+      "startTime" : "09:00 AM",
+      "endTime" : "09:45 AM",
+      "sortOrder" : 1,
+      "academicYear" : "2025-2026"
+    }, {
+      "id" : 2,
+      "periodId" : "p2",
+      "periodLabel" : "Period 2",
+      "startTime" : "09:45 AM",
+      "endTime" : "10:30 AM",
+      "sortOrder" : 2,
+      "academicYear" : "2025-2026"
+    }, {
+      "id" : 3,
+      "periodId" : "p3",
+      "periodLabel" : "Period 3",
+      "startTime" : "10:45 AM",
+      "endTime" : "11:30 AM",
+      "sortOrder" : 3,
+      "academicYear" : "2025-2026"
+    }, {
+      "id" : 4,
+      "periodId" : "p4",
+      "periodLabel" : "Period 4",
+      "startTime" : "11:30 AM",
+      "endTime" : "12:15 PM",
+      "sortOrder" : 4,
+      "academicYear" : "2025-2026"
+    }, {
+      "id" : 5,
+      "periodId" : "p5",
+      "periodLabel" : "Period 5",
+      "startTime" : "01:00 PM",
+      "endTime" : "01:45 PM",
+      "sortOrder" : 5,
+      "academicYear" : "2025-2026"
+    }, {
+      "id" : 6,
+      "periodId" : "p6",
+      "periodLabel" : "Period 6",
+      "startTime" : "01:45 PM",
+      "endTime" : "02:30 PM",
+      "sortOrder" : 6,
+      "academicYear" : "2025-2026"
+    } ],
+    "teacherSalaries" : [ ],
+    "studentHealth" : [ ],
+    "schoolAssets" : [ ],
+    "transportRoutes" : [ {
+      "id" : 8,
+      "routeName" : "Route 1 — Northern Metro & Hillside Corridor",
+      "busNumber" : "BUS-01 (Apex Eagle)",
+      "plateNumber" : "DL-01-AX-9942",
+      "driverName" : "Capt. Rajesh Sharma",
+      "driverPhone" : "+91 98765 43210",
+      "driverLicense" : "DL-COMM-2021-99881",
+      "conductorName" : "Suresh Kumar",
+      "conductorPhone" : "+91 98765 43211",
+      "monthlyFee" : 2400.00,
+      "capacity" : 45,
+      "currentStatus" : "IN_TRANSIT",
+      "currentSpeedKmh" : 51,
+      "fuelLevelPercent" : 84,
+      "currentLat" : 28.654738316315658,
+      "currentLng" : 77.21380840266089,
+      "nextStop" : "St. Xavier Circle",
+      "nextStopEtaMinutes" : 1,
+      "morningDepartureTime" : "06:45 AM",
+      "morningArrivalTime" : "07:50 AM",
+      "eveningDepartureTime" : "03:15 PM",
+      "eveningArrivalTime" : "04:30 PM",
+      "stopsJson" : "[{\"id\":1,\"name\":\"Greenfield Heights Gate 2\",\"time\":\"06:50 AM\",\"lat\":17.7832524,\"lng\":83.3755486,\"students\":8},{\"id\":2,\"name\":\"St. Xavier Circle\",\"time\":\"07:05 AM\",\"lat\":28.652,\"lng\":77.21,\"students\":12},{\"id\":3,\"name\":\"Civil Lines Metro Interchange\",\"time\":\"07:20 AM\",\"lat\":28.64,\"lng\":77.218,\"students\":9},{\"id\":4,\"name\":\"Diplomatic Avenue Point\",\"time\":\"07:35 AM\",\"lat\":28.625,\"lng\":77.228,\"students\":7},{\"id\":5,\"name\":\"Apex International Main Quadrangle\",\"time\":\"07:50 AM\",\"lat\":28.61,\"lng\":77.235,\"students\":0}]",
+      "heading" : 335.0,
+      "gpsAccuracyMeters" : 3.5,
+      "isBroadcasting" : true,
+      "lastGpsTimestamp" : "2026-10-10T13:47:55.591053100Z",
+      "hardwareDeviceId" : "GPS-APEX-01",
+      "isIgnitionOn" : true,
+      "tripStatus" : "TRIP_STARTED",
+      "tripStartTime" : "07:13 PM",
+      "sourceName" : "Greenfield Heights Terminal",
+      "destinationName" : "Apex International Main Quadrangle",
+      "operatorUsername" : "bus01",
+      "emergencyStatus" : "NORMAL",
+      "sosAlertMessage" : null
+    }, {
+      "id" : 9,
+      "routeName" : "Route 2 — South City & Tech Park Express",
+      "busNumber" : "BUS-02 (Apex Falcon)",
+      "plateNumber" : "DL-02-BX-8819",
+      "driverName" : "Mahesh Verma",
+      "driverPhone" : "+91 98765 43220",
+      "driverLicense" : "DL-COMM-2019-44321",
+      "conductorName" : "Ramesh Rao",
+      "conductorPhone" : "+91 98765 43221",
+      "monthlyFee" : 2800.00,
+      "capacity" : 40,
+      "currentStatus" : "IN_TRANSIT",
+      "currentSpeedKmh" : 38,
+      "fuelLevelPercent" : 78,
+      "currentLat" : 28.5355,
+      "currentLng" : 77.241,
+      "nextStop" : "Cyber City Crossing",
+      "nextStopEtaMinutes" : 6,
+      "morningDepartureTime" : "06:30 AM",
+      "morningArrivalTime" : "07:45 AM",
+      "eveningDepartureTime" : "03:15 PM",
+      "eveningArrivalTime" : "04:40 PM",
+      "stopsJson" : "[{\"id\":1,\"name\":\"Prestige Cyber Enclave\",\"time\":\"06:40 AM\",\"lat\":28.510,\"lng\":77.230,\"students\":10},{\"id\":2,\"name\":\"Cyber City Crossing\",\"time\":\"07:00 AM\",\"lat\":28.530,\"lng\":77.240,\"students\":14},{\"id\":3,\"name\":\"Royal Palm Boulevard\",\"time\":\"07:20 AM\",\"lat\":28.565,\"lng\":77.238,\"students\":8},{\"id\":4,\"name\":\"Heritage Clock Tower\",\"time\":\"07:35 AM\",\"lat\":28.590,\"lng\":77.236,\"students\":5},{\"id\":5,\"name\":\"Apex International Main Quadrangle\",\"time\":\"07:45 AM\",\"lat\":28.610,\"lng\":77.235,\"students\":0}]",
+      "heading" : 95.0,
+      "gpsAccuracyMeters" : 3.5,
+      "isBroadcasting" : true,
+      "lastGpsTimestamp" : null,
+      "hardwareDeviceId" : "GPS-APEX-02",
+      "isIgnitionOn" : true,
+      "tripStatus" : "IN_TRANSIT",
+      "tripStartTime" : "06:30 AM",
+      "sourceName" : "Prestige Cyber Enclave",
+      "destinationName" : "Apex International Main Quadrangle",
+      "operatorUsername" : "bus02",
+      "emergencyStatus" : "NORMAL",
+      "sosAlertMessage" : null
+    }, {
+      "id" : 10,
+      "routeName" : "Route 3 — Eastern Riverside & Lakeview Link",
+      "busNumber" : "BUS-03 (Apex Arrow)",
+      "plateNumber" : "DL-03-CX-7703",
+      "driverName" : "Gurpreet Singh",
+      "driverPhone" : "+91 98765 43230",
+      "driverLicense" : "DL-COMM-2022-77112",
+      "conductorName" : "Amit Joshi",
+      "conductorPhone" : "+91 98765 43231",
+      "monthlyFee" : 2200.00,
+      "capacity" : 50,
+      "currentStatus" : "AT_CAMPUS",
+      "currentSpeedKmh" : 0,
+      "fuelLevelPercent" : 92,
+      "currentLat" : 28.61,
+      "currentLng" : 77.235,
+      "nextStop" : "Campus Depot (Arrived)",
+      "nextStopEtaMinutes" : 0,
+      "morningDepartureTime" : "06:40 AM",
+      "morningArrivalTime" : "07:45 AM",
+      "eveningDepartureTime" : "03:15 PM",
+      "eveningArrivalTime" : "04:25 PM",
+      "stopsJson" : "[{\"id\":1,\"name\":\"Riverside Orchid Villas\",\"time\":\"06:50 AM\",\"lat\":28.630,\"lng\":77.280,\"students\":11},{\"id\":2,\"name\":\"Lakeview Promenade Gate 1\",\"time\":\"07:10 AM\",\"lat\":28.620,\"lng\":77.260,\"students\":15},{\"id\":3,\"name\":\"Mayur Vihar Bridge Point\",\"time\":\"07:25 AM\",\"lat\":28.615,\"lng\":77.248,\"students\":9},{\"id\":4,\"name\":\"Apex International Main Quadrangle\",\"time\":\"07:45 AM\",\"lat\":28.610,\"lng\":77.235,\"students\":0}]",
+      "heading" : 0.0,
+      "gpsAccuracyMeters" : 5.0,
+      "isBroadcasting" : false,
+      "lastGpsTimestamp" : null,
+      "hardwareDeviceId" : "GPS-APEX-03",
+      "isIgnitionOn" : false,
+      "tripStatus" : "IDLE_AT_CAMPUS",
+      "tripStartTime" : null,
+      "sourceName" : "Riverside Orchid Villas",
+      "destinationName" : "Apex International Main Quadrangle",
+      "operatorUsername" : null,
+      "emergencyStatus" : "NORMAL",
+      "sosAlertMessage" : null
+    }, {
+      "id" : 11,
+      "routeName" : "Route 4 — West Suburban & Cantonment Shuttle",
+      "busNumber" : "BUS-04 (Apex Phoenix)",
+      "plateNumber" : "DL-04-DX-6651",
+      "driverName" : "Vikram Rathore",
+      "driverPhone" : "+91 98765 43240",
+      "driverLicense" : "DL-COMM-2020-55299",
+      "conductorName" : "Manoj Tiwari",
+      "conductorPhone" : "+91 98765 43241",
+      "monthlyFee" : 2600.00,
+      "capacity" : 35,
+      "currentStatus" : "IN_TRANSIT",
+      "currentSpeedKmh" : 48,
+      "fuelLevelPercent" : 65,
+      "currentLat" : 28.58,
+      "currentLng" : 77.16,
+      "nextStop" : "Cantonment North Gate",
+      "nextStopEtaMinutes" : 3,
+      "morningDepartureTime" : "06:35 AM",
+      "morningArrivalTime" : "07:50 AM",
+      "eveningDepartureTime" : "03:15 PM",
+      "eveningArrivalTime" : "04:35 PM",
+      "stopsJson" : "[{\"id\":1,\"name\":\"Officers Enclave Gate 4\",\"time\":\"06:45 AM\",\"lat\":28.550,\"lng\":77.140,\"students\":7},{\"id\":2,\"name\":\"Cantonment North Gate\",\"time\":\"07:05 AM\",\"lat\":28.575,\"lng\":77.158,\"students\":10},{\"id\":3,\"name\":\"Dhaula Kuan Interchange\",\"time\":\"07:25 AM\",\"lat\":28.592,\"lng\":77.185,\"students\":8},{\"id\":4,\"name\":\"Apex International Main Quadrangle\",\"time\":\"07:50 AM\",\"lat\":28.610,\"lng\":77.235,\"students\":0}]",
+      "heading" : 0.0,
+      "gpsAccuracyMeters" : 5.0,
+      "isBroadcasting" : false,
+      "lastGpsTimestamp" : null,
+      "hardwareDeviceId" : "GPS-APEX-04",
+      "isIgnitionOn" : false,
+      "tripStatus" : "IDLE_AT_CAMPUS",
+      "tripStartTime" : null,
+      "sourceName" : "Officers Enclave Gate 4",
+      "destinationName" : "Apex International Main Quadrangle",
+      "operatorUsername" : null,
+      "emergencyStatus" : "NORMAL",
+      "sosAlertMessage" : null
+    }, {
+      "id" : 12,
+      "routeName" : "Gitam — Maddilapalem Express (Bus 5)",
+      "busNumber" : "BUS5",
+      "plateNumber" : "AP-31-TV-5599",
+      "driverName" : "Shankar",
+      "driverPhone" : "6303399876",
+      "driverLicense" : "AP-COMM-2023-9941",
+      "conductorName" : "Ramu",
+      "conductorPhone" : "9848022338",
+      "monthlyFee" : 2600.00,
+      "capacity" : 40,
+      "currentStatus" : "IN_TRANSIT",
+      "currentSpeedKmh" : 40,
+      "fuelLevelPercent" : 85,
+      "currentLat" : 17.78325,
+      "currentLng" : 83.37555,
+      "nextStop" : null,
+      "nextStopEtaMinutes" : null,
+      "morningDepartureTime" : "06:50 AM",
+      "morningArrivalTime" : "07:50 AM",
+      "eveningDepartureTime" : "03:30 PM",
+      "eveningArrivalTime" : "04:30 PM",
+      "stopsJson" : "[{\"id\":1,\"name\":\"Gitam (Rushikonda)\",\"lat\":17.78325,\"lng\":83.37555,\"time\":\"06:50 AM\",\"students\":6},{\"id\":2,\"name\":\"Endada (Junction)\",\"lat\":17.78065,\"lng\":83.36302,\"time\":\"07:05 AM\",\"students\":12},{\"id\":3,\"name\":\"Hanumanthawaka\",\"lat\":17.76,\"lng\":83.334,\"time\":\"07:20 AM\",\"students\":8},{\"id\":4,\"name\":\"Seethammadhara\",\"lat\":17.74084,\"lng\":83.30005,\"time\":\"07:35 AM\",\"students\":4},{\"id\":5,\"name\":\"Maddilapalem (Campus)\",\"lat\":17.735,\"lng\":83.32,\"time\":\"07:50 AM\",\"students\":0}]",
+      "heading" : 0.0,
+      "gpsAccuracyMeters" : 5.0,
+      "isBroadcasting" : false,
+      "lastGpsTimestamp" : null,
+      "hardwareDeviceId" : "GPS-APEX-05",
+      "isIgnitionOn" : false,
+      "tripStatus" : "IDLE_AT_CAMPUS",
+      "tripStartTime" : null,
+      "sourceName" : "Gitam (Rushikonda)",
+      "destinationName" : "Maddilapalem Campus",
+      "operatorUsername" : "bus01",
+      "emergencyStatus" : "NORMAL",
+      "sosAlertMessage" : null
+    }, {
+      "id" : 13,
+      "routeName" : "North Ridge Express Line (GPS Verified)",
+      "busNumber" : "BUS-09",
+      "plateNumber" : "DL-01-EXP-2026",
+      "driverName" : "Capt. Ramesh Verma",
+      "driverPhone" : "+91 98765 43210",
+      "driverLicense" : null,
+      "conductorName" : null,
+      "conductorPhone" : null,
+      "monthlyFee" : 2600.00,
+      "capacity" : 48,
+      "currentStatus" : "IN_TRANSIT",
+      "currentSpeedKmh" : 40,
+      "fuelLevelPercent" : 85,
+      "currentLat" : 28.665432,
+      "currentLng" : 77.205678,
+      "nextStop" : null,
+      "nextStopEtaMinutes" : null,
+      "morningDepartureTime" : "06:45 AM",
+      "morningArrivalTime" : "07:50 AM",
+      "eveningDepartureTime" : "03:15 PM",
+      "eveningArrivalTime" : "04:30 PM",
+      "stopsJson" : "[{\"id\":1,\"name\":\"Greenfield Heights Gate 2\",\"time\":\"06:50 AM\",\"lat\":28.665432,\"lng\":77.205678,\"students\":5},{\"id\":2,\"name\":\"St. Xavier Circle\",\"time\":\"07:10 AM\",\"lat\":28.652198,\"lng\":77.210456,\"students\":10},{\"id\":3,\"name\":\"Civil Lines Metro Interchange\",\"time\":\"07:25 AM\",\"lat\":28.640123,\"lng\":77.218765,\"students\":8},{\"id\":4,\"name\":\"Apex International Main Quadrangle\",\"time\":\"07:50 AM\",\"lat\":28.610012,\"lng\":77.235043,\"students\":0}]",
+      "heading" : 0.0,
+      "gpsAccuracyMeters" : 5.0,
+      "isBroadcasting" : false,
+      "lastGpsTimestamp" : null,
+      "hardwareDeviceId" : "GPS-APEX-09",
+      "isIgnitionOn" : false,
+      "tripStatus" : "IDLE_AT_CAMPUS",
+      "tripStartTime" : null,
+      "sourceName" : "Greenfield Heights Terminal",
+      "destinationName" : "Apex International Main Quadrangle",
+      "operatorUsername" : "bus09",
+      "emergencyStatus" : "NORMAL",
+      "sosAlertMessage" : null
+    }, {
+      "id" : 14,
+      "routeName" : "North Ridge Express Line (GPS Verified)",
+      "busNumber" : "BUS-09",
+      "plateNumber" : "DL-01-EXP-2026",
+      "driverName" : "Capt. Ramesh Verma",
+      "driverPhone" : "+91 98765 43210",
+      "driverLicense" : null,
+      "conductorName" : null,
+      "conductorPhone" : null,
+      "monthlyFee" : 2600.00,
+      "capacity" : 48,
+      "currentStatus" : "IN_TRANSIT",
+      "currentSpeedKmh" : 40,
+      "fuelLevelPercent" : 85,
+      "currentLat" : 28.665432,
+      "currentLng" : 77.205678,
+      "nextStop" : null,
+      "nextStopEtaMinutes" : null,
+      "morningDepartureTime" : "06:45 AM",
+      "morningArrivalTime" : "07:50 AM",
+      "eveningDepartureTime" : "03:15 PM",
+      "eveningArrivalTime" : "04:30 PM",
+      "stopsJson" : "[{\"id\":1,\"name\":\"Greenfield Heights Gate 2\",\"time\":\"06:50 AM\",\"lat\":28.665432,\"lng\":77.205678,\"students\":5},{\"id\":2,\"name\":\"St. Xavier Circle\",\"time\":\"07:10 AM\",\"lat\":28.652198,\"lng\":77.210456,\"students\":10},{\"id\":3,\"name\":\"Civil Lines Metro Interchange\",\"time\":\"07:25 AM\",\"lat\":28.640123,\"lng\":77.218765,\"students\":8},{\"id\":4,\"name\":\"Apex International Main Quadrangle\",\"time\":\"07:50 AM\",\"lat\":28.610012,\"lng\":77.235043,\"students\":0}]",
+      "heading" : 0.0,
+      "gpsAccuracyMeters" : 5.0,
+      "isBroadcasting" : false,
+      "lastGpsTimestamp" : null,
+      "hardwareDeviceId" : "GPS-APEX-09",
+      "isIgnitionOn" : false,
+      "tripStatus" : "IDLE_AT_CAMPUS",
+      "tripStartTime" : null,
+      "sourceName" : "Greenfield Heights Terminal",
+      "destinationName" : "Apex International Main Quadrangle",
+      "operatorUsername" : "bus09",
+      "emergencyStatus" : "NORMAL",
+      "sosAlertMessage" : null
+    } ],
+    "notices" : [ {
+      "id" : 2,
+      "title" : "First Periodic Assessments Schedule",
+      "content" : "Periodic Assessments FA1 start from the 15th of this month. Please check your student portal for exam dates and subject syllabus.",
+      "audience" : "STUDENTS",
+      "createdAt" : "2026-09-05T07:26:33.554093",
+      "postedBy" : {
+        "id" : 1,
+        "username" : "admin",
+        "role" : "MANAGEMENT",
+        "staffRole" : "SUPER_ADMIN",
+        "permissions" : "*",
+        "isActive" : true,
+        "createdAt" : "2026-09-05T07:26:33.146207"
+      }
+    }, {
+      "id" : 3,
+      "title" : "Annual Science & Tech Fair 2026",
+      "content" : "All faculty and students are invited to the Main Quadrangle for the science exhibition inauguration at 10:00 AM.",
+      "audience" : "ALL",
+      "createdAt" : "2026-10-10T22:30:18.361001",
+      "postedBy" : null
+    }, {
+      "id" : 4,
+      "title" : "Annual Science & Tech Fair 2026",
+      "content" : "All faculty and students are invited to the Main Quadrangle for the science exhibition inauguration at 10:00 AM.",
+      "audience" : "ALL",
+      "createdAt" : "2026-10-10T22:31:20.373913",
+      "postedBy" : null
+    } ],
+    "schoolEvents" : [ {
+      "id" : 1,
+      "title" : "Exam",
+      "description" : "",
+      "eventDate" : "2026-10-15",
+      "eventType" : "EXAM",
+      "venue" : "Auditorium"
+    } ],
+    "ptmAppointments" : [ {
+      "id" : 1,
+      "student" : {
+        "id" : 1,
+        "user" : {
+          "id" : 3,
+          "username" : "student1",
+          "role" : "STUDENT",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-09-05T07:26:33.509023"
+        },
+        "fullName" : "Alex Morgan",
+        "admissionNumber" : "ADM2025001",
+        "schoolClass" : {
+          "id" : 1,
+          "name" : "Grade 10",
+          "section" : "A",
+          "academicYear" : "2025-2026",
+          "sortOrder" : 1,
+          "classTeacher" : {
+            "id" : 3,
+            "user" : {
+              "id" : 5,
+              "username" : "s",
+              "role" : "TEACHER",
+              "staffRole" : null,
+              "permissions" : null,
+              "isActive" : true,
+              "createdAt" : "2026-10-07T18:24:34.967455"
+            },
+            "fullName" : "Shankarr",
+            "employeeId" : "102",
+            "phone" : "",
+            "email" : "",
+            "qualification" : "",
+            "dateOfJoining" : "2026-10-07"
+          }
+        },
+        "transportRoute" : {
+          "id" : 8,
+          "routeName" : "Route 1 — Northern Metro & Hillside Corridor",
+          "busNumber" : "BUS-01 (Apex Eagle)",
+          "plateNumber" : "DL-01-AX-9942",
+          "driverName" : "Capt. Rajesh Sharma",
+          "driverPhone" : "+91 98765 43210",
+          "driverLicense" : "DL-COMM-2021-99881",
+          "conductorName" : "Suresh Kumar",
+          "conductorPhone" : "+91 98765 43211",
+          "monthlyFee" : 2400.00,
+          "capacity" : 45,
+          "currentStatus" : "IN_TRANSIT",
+          "currentSpeedKmh" : 51,
+          "fuelLevelPercent" : 84,
+          "currentLat" : 28.654738316315658,
+          "currentLng" : 77.21380840266089,
+          "nextStop" : "St. Xavier Circle",
+          "nextStopEtaMinutes" : 1,
+          "morningDepartureTime" : "06:45 AM",
+          "morningArrivalTime" : "07:50 AM",
+          "eveningDepartureTime" : "03:15 PM",
+          "eveningArrivalTime" : "04:30 PM",
+          "stopsJson" : "[{\"id\":1,\"name\":\"Greenfield Heights Gate 2\",\"time\":\"06:50 AM\",\"lat\":17.7832524,\"lng\":83.3755486,\"students\":8},{\"id\":2,\"name\":\"St. Xavier Circle\",\"time\":\"07:05 AM\",\"lat\":28.652,\"lng\":77.21,\"students\":12},{\"id\":3,\"name\":\"Civil Lines Metro Interchange\",\"time\":\"07:20 AM\",\"lat\":28.64,\"lng\":77.218,\"students\":9},{\"id\":4,\"name\":\"Diplomatic Avenue Point\",\"time\":\"07:35 AM\",\"lat\":28.625,\"lng\":77.228,\"students\":7},{\"id\":5,\"name\":\"Apex International Main Quadrangle\",\"time\":\"07:50 AM\",\"lat\":28.61,\"lng\":77.235,\"students\":0}]",
+          "heading" : 335.0,
+          "gpsAccuracyMeters" : 3.5,
+          "isBroadcasting" : true,
+          "lastGpsTimestamp" : "2026-10-10T13:47:55.591053100Z",
+          "hardwareDeviceId" : "GPS-APEX-01",
+          "isIgnitionOn" : true,
+          "tripStatus" : "TRIP_STARTED",
+          "tripStartTime" : "07:13 PM",
+          "sourceName" : "Greenfield Heights Terminal",
+          "destinationName" : "Apex International Main Quadrangle",
+          "operatorUsername" : "bus01",
+          "emergencyStatus" : "NORMAL",
+          "sosAlertMessage" : null
+        },
+        "busStop" : "St. Xavier Circle",
+        "dateOfBirth" : "2010-05-15",
+        "gender" : "MALE",
+        "address" : "123 Education Lane, Tech City",
+        "admissionDate" : "2025-04-01",
+        "academicYear" : "2025-2026",
+        "isActive" : false
+      },
+      "teacher" : {
+        "id" : 1,
+        "user" : {
+          "id" : 2,
+          "username" : "teacher1",
+          "role" : "TEACHER",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-09-05T07:26:33.351429"
+        },
+        "fullName" : "Sarah Jenkins",
+        "employeeId" : "T101",
+        "phone" : "9876543210",
+        "email" : "sarah.jenkins@school.edu",
+        "qualification" : "M.Sc. Mathematics",
+        "dateOfJoining" : "2020-06-01"
+      },
+      "appointmentDate" : "2026-10-15",
+      "timeSlot" : "11:00 AM - 11:30 AM",
+      "notes" : "Discussion regarding upcoming board exams.",
+      "adminRemarks" : "Slot occupied. Please request another time.",
+      "status" : "REJECTED"
+    }, {
+      "id" : 2,
+      "student" : {
+        "id" : 1,
+        "user" : {
+          "id" : 3,
+          "username" : "student1",
+          "role" : "STUDENT",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-09-05T07:26:33.509023"
+        },
+        "fullName" : "Alex Morgan",
+        "admissionNumber" : "ADM2025001",
+        "schoolClass" : {
+          "id" : 1,
+          "name" : "Grade 10",
+          "section" : "A",
+          "academicYear" : "2025-2026",
+          "sortOrder" : 1,
+          "classTeacher" : {
+            "id" : 3,
+            "user" : {
+              "id" : 5,
+              "username" : "s",
+              "role" : "TEACHER",
+              "staffRole" : null,
+              "permissions" : null,
+              "isActive" : true,
+              "createdAt" : "2026-10-07T18:24:34.967455"
+            },
+            "fullName" : "Shankarr",
+            "employeeId" : "102",
+            "phone" : "",
+            "email" : "",
+            "qualification" : "",
+            "dateOfJoining" : "2026-10-07"
+          }
+        },
+        "transportRoute" : {
+          "id" : 8,
+          "routeName" : "Route 1 — Northern Metro & Hillside Corridor",
+          "busNumber" : "BUS-01 (Apex Eagle)",
+          "plateNumber" : "DL-01-AX-9942",
+          "driverName" : "Capt. Rajesh Sharma",
+          "driverPhone" : "+91 98765 43210",
+          "driverLicense" : "DL-COMM-2021-99881",
+          "conductorName" : "Suresh Kumar",
+          "conductorPhone" : "+91 98765 43211",
+          "monthlyFee" : 2400.00,
+          "capacity" : 45,
+          "currentStatus" : "IN_TRANSIT",
+          "currentSpeedKmh" : 51,
+          "fuelLevelPercent" : 84,
+          "currentLat" : 28.654738316315658,
+          "currentLng" : 77.21380840266089,
+          "nextStop" : "St. Xavier Circle",
+          "nextStopEtaMinutes" : 1,
+          "morningDepartureTime" : "06:45 AM",
+          "morningArrivalTime" : "07:50 AM",
+          "eveningDepartureTime" : "03:15 PM",
+          "eveningArrivalTime" : "04:30 PM",
+          "stopsJson" : "[{\"id\":1,\"name\":\"Greenfield Heights Gate 2\",\"time\":\"06:50 AM\",\"lat\":17.7832524,\"lng\":83.3755486,\"students\":8},{\"id\":2,\"name\":\"St. Xavier Circle\",\"time\":\"07:05 AM\",\"lat\":28.652,\"lng\":77.21,\"students\":12},{\"id\":3,\"name\":\"Civil Lines Metro Interchange\",\"time\":\"07:20 AM\",\"lat\":28.64,\"lng\":77.218,\"students\":9},{\"id\":4,\"name\":\"Diplomatic Avenue Point\",\"time\":\"07:35 AM\",\"lat\":28.625,\"lng\":77.228,\"students\":7},{\"id\":5,\"name\":\"Apex International Main Quadrangle\",\"time\":\"07:50 AM\",\"lat\":28.61,\"lng\":77.235,\"students\":0}]",
+          "heading" : 335.0,
+          "gpsAccuracyMeters" : 3.5,
+          "isBroadcasting" : true,
+          "lastGpsTimestamp" : "2026-10-10T13:47:55.591053100Z",
+          "hardwareDeviceId" : "GPS-APEX-01",
+          "isIgnitionOn" : true,
+          "tripStatus" : "TRIP_STARTED",
+          "tripStartTime" : "07:13 PM",
+          "sourceName" : "Greenfield Heights Terminal",
+          "destinationName" : "Apex International Main Quadrangle",
+          "operatorUsername" : "bus01",
+          "emergencyStatus" : "NORMAL",
+          "sosAlertMessage" : null
+        },
+        "busStop" : "St. Xavier Circle",
+        "dateOfBirth" : "2010-05-15",
+        "gender" : "MALE",
+        "address" : "123 Education Lane, Tech City",
+        "admissionDate" : "2025-04-01",
+        "academicYear" : "2025-2026",
+        "isActive" : false
+      },
+      "teacher" : {
+        "id" : 1,
+        "user" : {
+          "id" : 2,
+          "username" : "teacher1",
+          "role" : "TEACHER",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-09-05T07:26:33.351429"
+        },
+        "fullName" : "Sarah Jenkins",
+        "employeeId" : "T101",
+        "phone" : "9876543210",
+        "email" : "sarah.jenkins@school.edu",
+        "qualification" : "M.Sc. Mathematics",
+        "dateOfJoining" : "2020-06-01"
+      },
+      "appointmentDate" : "2026-10-15",
+      "timeSlot" : "11:00 AM - 11:30 AM",
+      "notes" : "Discussion regarding upcoming board exams.",
+      "adminRemarks" : "Confirmed slot in Conference Room B.",
+      "status" : "ACCEPTED"
+    }, {
+      "id" : 3,
+      "student" : {
+        "id" : 1,
+        "user" : {
+          "id" : 3,
+          "username" : "student1",
+          "role" : "STUDENT",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-09-05T07:26:33.509023"
+        },
+        "fullName" : "Alex Morgan",
+        "admissionNumber" : "ADM2025001",
+        "schoolClass" : {
+          "id" : 1,
+          "name" : "Grade 10",
+          "section" : "A",
+          "academicYear" : "2025-2026",
+          "sortOrder" : 1,
+          "classTeacher" : {
+            "id" : 3,
+            "user" : {
+              "id" : 5,
+              "username" : "s",
+              "role" : "TEACHER",
+              "staffRole" : null,
+              "permissions" : null,
+              "isActive" : true,
+              "createdAt" : "2026-10-07T18:24:34.967455"
+            },
+            "fullName" : "Shankarr",
+            "employeeId" : "102",
+            "phone" : "",
+            "email" : "",
+            "qualification" : "",
+            "dateOfJoining" : "2026-10-07"
+          }
+        },
+        "transportRoute" : {
+          "id" : 8,
+          "routeName" : "Route 1 — Northern Metro & Hillside Corridor",
+          "busNumber" : "BUS-01 (Apex Eagle)",
+          "plateNumber" : "DL-01-AX-9942",
+          "driverName" : "Capt. Rajesh Sharma",
+          "driverPhone" : "+91 98765 43210",
+          "driverLicense" : "DL-COMM-2021-99881",
+          "conductorName" : "Suresh Kumar",
+          "conductorPhone" : "+91 98765 43211",
+          "monthlyFee" : 2400.00,
+          "capacity" : 45,
+          "currentStatus" : "IN_TRANSIT",
+          "currentSpeedKmh" : 51,
+          "fuelLevelPercent" : 84,
+          "currentLat" : 28.654738316315658,
+          "currentLng" : 77.21380840266089,
+          "nextStop" : "St. Xavier Circle",
+          "nextStopEtaMinutes" : 1,
+          "morningDepartureTime" : "06:45 AM",
+          "morningArrivalTime" : "07:50 AM",
+          "eveningDepartureTime" : "03:15 PM",
+          "eveningArrivalTime" : "04:30 PM",
+          "stopsJson" : "[{\"id\":1,\"name\":\"Greenfield Heights Gate 2\",\"time\":\"06:50 AM\",\"lat\":17.7832524,\"lng\":83.3755486,\"students\":8},{\"id\":2,\"name\":\"St. Xavier Circle\",\"time\":\"07:05 AM\",\"lat\":28.652,\"lng\":77.21,\"students\":12},{\"id\":3,\"name\":\"Civil Lines Metro Interchange\",\"time\":\"07:20 AM\",\"lat\":28.64,\"lng\":77.218,\"students\":9},{\"id\":4,\"name\":\"Diplomatic Avenue Point\",\"time\":\"07:35 AM\",\"lat\":28.625,\"lng\":77.228,\"students\":7},{\"id\":5,\"name\":\"Apex International Main Quadrangle\",\"time\":\"07:50 AM\",\"lat\":28.61,\"lng\":77.235,\"students\":0}]",
+          "heading" : 335.0,
+          "gpsAccuracyMeters" : 3.5,
+          "isBroadcasting" : true,
+          "lastGpsTimestamp" : "2026-10-10T13:47:55.591053100Z",
+          "hardwareDeviceId" : "GPS-APEX-01",
+          "isIgnitionOn" : true,
+          "tripStatus" : "TRIP_STARTED",
+          "tripStartTime" : "07:13 PM",
+          "sourceName" : "Greenfield Heights Terminal",
+          "destinationName" : "Apex International Main Quadrangle",
+          "operatorUsername" : "bus01",
+          "emergencyStatus" : "NORMAL",
+          "sosAlertMessage" : null
+        },
+        "busStop" : "St. Xavier Circle",
+        "dateOfBirth" : "2010-05-15",
+        "gender" : "MALE",
+        "address" : "123 Education Lane, Tech City",
+        "admissionDate" : "2025-04-01",
+        "academicYear" : "2025-2026",
+        "isActive" : false
+      },
+      "teacher" : {
+        "id" : 1,
+        "user" : {
+          "id" : 2,
+          "username" : "teacher1",
+          "role" : "TEACHER",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-09-05T07:26:33.351429"
+        },
+        "fullName" : "Sarah Jenkins",
+        "employeeId" : "T101",
+        "phone" : "9876543210",
+        "email" : "sarah.jenkins@school.edu",
+        "qualification" : "M.Sc. Mathematics",
+        "dateOfJoining" : "2020-06-01"
+      },
+      "appointmentDate" : "2026-10-15",
+      "timeSlot" : "11:00 AM - 11:30 AM",
+      "notes" : "Discussion regarding upcoming board exams.",
+      "adminRemarks" : "Confirmed slot in Conference Room B.",
+      "status" : "ACCEPTED"
+    }, {
+      "id" : 4,
+      "student" : {
+        "id" : 1,
+        "user" : {
+          "id" : 3,
+          "username" : "student1",
+          "role" : "STUDENT",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-09-05T07:26:33.509023"
+        },
+        "fullName" : "Alex Morgan",
+        "admissionNumber" : "ADM2025001",
+        "schoolClass" : {
+          "id" : 1,
+          "name" : "Grade 10",
+          "section" : "A",
+          "academicYear" : "2025-2026",
+          "sortOrder" : 1,
+          "classTeacher" : {
+            "id" : 3,
+            "user" : {
+              "id" : 5,
+              "username" : "s",
+              "role" : "TEACHER",
+              "staffRole" : null,
+              "permissions" : null,
+              "isActive" : true,
+              "createdAt" : "2026-10-07T18:24:34.967455"
+            },
+            "fullName" : "Shankarr",
+            "employeeId" : "102",
+            "phone" : "",
+            "email" : "",
+            "qualification" : "",
+            "dateOfJoining" : "2026-10-07"
+          }
+        },
+        "transportRoute" : {
+          "id" : 8,
+          "routeName" : "Route 1 — Northern Metro & Hillside Corridor",
+          "busNumber" : "BUS-01 (Apex Eagle)",
+          "plateNumber" : "DL-01-AX-9942",
+          "driverName" : "Capt. Rajesh Sharma",
+          "driverPhone" : "+91 98765 43210",
+          "driverLicense" : "DL-COMM-2021-99881",
+          "conductorName" : "Suresh Kumar",
+          "conductorPhone" : "+91 98765 43211",
+          "monthlyFee" : 2400.00,
+          "capacity" : 45,
+          "currentStatus" : "IN_TRANSIT",
+          "currentSpeedKmh" : 51,
+          "fuelLevelPercent" : 84,
+          "currentLat" : 28.654738316315658,
+          "currentLng" : 77.21380840266089,
+          "nextStop" : "St. Xavier Circle",
+          "nextStopEtaMinutes" : 1,
+          "morningDepartureTime" : "06:45 AM",
+          "morningArrivalTime" : "07:50 AM",
+          "eveningDepartureTime" : "03:15 PM",
+          "eveningArrivalTime" : "04:30 PM",
+          "stopsJson" : "[{\"id\":1,\"name\":\"Greenfield Heights Gate 2\",\"time\":\"06:50 AM\",\"lat\":17.7832524,\"lng\":83.3755486,\"students\":8},{\"id\":2,\"name\":\"St. Xavier Circle\",\"time\":\"07:05 AM\",\"lat\":28.652,\"lng\":77.21,\"students\":12},{\"id\":3,\"name\":\"Civil Lines Metro Interchange\",\"time\":\"07:20 AM\",\"lat\":28.64,\"lng\":77.218,\"students\":9},{\"id\":4,\"name\":\"Diplomatic Avenue Point\",\"time\":\"07:35 AM\",\"lat\":28.625,\"lng\":77.228,\"students\":7},{\"id\":5,\"name\":\"Apex International Main Quadrangle\",\"time\":\"07:50 AM\",\"lat\":28.61,\"lng\":77.235,\"students\":0}]",
+          "heading" : 335.0,
+          "gpsAccuracyMeters" : 3.5,
+          "isBroadcasting" : true,
+          "lastGpsTimestamp" : "2026-10-10T13:47:55.591053100Z",
+          "hardwareDeviceId" : "GPS-APEX-01",
+          "isIgnitionOn" : true,
+          "tripStatus" : "TRIP_STARTED",
+          "tripStartTime" : "07:13 PM",
+          "sourceName" : "Greenfield Heights Terminal",
+          "destinationName" : "Apex International Main Quadrangle",
+          "operatorUsername" : "bus01",
+          "emergencyStatus" : "NORMAL",
+          "sosAlertMessage" : null
+        },
+        "busStop" : "St. Xavier Circle",
+        "dateOfBirth" : "2010-05-15",
+        "gender" : "MALE",
+        "address" : "123 Education Lane, Tech City",
+        "admissionDate" : "2025-04-01",
+        "academicYear" : "2025-2026",
+        "isActive" : false
+      },
+      "teacher" : {
+        "id" : 1,
+        "user" : {
+          "id" : 2,
+          "username" : "teacher1",
+          "role" : "TEACHER",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-09-05T07:26:33.351429"
+        },
+        "fullName" : "Sarah Jenkins",
+        "employeeId" : "T101",
+        "phone" : "9876543210",
+        "email" : "sarah.jenkins@school.edu",
+        "qualification" : "M.Sc. Mathematics",
+        "dateOfJoining" : "2020-06-01"
+      },
+      "appointmentDate" : "2026-10-15",
+      "timeSlot" : "11:00 AM - 11:30 AM",
+      "notes" : "Discussion regarding upcoming board exams.",
+      "adminRemarks" : "Confirmed slot in Conference Room B.",
+      "status" : "ACCEPTED"
+    }, {
+      "id" : 5,
+      "student" : {
+        "id" : 8,
+        "user" : {
+          "id" : 15,
+          "username" : "ss",
+          "role" : "STUDENT",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-10-07T20:51:55.478349"
+        },
+        "fullName" : "Surya",
+        "admissionNumber" : "ADM2025007",
+        "schoolClass" : {
+          "id" : 2,
+          "name" : "Grade 9",
+          "section" : "A",
+          "academicYear" : "2025-2026",
+          "sortOrder" : 1,
+          "classTeacher" : {
+            "id" : 1,
+            "user" : {
+              "id" : 2,
+              "username" : "teacher1",
+              "role" : "TEACHER",
+              "staffRole" : null,
+              "permissions" : null,
+              "isActive" : true,
+              "createdAt" : "2026-09-05T07:26:33.351429"
+            },
+            "fullName" : "Sarah Jenkins",
+            "employeeId" : "T101",
+            "phone" : "9876543210",
+            "email" : "sarah.jenkins@school.edu",
+            "qualification" : "M.Sc. Mathematics",
+            "dateOfJoining" : "2020-06-01"
+          }
+        },
+        "transportRoute" : null,
+        "busStop" : null,
+        "dateOfBirth" : null,
+        "gender" : "MALE",
+        "address" : "",
+        "admissionDate" : "2026-10-07",
+        "academicYear" : "2025-2026",
+        "isActive" : true
+      },
+      "teacher" : {
+        "id" : 4,
+        "user" : {
+          "id" : 16,
+          "username" : "G",
+          "role" : "TEACHER",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-10-08T00:23:40.338671"
+        },
+        "fullName" : "GOPI",
+        "employeeId" : "G1000",
+        "phone" : "",
+        "email" : "",
+        "qualification" : "",
+        "dateOfJoining" : "2026-10-08"
+      },
+      "appointmentDate" : "2026-10-08",
+      "timeSlot" : "11:00 AM - 11:30 AM",
+      "notes" : "",
+      "adminRemarks" : "Slot occupied. Please request another time.",
+      "status" : "REJECTED"
+    } ],
+    "leaveRequests" : [ {
+      "id" : 1,
+      "student" : {
+        "id" : 1,
+        "user" : {
+          "id" : 3,
+          "username" : "student1",
+          "role" : "STUDENT",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-09-05T07:26:33.509023"
+        },
+        "fullName" : "Alex Morgan",
+        "admissionNumber" : "ADM2025001",
+        "schoolClass" : {
+          "id" : 1,
+          "name" : "Grade 10",
+          "section" : "A",
+          "academicYear" : "2025-2026",
+          "sortOrder" : 1,
+          "classTeacher" : {
+            "id" : 3,
+            "user" : {
+              "id" : 5,
+              "username" : "s",
+              "role" : "TEACHER",
+              "staffRole" : null,
+              "permissions" : null,
+              "isActive" : true,
+              "createdAt" : "2026-10-07T18:24:34.967455"
+            },
+            "fullName" : "Shankarr",
+            "employeeId" : "102",
+            "phone" : "",
+            "email" : "",
+            "qualification" : "",
+            "dateOfJoining" : "2026-10-07"
+          }
+        },
+        "transportRoute" : {
+          "id" : 8,
+          "routeName" : "Route 1 — Northern Metro & Hillside Corridor",
+          "busNumber" : "BUS-01 (Apex Eagle)",
+          "plateNumber" : "DL-01-AX-9942",
+          "driverName" : "Capt. Rajesh Sharma",
+          "driverPhone" : "+91 98765 43210",
+          "driverLicense" : "DL-COMM-2021-99881",
+          "conductorName" : "Suresh Kumar",
+          "conductorPhone" : "+91 98765 43211",
+          "monthlyFee" : 2400.00,
+          "capacity" : 45,
+          "currentStatus" : "IN_TRANSIT",
+          "currentSpeedKmh" : 51,
+          "fuelLevelPercent" : 84,
+          "currentLat" : 28.654738316315658,
+          "currentLng" : 77.21380840266089,
+          "nextStop" : "St. Xavier Circle",
+          "nextStopEtaMinutes" : 1,
+          "morningDepartureTime" : "06:45 AM",
+          "morningArrivalTime" : "07:50 AM",
+          "eveningDepartureTime" : "03:15 PM",
+          "eveningArrivalTime" : "04:30 PM",
+          "stopsJson" : "[{\"id\":1,\"name\":\"Greenfield Heights Gate 2\",\"time\":\"06:50 AM\",\"lat\":17.7832524,\"lng\":83.3755486,\"students\":8},{\"id\":2,\"name\":\"St. Xavier Circle\",\"time\":\"07:05 AM\",\"lat\":28.652,\"lng\":77.21,\"students\":12},{\"id\":3,\"name\":\"Civil Lines Metro Interchange\",\"time\":\"07:20 AM\",\"lat\":28.64,\"lng\":77.218,\"students\":9},{\"id\":4,\"name\":\"Diplomatic Avenue Point\",\"time\":\"07:35 AM\",\"lat\":28.625,\"lng\":77.228,\"students\":7},{\"id\":5,\"name\":\"Apex International Main Quadrangle\",\"time\":\"07:50 AM\",\"lat\":28.61,\"lng\":77.235,\"students\":0}]",
+          "heading" : 335.0,
+          "gpsAccuracyMeters" : 3.5,
+          "isBroadcasting" : true,
+          "lastGpsTimestamp" : "2026-10-10T13:47:55.591053100Z",
+          "hardwareDeviceId" : "GPS-APEX-01",
+          "isIgnitionOn" : true,
+          "tripStatus" : "TRIP_STARTED",
+          "tripStartTime" : "07:13 PM",
+          "sourceName" : "Greenfield Heights Terminal",
+          "destinationName" : "Apex International Main Quadrangle",
+          "operatorUsername" : "bus01",
+          "emergencyStatus" : "NORMAL",
+          "sosAlertMessage" : null
+        },
+        "busStop" : "St. Xavier Circle",
+        "dateOfBirth" : "2010-05-15",
+        "gender" : "MALE",
+        "address" : "123 Education Lane, Tech City",
+        "admissionDate" : "2025-04-01",
+        "academicYear" : "2025-2026",
+        "isActive" : false
+      },
+      "startDate" : "2026-10-09",
+      "endDate" : "2026-10-15",
+      "reason" : "ABS",
+      "adminRemarks" : null,
+      "status" : "REJECTED",
+      "appliedDate" : "2026-10-07"
+    }, {
+      "id" : 2,
+      "student" : {
+        "id" : 1,
+        "user" : {
+          "id" : 3,
+          "username" : "student1",
+          "role" : "STUDENT",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-09-05T07:26:33.509023"
+        },
+        "fullName" : "Alex Morgan",
+        "admissionNumber" : "ADM2025001",
+        "schoolClass" : {
+          "id" : 1,
+          "name" : "Grade 10",
+          "section" : "A",
+          "academicYear" : "2025-2026",
+          "sortOrder" : 1,
+          "classTeacher" : {
+            "id" : 3,
+            "user" : {
+              "id" : 5,
+              "username" : "s",
+              "role" : "TEACHER",
+              "staffRole" : null,
+              "permissions" : null,
+              "isActive" : true,
+              "createdAt" : "2026-10-07T18:24:34.967455"
+            },
+            "fullName" : "Shankarr",
+            "employeeId" : "102",
+            "phone" : "",
+            "email" : "",
+            "qualification" : "",
+            "dateOfJoining" : "2026-10-07"
+          }
+        },
+        "transportRoute" : {
+          "id" : 8,
+          "routeName" : "Route 1 — Northern Metro & Hillside Corridor",
+          "busNumber" : "BUS-01 (Apex Eagle)",
+          "plateNumber" : "DL-01-AX-9942",
+          "driverName" : "Capt. Rajesh Sharma",
+          "driverPhone" : "+91 98765 43210",
+          "driverLicense" : "DL-COMM-2021-99881",
+          "conductorName" : "Suresh Kumar",
+          "conductorPhone" : "+91 98765 43211",
+          "monthlyFee" : 2400.00,
+          "capacity" : 45,
+          "currentStatus" : "IN_TRANSIT",
+          "currentSpeedKmh" : 51,
+          "fuelLevelPercent" : 84,
+          "currentLat" : 28.654738316315658,
+          "currentLng" : 77.21380840266089,
+          "nextStop" : "St. Xavier Circle",
+          "nextStopEtaMinutes" : 1,
+          "morningDepartureTime" : "06:45 AM",
+          "morningArrivalTime" : "07:50 AM",
+          "eveningDepartureTime" : "03:15 PM",
+          "eveningArrivalTime" : "04:30 PM",
+          "stopsJson" : "[{\"id\":1,\"name\":\"Greenfield Heights Gate 2\",\"time\":\"06:50 AM\",\"lat\":17.7832524,\"lng\":83.3755486,\"students\":8},{\"id\":2,\"name\":\"St. Xavier Circle\",\"time\":\"07:05 AM\",\"lat\":28.652,\"lng\":77.21,\"students\":12},{\"id\":3,\"name\":\"Civil Lines Metro Interchange\",\"time\":\"07:20 AM\",\"lat\":28.64,\"lng\":77.218,\"students\":9},{\"id\":4,\"name\":\"Diplomatic Avenue Point\",\"time\":\"07:35 AM\",\"lat\":28.625,\"lng\":77.228,\"students\":7},{\"id\":5,\"name\":\"Apex International Main Quadrangle\",\"time\":\"07:50 AM\",\"lat\":28.61,\"lng\":77.235,\"students\":0}]",
+          "heading" : 335.0,
+          "gpsAccuracyMeters" : 3.5,
+          "isBroadcasting" : true,
+          "lastGpsTimestamp" : "2026-10-10T13:47:55.591053100Z",
+          "hardwareDeviceId" : "GPS-APEX-01",
+          "isIgnitionOn" : true,
+          "tripStatus" : "TRIP_STARTED",
+          "tripStartTime" : "07:13 PM",
+          "sourceName" : "Greenfield Heights Terminal",
+          "destinationName" : "Apex International Main Quadrangle",
+          "operatorUsername" : "bus01",
+          "emergencyStatus" : "NORMAL",
+          "sosAlertMessage" : null
+        },
+        "busStop" : "St. Xavier Circle",
+        "dateOfBirth" : "2010-05-15",
+        "gender" : "MALE",
+        "address" : "123 Education Lane, Tech City",
+        "admissionDate" : "2025-04-01",
+        "academicYear" : "2025-2026",
+        "isActive" : false
+      },
+      "startDate" : "2026-10-20",
+      "endDate" : "2026-10-22",
+      "reason" : "Family wedding event.",
+      "adminRemarks" : "Approved by Principal Office.",
+      "status" : "APPROVED",
+      "appliedDate" : "2026-10-07"
+    }, {
+      "id" : 3,
+      "student" : {
+        "id" : 1,
+        "user" : {
+          "id" : 3,
+          "username" : "student1",
+          "role" : "STUDENT",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-09-05T07:26:33.509023"
+        },
+        "fullName" : "Alex Morgan",
+        "admissionNumber" : "ADM2025001",
+        "schoolClass" : {
+          "id" : 1,
+          "name" : "Grade 10",
+          "section" : "A",
+          "academicYear" : "2025-2026",
+          "sortOrder" : 1,
+          "classTeacher" : {
+            "id" : 3,
+            "user" : {
+              "id" : 5,
+              "username" : "s",
+              "role" : "TEACHER",
+              "staffRole" : null,
+              "permissions" : null,
+              "isActive" : true,
+              "createdAt" : "2026-10-07T18:24:34.967455"
+            },
+            "fullName" : "Shankarr",
+            "employeeId" : "102",
+            "phone" : "",
+            "email" : "",
+            "qualification" : "",
+            "dateOfJoining" : "2026-10-07"
+          }
+        },
+        "transportRoute" : {
+          "id" : 8,
+          "routeName" : "Route 1 — Northern Metro & Hillside Corridor",
+          "busNumber" : "BUS-01 (Apex Eagle)",
+          "plateNumber" : "DL-01-AX-9942",
+          "driverName" : "Capt. Rajesh Sharma",
+          "driverPhone" : "+91 98765 43210",
+          "driverLicense" : "DL-COMM-2021-99881",
+          "conductorName" : "Suresh Kumar",
+          "conductorPhone" : "+91 98765 43211",
+          "monthlyFee" : 2400.00,
+          "capacity" : 45,
+          "currentStatus" : "IN_TRANSIT",
+          "currentSpeedKmh" : 51,
+          "fuelLevelPercent" : 84,
+          "currentLat" : 28.654738316315658,
+          "currentLng" : 77.21380840266089,
+          "nextStop" : "St. Xavier Circle",
+          "nextStopEtaMinutes" : 1,
+          "morningDepartureTime" : "06:45 AM",
+          "morningArrivalTime" : "07:50 AM",
+          "eveningDepartureTime" : "03:15 PM",
+          "eveningArrivalTime" : "04:30 PM",
+          "stopsJson" : "[{\"id\":1,\"name\":\"Greenfield Heights Gate 2\",\"time\":\"06:50 AM\",\"lat\":17.7832524,\"lng\":83.3755486,\"students\":8},{\"id\":2,\"name\":\"St. Xavier Circle\",\"time\":\"07:05 AM\",\"lat\":28.652,\"lng\":77.21,\"students\":12},{\"id\":3,\"name\":\"Civil Lines Metro Interchange\",\"time\":\"07:20 AM\",\"lat\":28.64,\"lng\":77.218,\"students\":9},{\"id\":4,\"name\":\"Diplomatic Avenue Point\",\"time\":\"07:35 AM\",\"lat\":28.625,\"lng\":77.228,\"students\":7},{\"id\":5,\"name\":\"Apex International Main Quadrangle\",\"time\":\"07:50 AM\",\"lat\":28.61,\"lng\":77.235,\"students\":0}]",
+          "heading" : 335.0,
+          "gpsAccuracyMeters" : 3.5,
+          "isBroadcasting" : true,
+          "lastGpsTimestamp" : "2026-10-10T13:47:55.591053100Z",
+          "hardwareDeviceId" : "GPS-APEX-01",
+          "isIgnitionOn" : true,
+          "tripStatus" : "TRIP_STARTED",
+          "tripStartTime" : "07:13 PM",
+          "sourceName" : "Greenfield Heights Terminal",
+          "destinationName" : "Apex International Main Quadrangle",
+          "operatorUsername" : "bus01",
+          "emergencyStatus" : "NORMAL",
+          "sosAlertMessage" : null
+        },
+        "busStop" : "St. Xavier Circle",
+        "dateOfBirth" : "2010-05-15",
+        "gender" : "MALE",
+        "address" : "123 Education Lane, Tech City",
+        "admissionDate" : "2025-04-01",
+        "academicYear" : "2025-2026",
+        "isActive" : false
+      },
+      "startDate" : "2026-10-20",
+      "endDate" : "2026-10-22",
+      "reason" : "Family wedding event.",
+      "adminRemarks" : "Approved by Principal Office.",
+      "status" : "APPROVED",
+      "appliedDate" : "2026-10-07"
+    }, {
+      "id" : 4,
+      "student" : {
+        "id" : 1,
+        "user" : {
+          "id" : 3,
+          "username" : "student1",
+          "role" : "STUDENT",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-09-05T07:26:33.509023"
+        },
+        "fullName" : "Alex Morgan",
+        "admissionNumber" : "ADM2025001",
+        "schoolClass" : {
+          "id" : 1,
+          "name" : "Grade 10",
+          "section" : "A",
+          "academicYear" : "2025-2026",
+          "sortOrder" : 1,
+          "classTeacher" : {
+            "id" : 3,
+            "user" : {
+              "id" : 5,
+              "username" : "s",
+              "role" : "TEACHER",
+              "staffRole" : null,
+              "permissions" : null,
+              "isActive" : true,
+              "createdAt" : "2026-10-07T18:24:34.967455"
+            },
+            "fullName" : "Shankarr",
+            "employeeId" : "102",
+            "phone" : "",
+            "email" : "",
+            "qualification" : "",
+            "dateOfJoining" : "2026-10-07"
+          }
+        },
+        "transportRoute" : {
+          "id" : 8,
+          "routeName" : "Route 1 — Northern Metro & Hillside Corridor",
+          "busNumber" : "BUS-01 (Apex Eagle)",
+          "plateNumber" : "DL-01-AX-9942",
+          "driverName" : "Capt. Rajesh Sharma",
+          "driverPhone" : "+91 98765 43210",
+          "driverLicense" : "DL-COMM-2021-99881",
+          "conductorName" : "Suresh Kumar",
+          "conductorPhone" : "+91 98765 43211",
+          "monthlyFee" : 2400.00,
+          "capacity" : 45,
+          "currentStatus" : "IN_TRANSIT",
+          "currentSpeedKmh" : 51,
+          "fuelLevelPercent" : 84,
+          "currentLat" : 28.654738316315658,
+          "currentLng" : 77.21380840266089,
+          "nextStop" : "St. Xavier Circle",
+          "nextStopEtaMinutes" : 1,
+          "morningDepartureTime" : "06:45 AM",
+          "morningArrivalTime" : "07:50 AM",
+          "eveningDepartureTime" : "03:15 PM",
+          "eveningArrivalTime" : "04:30 PM",
+          "stopsJson" : "[{\"id\":1,\"name\":\"Greenfield Heights Gate 2\",\"time\":\"06:50 AM\",\"lat\":17.7832524,\"lng\":83.3755486,\"students\":8},{\"id\":2,\"name\":\"St. Xavier Circle\",\"time\":\"07:05 AM\",\"lat\":28.652,\"lng\":77.21,\"students\":12},{\"id\":3,\"name\":\"Civil Lines Metro Interchange\",\"time\":\"07:20 AM\",\"lat\":28.64,\"lng\":77.218,\"students\":9},{\"id\":4,\"name\":\"Diplomatic Avenue Point\",\"time\":\"07:35 AM\",\"lat\":28.625,\"lng\":77.228,\"students\":7},{\"id\":5,\"name\":\"Apex International Main Quadrangle\",\"time\":\"07:50 AM\",\"lat\":28.61,\"lng\":77.235,\"students\":0}]",
+          "heading" : 335.0,
+          "gpsAccuracyMeters" : 3.5,
+          "isBroadcasting" : true,
+          "lastGpsTimestamp" : "2026-10-10T13:47:55.591053100Z",
+          "hardwareDeviceId" : "GPS-APEX-01",
+          "isIgnitionOn" : true,
+          "tripStatus" : "TRIP_STARTED",
+          "tripStartTime" : "07:13 PM",
+          "sourceName" : "Greenfield Heights Terminal",
+          "destinationName" : "Apex International Main Quadrangle",
+          "operatorUsername" : "bus01",
+          "emergencyStatus" : "NORMAL",
+          "sosAlertMessage" : null
+        },
+        "busStop" : "St. Xavier Circle",
+        "dateOfBirth" : "2010-05-15",
+        "gender" : "MALE",
+        "address" : "123 Education Lane, Tech City",
+        "admissionDate" : "2025-04-01",
+        "academicYear" : "2025-2026",
+        "isActive" : false
+      },
+      "startDate" : "2026-10-20",
+      "endDate" : "2026-10-22",
+      "reason" : "Family wedding event.",
+      "adminRemarks" : "Approved by Principal Office.",
+      "status" : "APPROVED",
+      "appliedDate" : "2026-10-07"
+    } ],
+    "admissions" : [ {
+      "id" : 1,
+      "applicationNo" : "ADM-1791401491622",
+      "studentName" : "Prospective Student Test",
+      "applyingForGrade" : "Grade 9",
+      "parentName" : "Test Parent",
+      "phone" : "9988776655",
+      "email" : "testparent@example.com",
+      "previousSchool" : null,
+      "dateOfBirth" : null,
+      "address" : null,
+      "status" : "PENDING",
+      "appliedDate" : "2026-10-08"
+    }, {
+      "id" : 2,
+      "applicationNo" : "ADM-1791401518970",
+      "studentName" : "Prospective Student Test",
+      "applyingForGrade" : "Grade 9",
+      "parentName" : "Test Parent",
+      "phone" : "9988776655",
+      "email" : "testparent@example.com",
+      "previousSchool" : null,
+      "dateOfBirth" : null,
+      "address" : null,
+      "status" : "PENDING",
+      "appliedDate" : "2026-10-08"
+    }, {
+      "id" : 3,
+      "applicationNo" : "ADM-1791401527377",
+      "studentName" : "Prospective Student Test",
+      "applyingForGrade" : "Grade 9",
+      "parentName" : "Test Parent",
+      "phone" : "9988776655",
+      "email" : "testparent@example.com",
+      "previousSchool" : null,
+      "dateOfBirth" : null,
+      "address" : null,
+      "status" : "PENDING",
+      "appliedDate" : "2026-10-08"
+    } ],
+    "alumni" : [ {
+      "id" : 1,
+      "student" : {
+        "id" : 1,
+        "user" : {
+          "id" : 3,
+          "username" : "student1",
+          "role" : "STUDENT",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-09-05T07:26:33.509023"
+        },
+        "fullName" : "Alex Morgan",
+        "admissionNumber" : "ADM2025001",
+        "schoolClass" : {
+          "id" : 1,
+          "name" : "Grade 10",
+          "section" : "A",
+          "academicYear" : "2025-2026",
+          "sortOrder" : 1,
+          "classTeacher" : {
+            "id" : 3,
+            "user" : {
+              "id" : 5,
+              "username" : "s",
+              "role" : "TEACHER",
+              "staffRole" : null,
+              "permissions" : null,
+              "isActive" : true,
+              "createdAt" : "2026-10-07T18:24:34.967455"
+            },
+            "fullName" : "Shankarr",
+            "employeeId" : "102",
+            "phone" : "",
+            "email" : "",
+            "qualification" : "",
+            "dateOfJoining" : "2026-10-07"
+          }
+        },
+        "transportRoute" : {
+          "id" : 8,
+          "routeName" : "Route 1 — Northern Metro & Hillside Corridor",
+          "busNumber" : "BUS-01 (Apex Eagle)",
+          "plateNumber" : "DL-01-AX-9942",
+          "driverName" : "Capt. Rajesh Sharma",
+          "driverPhone" : "+91 98765 43210",
+          "driverLicense" : "DL-COMM-2021-99881",
+          "conductorName" : "Suresh Kumar",
+          "conductorPhone" : "+91 98765 43211",
+          "monthlyFee" : 2400.00,
+          "capacity" : 45,
+          "currentStatus" : "IN_TRANSIT",
+          "currentSpeedKmh" : 51,
+          "fuelLevelPercent" : 84,
+          "currentLat" : 28.654738316315658,
+          "currentLng" : 77.21380840266089,
+          "nextStop" : "St. Xavier Circle",
+          "nextStopEtaMinutes" : 1,
+          "morningDepartureTime" : "06:45 AM",
+          "morningArrivalTime" : "07:50 AM",
+          "eveningDepartureTime" : "03:15 PM",
+          "eveningArrivalTime" : "04:30 PM",
+          "stopsJson" : "[{\"id\":1,\"name\":\"Greenfield Heights Gate 2\",\"time\":\"06:50 AM\",\"lat\":17.7832524,\"lng\":83.3755486,\"students\":8},{\"id\":2,\"name\":\"St. Xavier Circle\",\"time\":\"07:05 AM\",\"lat\":28.652,\"lng\":77.21,\"students\":12},{\"id\":3,\"name\":\"Civil Lines Metro Interchange\",\"time\":\"07:20 AM\",\"lat\":28.64,\"lng\":77.218,\"students\":9},{\"id\":4,\"name\":\"Diplomatic Avenue Point\",\"time\":\"07:35 AM\",\"lat\":28.625,\"lng\":77.228,\"students\":7},{\"id\":5,\"name\":\"Apex International Main Quadrangle\",\"time\":\"07:50 AM\",\"lat\":28.61,\"lng\":77.235,\"students\":0}]",
+          "heading" : 335.0,
+          "gpsAccuracyMeters" : 3.5,
+          "isBroadcasting" : true,
+          "lastGpsTimestamp" : "2026-10-10T13:47:55.591053100Z",
+          "hardwareDeviceId" : "GPS-APEX-01",
+          "isIgnitionOn" : true,
+          "tripStatus" : "TRIP_STARTED",
+          "tripStartTime" : "07:13 PM",
+          "sourceName" : "Greenfield Heights Terminal",
+          "destinationName" : "Apex International Main Quadrangle",
+          "operatorUsername" : "bus01",
+          "emergencyStatus" : "NORMAL",
+          "sosAlertMessage" : null
+        },
+        "busStop" : "St. Xavier Circle",
+        "dateOfBirth" : "2010-05-15",
+        "gender" : "MALE",
+        "address" : "123 Education Lane, Tech City",
+        "admissionDate" : "2025-04-01",
+        "academicYear" : "2025-2026",
+        "isActive" : false
+      },
+      "fullName" : "Alex Morgan",
+      "admissionNumber" : "ADM2025001",
+      "graduationYear" : "2025-2026",
+      "finalClass" : "Grade 10 A",
+      "dateOfBirth" : "2010-05-15",
+      "parentPhone" : "919876500000",
+      "migratedAt" : "2026-10-08T20:30:12.398772"
+    } ],
+    "substitutions" : [ ]
+  }
+}

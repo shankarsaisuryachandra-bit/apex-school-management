@@ -1,0 +1,4408 @@
+{
+  "metadata" : {
+    "backupId" : "APEX-BK-20261010-135039",
+    "institution" : "Apex International Academy",
+    "directorate" : "Institutional Executive Administration",
+    "engineVersion" : "2.5.0-ENTERPRISE",
+    "schemaVersion" : "2026.2",
+    "academicYear" : "2026-2027 (Term II)",
+    "generatedAt" : "2026-10-10T13:50:39.2484119",
+    "totalRecords" : 127,
+    "recordSummary" : {
+      "users" : 23,
+      "managementProfiles" : 5,
+      "teachers" : 4,
+      "students" : 9,
+      "classes" : 2,
+      "subjects" : 4,
+      "curriculumSubjects" : 8,
+      "teacherAssignments" : 9,
+      "attendance" : 7,
+      "studentFees" : 9,
+      "paymentHistory" : 5,
+      "libraryBooks" : 2,
+      "studyMaterials" : 13,
+      "timetableSlots" : 4,
+      "timetablePeriodConfigs" : 6,
+      "teacherSalaries" : 0,
+      "studentHealth" : 0,
+      "schoolAssets" : 0,
+      "transportRoutes" : 2,
+      "notices" : 1,
+      "schoolEvents" : 1,
+      "ptmAppointments" : 5,
+      "leaveRequests" : 4,
+      "admissions" : 3,
+      "alumni" : 1,
+      "substitutions" : 0
+    },
+    "checksum" : "290ef796472fdc0fad199087a83d712a122ba918dc8445bb9303e0fe78829cd6",
+    "status" : "VERIFIED_CONSISTENT"
+  },
+  "data" : {
+    "users" : [ {
+      "createdAt" : "2026-09-05T07:26:33.146207",
+      "role" : "MANAGEMENT",
+      "staffRole" : "SUPER_ADMIN",
+      "permissions" : "*",
+      "id" : 1,
+      "isActive" : true,
+      "username" : "admin"
+    }, {
+      "createdAt" : "2026-09-05T07:26:33.351429",
+      "role" : "TEACHER",
+      "staffRole" : null,
+      "permissions" : null,
+      "id" : 2,
+      "isActive" : true,
+      "username" : "teacher1"
+    }, {
+      "createdAt" : "2026-09-05T07:26:33.509023",
+      "role" : "STUDENT",
+      "staffRole" : null,
+      "permissions" : null,
+      "id" : 3,
+      "isActive" : true,
+      "username" : "student1"
+    }, {
+      "createdAt" : "2026-10-07T18:17:16.744912",
+      "role" : "TEACHER",
+      "staffRole" : null,
+      "permissions" : null,
+      "id" : 4,
+      "isActive" : true,
+      "username" : "SHANKAR@1"
+    }, {
+      "createdAt" : "2026-10-07T18:24:34.967455",
+      "role" : "TEACHER",
+      "staffRole" : null,
+      "permissions" : null,
+      "id" : 5,
+      "isActive" : true,
+      "username" : "s"
+    }, {
+      "createdAt" : "2026-10-07T19:08:40.115284",
+      "role" : "STUDENT",
+      "staffRole" : null,
+      "permissions" : null,
+      "id" : 6,
+      "isActive" : true,
+      "username" : "Shankarrr"
+    }, {
+      "createdAt" : "2026-10-07T19:09:36.541643",
+      "role" : "STUDENT",
+      "staffRole" : null,
+      "permissions" : null,
+      "id" : 7,
+      "isActive" : true,
+      "username" : "shankarrr"
+    }, {
+      "createdAt" : "2026-10-07T19:11:15.423409",
+      "role" : "STUDENT",
+      "staffRole" : null,
+      "permissions" : null,
+      "id" : 8,
+      "isActive" : true,
+      "username" : "teststudent1"
+    }, {
+      "createdAt" : "2026-10-07T19:11:21.897395",
+      "role" : "STUDENT",
+      "staffRole" : null,
+      "permissions" : null,
+      "id" : 9,
+      "isActive" : true,
+      "username" : "teststudent2"
+    }, {
+      "createdAt" : "2026-10-07T19:11:29.200243",
+      "role" : "STUDENT",
+      "staffRole" : null,
+      "permissions" : null,
+      "id" : 10,
+      "isActive" : true,
+      "username" : "dobtest1791380489056"
+    }, {
+      "createdAt" : "2026-10-07T19:14:12.375898",
+      "role" : "STUDENT",
+      "staffRole" : null,
+      "permissions" : null,
+      "id" : 11,
+      "isActive" : true,
+      "username" : "rohansharma"
+    }, {
+      "createdAt" : "2026-10-07T19:15:04.394018",
+      "role" : "STUDENT",
+      "staffRole" : null,
+      "permissions" : null,
+      "id" : 12,
+      "isActive" : true,
+      "username" : "priya.sundaram.2025"
+    }, {
+      "createdAt" : "2026-10-07T19:16:07.219746",
+      "role" : "STUDENT",
+      "staffRole" : null,
+      "permissions" : null,
+      "id" : 13,
+      "isActive" : true,
+      "username" : "shankarsaisai"
+    }, {
+      "createdAt" : "2026-10-07T20:38:16.661746",
+      "role" : "STUDENT",
+      "staffRole" : null,
+      "permissions" : null,
+      "id" : 14,
+      "isActive" : true,
+      "username" : "v"
+    }, {
+      "createdAt" : "2026-10-07T20:51:55.478349",
+      "role" : "STUDENT",
+      "staffRole" : null,
+      "permissions" : null,
+      "id" : 15,
+      "isActive" : true,
+      "username" : "ss"
+    }, {
+      "createdAt" : "2026-10-08T00:23:40.338671",
+      "role" : "TEACHER",
+      "staffRole" : null,
+      "permissions" : null,
+      "id" : 16,
+      "isActive" : true,
+      "username" : "G"
+    }, {
+      "createdAt" : "2026-10-08T19:55:35.551435",
+      "role" : "STUDENT",
+      "staffRole" : null,
+      "permissions" : null,
+      "id" : 17,
+      "isActive" : true,
+      "username" : "sss"
+    }, {
+      "createdAt" : "2026-10-08T20:30:12.124828",
+      "role" : "STUDENT",
+      "staffRole" : null,
+      "permissions" : null,
+      "id" : 18,
+      "isActive" : true,
+      "username" : "rohansharma1"
+    }, {
+      "createdAt" : "2026-10-09T21:56:38.380458",
+      "role" : "TEACHER",
+      "staffRole" : null,
+      "permissions" : null,
+      "id" : 19,
+      "isActive" : true,
+      "username" : "SURYA"
+    }, {
+      "createdAt" : "2026-10-10T13:44:58.325766",
+      "role" : "MANAGEMENT",
+      "staffRole" : "ACCOUNTANT",
+      "permissions" : "DASHBOARD,FEES,PAYROLL,INVENTORY,AUDIT_LOGS",
+      "id" : 20,
+      "isActive" : true,
+      "username" : "bursar"
+    }, {
+      "createdAt" : "2026-10-10T13:44:58.472986",
+      "role" : "MANAGEMENT",
+      "staffRole" : "LIBRARIAN",
+      "permissions" : "DASHBOARD,LIBRARY,INVENTORY,EVENTS",
+      "id" : 21,
+      "isActive" : true,
+      "username" : "librarian"
+    }, {
+      "createdAt" : "2026-10-10T13:44:58.617898",
+      "role" : "MANAGEMENT",
+      "staffRole" : "REGISTRAR",
+      "permissions" : "DASHBOARD,STUDENTS,PROMOTIONS,CLASSES,ADMIT_CARDS,EVENTS,ALUMNI",
+      "id" : 22,
+      "isActive" : true,
+      "username" : "registrar"
+    }, {
+      "createdAt" : "2026-10-10T13:48:53.273789",
+      "role" : "MANAGEMENT",
+      "staffRole" : "ACADEMIC_DEAN",
+      "permissions" : "DASHBOARD,TEACHERS,CLASSES,ASSIGNMENTS,SUBSTITUTIONS,LEAVES,ADMIT_CARDS,EVENTS,PTM,LIBRARY",
+      "id" : 23,
+      "isActive" : true,
+      "username" : "dean_academics"
+    } ],
+    "managementProfiles" : [ {
+      "id" : 1,
+      "user" : {
+        "id" : 1,
+        "username" : "admin",
+        "role" : "MANAGEMENT",
+        "staffRole" : "SUPER_ADMIN",
+        "permissions" : "*",
+        "isActive" : true,
+        "createdAt" : "2026-09-05T07:26:33.146207"
+      },
+      "fullName" : "System Administrator",
+      "designation" : "Principal",
+      "phone" : "9999999999",
+      "email" : null
+    }, {
+      "id" : 2,
+      "user" : {
+        "id" : 20,
+        "username" : "bursar",
+        "role" : "MANAGEMENT",
+        "staffRole" : "ACCOUNTANT",
+        "permissions" : "DASHBOARD,FEES,PAYROLL,INVENTORY,AUDIT_LOGS",
+        "isActive" : true,
+        "createdAt" : "2026-10-10T13:44:58.325766"
+      },
+      "fullName" : "Marcus Vance",
+      "designation" : "Chief Bursar & Accounts Officer",
+      "phone" : "+1 555-0145",
+      "email" : "bursar@apex-academy.edu"
+    }, {
+      "id" : 3,
+      "user" : {
+        "id" : 21,
+        "username" : "librarian",
+        "role" : "MANAGEMENT",
+        "staffRole" : "LIBRARIAN",
+        "permissions" : "DASHBOARD,LIBRARY,INVENTORY,EVENTS",
+        "isActive" : true,
+        "createdAt" : "2026-10-10T13:44:58.472986"
+      },
+      "fullName" : "Clara Higgins",
+      "designation" : "Senior Head Librarian",
+      "phone" : "+1 555-0188",
+      "email" : "library@apex-academy.edu"
+    }, {
+      "id" : 4,
+      "user" : {
+        "id" : 22,
+        "username" : "registrar",
+        "role" : "MANAGEMENT",
+        "staffRole" : "REGISTRAR",
+        "permissions" : "DASHBOARD,STUDENTS,PROMOTIONS,CLASSES,ADMIT_CARDS,EVENTS,ALUMNI",
+        "isActive" : true,
+        "createdAt" : "2026-10-10T13:44:58.617898"
+      },
+      "fullName" : "Eleanor Vance",
+      "designation" : "Registrar & Admissions Officer",
+      "phone" : "+1 555-0192",
+      "email" : "admissions@apex-academy.edu"
+    }, {
+      "id" : 5,
+      "user" : {
+        "id" : 23,
+        "username" : "dean_academics",
+        "role" : "MANAGEMENT",
+        "staffRole" : "ACADEMIC_DEAN",
+        "permissions" : "DASHBOARD,TEACHERS,CLASSES,ASSIGNMENTS,SUBSTITUTIONS,LEAVES,ADMIT_CARDS,EVENTS,PTM,LIBRARY",
+        "isActive" : true,
+        "createdAt" : "2026-10-10T13:48:53.273789"
+      },
+      "fullName" : "Dr. Eleanor Vance (Dean of Faculty)",
+      "designation" : "Staff Officer",
+      "phone" : null,
+      "email" : "dean.vance@apex-academy.edu"
+    } ],
+    "teachers" : [ {
+      "id" : 1,
+      "user" : {
+        "id" : 2,
+        "username" : "teacher1",
+        "role" : "TEACHER",
+        "staffRole" : null,
+        "permissions" : null,
+        "isActive" : true,
+        "createdAt" : "2026-09-05T07:26:33.351429"
+      },
+      "fullName" : "Sarah Jenkins",
+      "employeeId" : "T101",
+      "phone" : "9876543210",
+      "email" : "sarah.jenkins@school.edu",
+      "qualification" : "M.Sc. Mathematics",
+      "dateOfJoining" : "2020-06-01"
+    }, {
+      "id" : 3,
+      "user" : {
+        "id" : 5,
+        "username" : "s",
+        "role" : "TEACHER",
+        "staffRole" : null,
+        "permissions" : null,
+        "isActive" : true,
+        "createdAt" : "2026-10-07T18:24:34.967455"
+      },
+      "fullName" : "Shankarr",
+      "employeeId" : "102",
+      "phone" : "",
+      "email" : "",
+      "qualification" : "",
+      "dateOfJoining" : "2026-10-07"
+    }, {
+      "id" : 4,
+      "user" : {
+        "id" : 16,
+        "username" : "G",
+        "role" : "TEACHER",
+        "staffRole" : null,
+        "permissions" : null,
+        "isActive" : true,
+        "createdAt" : "2026-10-08T00:23:40.338671"
+      },
+      "fullName" : "GOPI",
+      "employeeId" : "G1000",
+      "phone" : "",
+      "email" : "",
+      "qualification" : "",
+      "dateOfJoining" : "2026-10-08"
+    }, {
+      "id" : 5,
+      "user" : {
+        "id" : 19,
+        "username" : "SURYA",
+        "role" : "TEACHER",
+        "staffRole" : null,
+        "permissions" : null,
+        "isActive" : true,
+        "createdAt" : "2026-10-09T21:56:38.380458"
+      },
+      "fullName" : "SURYA",
+      "employeeId" : "EMP121",
+      "phone" : "",
+      "email" : "",
+      "qualification" : "CN",
+      "dateOfJoining" : "2026-10-09"
+    } ],
+    "students" : [ {
+      "id" : 1,
+      "user" : {
+        "id" : 3,
+        "username" : "student1",
+        "role" : "STUDENT",
+        "staffRole" : null,
+        "permissions" : null,
+        "isActive" : true,
+        "createdAt" : "2026-09-05T07:26:33.509023"
+      },
+      "fullName" : "Alex Morgan",
+      "admissionNumber" : "ADM2025001",
+      "schoolClass" : {
+        "id" : 1,
+        "name" : "Grade 10",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 3,
+          "user" : {
+            "id" : 5,
+            "username" : "s",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-10-07T18:24:34.967455"
+          },
+          "fullName" : "Shankarr",
+          "employeeId" : "102",
+          "phone" : "",
+          "email" : "",
+          "qualification" : "",
+          "dateOfJoining" : "2026-10-07"
+        }
+      },
+      "dateOfBirth" : "2010-05-15",
+      "gender" : "MALE",
+      "address" : "123 Education Lane, Tech City",
+      "admissionDate" : "2025-04-01",
+      "academicYear" : "2025-2026",
+      "isActive" : false
+    }, {
+      "id" : 2,
+      "user" : {
+        "id" : 8,
+        "username" : "teststudent1",
+        "role" : "STUDENT",
+        "staffRole" : null,
+        "permissions" : null,
+        "isActive" : true,
+        "createdAt" : "2026-10-07T19:11:15.423409"
+      },
+      "fullName" : "Test Student",
+      "admissionNumber" : "ADM1791380475273",
+      "schoolClass" : {
+        "id" : 1,
+        "name" : "Grade 10",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 3,
+          "user" : {
+            "id" : 5,
+            "username" : "s",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-10-07T18:24:34.967455"
+          },
+          "fullName" : "Shankarr",
+          "employeeId" : "102",
+          "phone" : "",
+          "email" : "",
+          "qualification" : "",
+          "dateOfJoining" : "2026-10-07"
+        }
+      },
+      "dateOfBirth" : "2010-01-01",
+      "gender" : "MALE",
+      "address" : "Test Address",
+      "admissionDate" : "2026-10-07",
+      "academicYear" : "2025-2026",
+      "isActive" : true
+    }, {
+      "id" : 4,
+      "user" : {
+        "id" : 11,
+        "username" : "rohansharma",
+        "role" : "STUDENT",
+        "staffRole" : null,
+        "permissions" : null,
+        "isActive" : true,
+        "createdAt" : "2026-10-07T19:14:12.375898"
+      },
+      "fullName" : "Rohan Sharma",
+      "admissionNumber" : "ADM2025003",
+      "schoolClass" : {
+        "id" : 1,
+        "name" : "Grade 10",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 3,
+          "user" : {
+            "id" : 5,
+            "username" : "s",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-10-07T18:24:34.967455"
+          },
+          "fullName" : "Shankarr",
+          "employeeId" : "102",
+          "phone" : "",
+          "email" : "",
+          "qualification" : "",
+          "dateOfJoining" : "2026-10-07"
+        }
+      },
+      "dateOfBirth" : null,
+      "gender" : "MALE",
+      "address" : null,
+      "admissionDate" : "2026-10-07",
+      "academicYear" : "2025-2026",
+      "isActive" : true
+    }, {
+      "id" : 5,
+      "user" : {
+        "id" : 12,
+        "username" : "priya.sundaram.2025",
+        "role" : "STUDENT",
+        "staffRole" : null,
+        "permissions" : null,
+        "isActive" : true,
+        "createdAt" : "2026-10-07T19:15:04.394018"
+      },
+      "fullName" : "Priya Sundaram (Updated)",
+      "admissionNumber" : "ADM2025004",
+      "schoolClass" : {
+        "id" : 1,
+        "name" : "Grade 10",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 3,
+          "user" : {
+            "id" : 5,
+            "username" : "s",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-10-07T18:24:34.967455"
+          },
+          "fullName" : "Shankarr",
+          "employeeId" : "102",
+          "phone" : "",
+          "email" : "",
+          "qualification" : "",
+          "dateOfJoining" : "2026-10-07"
+        }
+      },
+      "dateOfBirth" : "2010-08-14",
+      "gender" : "FEMALE",
+      "address" : null,
+      "admissionDate" : "2026-10-07",
+      "academicYear" : "2025-2026",
+      "isActive" : true
+    }, {
+      "id" : 6,
+      "user" : {
+        "id" : 13,
+        "username" : "shankarsaisai",
+        "role" : "STUDENT",
+        "staffRole" : null,
+        "permissions" : null,
+        "isActive" : true,
+        "createdAt" : "2026-10-07T19:16:07.219746"
+      },
+      "fullName" : "shankar sai Sai",
+      "admissionNumber" : "ADM2025005",
+      "schoolClass" : {
+        "id" : 1,
+        "name" : "Grade 10",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 3,
+          "user" : {
+            "id" : 5,
+            "username" : "s",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-10-07T18:24:34.967455"
+          },
+          "fullName" : "Shankarr",
+          "employeeId" : "102",
+          "phone" : "",
+          "email" : "",
+          "qualification" : "",
+          "dateOfJoining" : "2026-10-07"
+        }
+      },
+      "dateOfBirth" : null,
+      "gender" : "MALE",
+      "address" : "",
+      "admissionDate" : "2026-10-07",
+      "academicYear" : "2025-2026",
+      "isActive" : true
+    }, {
+      "id" : 7,
+      "user" : {
+        "id" : 14,
+        "username" : "v",
+        "role" : "STUDENT",
+        "staffRole" : null,
+        "permissions" : null,
+        "isActive" : true,
+        "createdAt" : "2026-10-07T20:38:16.661746"
+      },
+      "fullName" : "vishwa",
+      "admissionNumber" : "ADM2025006",
+      "schoolClass" : {
+        "id" : 2,
+        "name" : "Grade 9",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 1,
+          "user" : {
+            "id" : 2,
+            "username" : "teacher1",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-09-05T07:26:33.351429"
+          },
+          "fullName" : "Sarah Jenkins",
+          "employeeId" : "T101",
+          "phone" : "9876543210",
+          "email" : "sarah.jenkins@school.edu",
+          "qualification" : "M.Sc. Mathematics",
+          "dateOfJoining" : "2020-06-01"
+        }
+      },
+      "dateOfBirth" : null,
+      "gender" : "MALE",
+      "address" : "",
+      "admissionDate" : "2026-10-07",
+      "academicYear" : "2025-2026",
+      "isActive" : true
+    }, {
+      "id" : 8,
+      "user" : {
+        "id" : 15,
+        "username" : "ss",
+        "role" : "STUDENT",
+        "staffRole" : null,
+        "permissions" : null,
+        "isActive" : true,
+        "createdAt" : "2026-10-07T20:51:55.478349"
+      },
+      "fullName" : "Surya",
+      "admissionNumber" : "ADM2025007",
+      "schoolClass" : {
+        "id" : 2,
+        "name" : "Grade 9",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 1,
+          "user" : {
+            "id" : 2,
+            "username" : "teacher1",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-09-05T07:26:33.351429"
+          },
+          "fullName" : "Sarah Jenkins",
+          "employeeId" : "T101",
+          "phone" : "9876543210",
+          "email" : "sarah.jenkins@school.edu",
+          "qualification" : "M.Sc. Mathematics",
+          "dateOfJoining" : "2020-06-01"
+        }
+      },
+      "dateOfBirth" : null,
+      "gender" : "MALE",
+      "address" : "",
+      "admissionDate" : "2026-10-07",
+      "academicYear" : "2025-2026",
+      "isActive" : true
+    }, {
+      "id" : 9,
+      "user" : {
+        "id" : 17,
+        "username" : "sss",
+        "role" : "STUDENT",
+        "staffRole" : null,
+        "permissions" : null,
+        "isActive" : true,
+        "createdAt" : "2026-10-08T19:55:35.551435"
+      },
+      "fullName" : "Surya",
+      "admissionNumber" : "ADM2025008",
+      "schoolClass" : {
+        "id" : 1,
+        "name" : "Grade 10",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 3,
+          "user" : {
+            "id" : 5,
+            "username" : "s",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-10-07T18:24:34.967455"
+          },
+          "fullName" : "Shankarr",
+          "employeeId" : "102",
+          "phone" : "",
+          "email" : "",
+          "qualification" : "",
+          "dateOfJoining" : "2026-10-07"
+        }
+      },
+      "dateOfBirth" : null,
+      "gender" : "MALE",
+      "address" : "",
+      "admissionDate" : "2026-10-08",
+      "academicYear" : "2025-2026",
+      "isActive" : true
+    }, {
+      "id" : 10,
+      "user" : {
+        "id" : 18,
+        "username" : "rohansharma1",
+        "role" : "STUDENT",
+        "staffRole" : null,
+        "permissions" : null,
+        "isActive" : true,
+        "createdAt" : "2026-10-08T20:30:12.124828"
+      },
+      "fullName" : "Rohan Sharma",
+      "admissionNumber" : "ADM_TEST_1793",
+      "schoolClass" : {
+        "id" : 1,
+        "name" : "Grade 10",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 3,
+          "user" : {
+            "id" : 5,
+            "username" : "s",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-10-07T18:24:34.967455"
+          },
+          "fullName" : "Shankarr",
+          "employeeId" : "102",
+          "phone" : "",
+          "email" : "",
+          "qualification" : "",
+          "dateOfJoining" : "2026-10-07"
+        }
+      },
+      "dateOfBirth" : null,
+      "gender" : "MALE",
+      "address" : null,
+      "admissionDate" : "2026-10-08",
+      "academicYear" : "2025-2026",
+      "isActive" : true
+    } ],
+    "classes" : [ {
+      "id" : 1,
+      "name" : "Grade 10",
+      "section" : "A",
+      "academicYear" : "2025-2026",
+      "sortOrder" : 1,
+      "classTeacher" : {
+        "id" : 3,
+        "user" : {
+          "id" : 5,
+          "username" : "s",
+          "role" : "TEACHER",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-10-07T18:24:34.967455"
+        },
+        "fullName" : "Shankarr",
+        "employeeId" : "102",
+        "phone" : "",
+        "email" : "",
+        "qualification" : "",
+        "dateOfJoining" : "2026-10-07"
+      }
+    }, {
+      "id" : 2,
+      "name" : "Grade 9",
+      "section" : "A",
+      "academicYear" : "2025-2026",
+      "sortOrder" : 1,
+      "classTeacher" : {
+        "id" : 1,
+        "user" : {
+          "id" : 2,
+          "username" : "teacher1",
+          "role" : "TEACHER",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-09-05T07:26:33.351429"
+        },
+        "fullName" : "Sarah Jenkins",
+        "employeeId" : "T101",
+        "phone" : "9876543210",
+        "email" : "sarah.jenkins@school.edu",
+        "qualification" : "M.Sc. Mathematics",
+        "dateOfJoining" : "2020-06-01"
+      }
+    } ],
+    "subjects" : [ {
+      "id" : 1,
+      "name" : "Maths",
+      "code" : "MATHS101"
+    }, {
+      "id" : 2,
+      "name" : "Physics",
+      "code" : "PHY102"
+    }, {
+      "id" : 3,
+      "name" : "AI",
+      "code" : "AI1000"
+    }, {
+      "id" : 4,
+      "name" : "CN121",
+      "code" : "CN"
+    } ],
+    "curriculumSubjects" : [ {
+      "id" : 1,
+      "schoolClass" : {
+        "id" : 1,
+        "name" : "Grade 10",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 3,
+          "user" : {
+            "id" : 5,
+            "username" : "s",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-10-07T18:24:34.967455"
+          },
+          "fullName" : "Shankarr",
+          "employeeId" : "102",
+          "phone" : "",
+          "email" : "",
+          "qualification" : "",
+          "dateOfJoining" : "2026-10-07"
+        }
+      },
+      "subject" : {
+        "id" : 1,
+        "name" : "Maths",
+        "code" : "MATHS101"
+      },
+      "academicYear" : "2025-2026",
+      "isOffered" : true,
+      "weeklyPeriods" : 5
+    }, {
+      "id" : 2,
+      "schoolClass" : {
+        "id" : 1,
+        "name" : "Grade 10",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 3,
+          "user" : {
+            "id" : 5,
+            "username" : "s",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-10-07T18:24:34.967455"
+          },
+          "fullName" : "Shankarr",
+          "employeeId" : "102",
+          "phone" : "",
+          "email" : "",
+          "qualification" : "",
+          "dateOfJoining" : "2026-10-07"
+        }
+      },
+      "subject" : {
+        "id" : 2,
+        "name" : "Physics",
+        "code" : "PHY102"
+      },
+      "academicYear" : "2025-2026",
+      "isOffered" : true,
+      "weeklyPeriods" : 5
+    }, {
+      "id" : 3,
+      "schoolClass" : {
+        "id" : 1,
+        "name" : "Grade 10",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 3,
+          "user" : {
+            "id" : 5,
+            "username" : "s",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-10-07T18:24:34.967455"
+          },
+          "fullName" : "Shankarr",
+          "employeeId" : "102",
+          "phone" : "",
+          "email" : "",
+          "qualification" : "",
+          "dateOfJoining" : "2026-10-07"
+        }
+      },
+      "subject" : {
+        "id" : 3,
+        "name" : "AI",
+        "code" : "AI1000"
+      },
+      "academicYear" : "2025-2026",
+      "isOffered" : true,
+      "weeklyPeriods" : 5
+    }, {
+      "id" : 4,
+      "schoolClass" : {
+        "id" : 1,
+        "name" : "Grade 10",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 3,
+          "user" : {
+            "id" : 5,
+            "username" : "s",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-10-07T18:24:34.967455"
+          },
+          "fullName" : "Shankarr",
+          "employeeId" : "102",
+          "phone" : "",
+          "email" : "",
+          "qualification" : "",
+          "dateOfJoining" : "2026-10-07"
+        }
+      },
+      "subject" : {
+        "id" : 4,
+        "name" : "CN121",
+        "code" : "CN"
+      },
+      "academicYear" : "2025-2026",
+      "isOffered" : true,
+      "weeklyPeriods" : 5
+    }, {
+      "id" : 5,
+      "schoolClass" : {
+        "id" : 2,
+        "name" : "Grade 9",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 1,
+          "user" : {
+            "id" : 2,
+            "username" : "teacher1",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-09-05T07:26:33.351429"
+          },
+          "fullName" : "Sarah Jenkins",
+          "employeeId" : "T101",
+          "phone" : "9876543210",
+          "email" : "sarah.jenkins@school.edu",
+          "qualification" : "M.Sc. Mathematics",
+          "dateOfJoining" : "2020-06-01"
+        }
+      },
+      "subject" : {
+        "id" : 1,
+        "name" : "Maths",
+        "code" : "MATHS101"
+      },
+      "academicYear" : "2025-2026",
+      "isOffered" : true,
+      "weeklyPeriods" : 5
+    }, {
+      "id" : 6,
+      "schoolClass" : {
+        "id" : 2,
+        "name" : "Grade 9",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 1,
+          "user" : {
+            "id" : 2,
+            "username" : "teacher1",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-09-05T07:26:33.351429"
+          },
+          "fullName" : "Sarah Jenkins",
+          "employeeId" : "T101",
+          "phone" : "9876543210",
+          "email" : "sarah.jenkins@school.edu",
+          "qualification" : "M.Sc. Mathematics",
+          "dateOfJoining" : "2020-06-01"
+        }
+      },
+      "subject" : {
+        "id" : 2,
+        "name" : "Physics",
+        "code" : "PHY102"
+      },
+      "academicYear" : "2025-2026",
+      "isOffered" : true,
+      "weeklyPeriods" : 5
+    }, {
+      "id" : 7,
+      "schoolClass" : {
+        "id" : 2,
+        "name" : "Grade 9",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 1,
+          "user" : {
+            "id" : 2,
+            "username" : "teacher1",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-09-05T07:26:33.351429"
+          },
+          "fullName" : "Sarah Jenkins",
+          "employeeId" : "T101",
+          "phone" : "9876543210",
+          "email" : "sarah.jenkins@school.edu",
+          "qualification" : "M.Sc. Mathematics",
+          "dateOfJoining" : "2020-06-01"
+        }
+      },
+      "subject" : {
+        "id" : 3,
+        "name" : "AI",
+        "code" : "AI1000"
+      },
+      "academicYear" : "2025-2026",
+      "isOffered" : true,
+      "weeklyPeriods" : 5
+    }, {
+      "id" : 8,
+      "schoolClass" : {
+        "id" : 2,
+        "name" : "Grade 9",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 1,
+          "user" : {
+            "id" : 2,
+            "username" : "teacher1",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-09-05T07:26:33.351429"
+          },
+          "fullName" : "Sarah Jenkins",
+          "employeeId" : "T101",
+          "phone" : "9876543210",
+          "email" : "sarah.jenkins@school.edu",
+          "qualification" : "M.Sc. Mathematics",
+          "dateOfJoining" : "2020-06-01"
+        }
+      },
+      "subject" : {
+        "id" : 4,
+        "name" : "CN121",
+        "code" : "CN"
+      },
+      "academicYear" : "2025-2026",
+      "isOffered" : true,
+      "weeklyPeriods" : 5
+    } ],
+    "teacherAssignments" : [ {
+      "id" : 18,
+      "teacher" : {
+        "id" : 1,
+        "user" : {
+          "id" : 2,
+          "username" : "teacher1",
+          "role" : "TEACHER",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-09-05T07:26:33.351429"
+        },
+        "fullName" : "Sarah Jenkins",
+        "employeeId" : "T101",
+        "phone" : "9876543210",
+        "email" : "sarah.jenkins@school.edu",
+        "qualification" : "M.Sc. Mathematics",
+        "dateOfJoining" : "2020-06-01"
+      },
+      "schoolClass" : {
+        "id" : 1,
+        "name" : "Grade 10",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 3,
+          "user" : {
+            "id" : 5,
+            "username" : "s",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-10-07T18:24:34.967455"
+          },
+          "fullName" : "Shankarr",
+          "employeeId" : "102",
+          "phone" : "",
+          "email" : "",
+          "qualification" : "",
+          "dateOfJoining" : "2026-10-07"
+        }
+      },
+      "subject" : {
+        "id" : 1,
+        "name" : "Maths",
+        "code" : "MATHS101"
+      },
+      "academicYear" : "2025-2026"
+    }, {
+      "id" : 16,
+      "teacher" : {
+        "id" : 1,
+        "user" : {
+          "id" : 2,
+          "username" : "teacher1",
+          "role" : "TEACHER",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-09-05T07:26:33.351429"
+        },
+        "fullName" : "Sarah Jenkins",
+        "employeeId" : "T101",
+        "phone" : "9876543210",
+        "email" : "sarah.jenkins@school.edu",
+        "qualification" : "M.Sc. Mathematics",
+        "dateOfJoining" : "2020-06-01"
+      },
+      "schoolClass" : {
+        "id" : 1,
+        "name" : "Grade 10",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 3,
+          "user" : {
+            "id" : 5,
+            "username" : "s",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-10-07T18:24:34.967455"
+          },
+          "fullName" : "Shankarr",
+          "employeeId" : "102",
+          "phone" : "",
+          "email" : "",
+          "qualification" : "",
+          "dateOfJoining" : "2026-10-07"
+        }
+      },
+      "subject" : {
+        "id" : 2,
+        "name" : "Physics",
+        "code" : "PHY102"
+      },
+      "academicYear" : "2025-2026"
+    }, {
+      "id" : 5,
+      "teacher" : {
+        "id" : 1,
+        "user" : {
+          "id" : 2,
+          "username" : "teacher1",
+          "role" : "TEACHER",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-09-05T07:26:33.351429"
+        },
+        "fullName" : "Sarah Jenkins",
+        "employeeId" : "T101",
+        "phone" : "9876543210",
+        "email" : "sarah.jenkins@school.edu",
+        "qualification" : "M.Sc. Mathematics",
+        "dateOfJoining" : "2020-06-01"
+      },
+      "schoolClass" : {
+        "id" : 2,
+        "name" : "Grade 9",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 1,
+          "user" : {
+            "id" : 2,
+            "username" : "teacher1",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-09-05T07:26:33.351429"
+          },
+          "fullName" : "Sarah Jenkins",
+          "employeeId" : "T101",
+          "phone" : "9876543210",
+          "email" : "sarah.jenkins@school.edu",
+          "qualification" : "M.Sc. Mathematics",
+          "dateOfJoining" : "2020-06-01"
+        }
+      },
+      "subject" : {
+        "id" : 1,
+        "name" : "Maths",
+        "code" : "MATHS101"
+      },
+      "academicYear" : "2025-2026"
+    }, {
+      "id" : 17,
+      "teacher" : {
+        "id" : 3,
+        "user" : {
+          "id" : 5,
+          "username" : "s",
+          "role" : "TEACHER",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-10-07T18:24:34.967455"
+        },
+        "fullName" : "Shankarr",
+        "employeeId" : "102",
+        "phone" : "",
+        "email" : "",
+        "qualification" : "",
+        "dateOfJoining" : "2026-10-07"
+      },
+      "schoolClass" : {
+        "id" : 1,
+        "name" : "Grade 10",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 3,
+          "user" : {
+            "id" : 5,
+            "username" : "s",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-10-07T18:24:34.967455"
+          },
+          "fullName" : "Shankarr",
+          "employeeId" : "102",
+          "phone" : "",
+          "email" : "",
+          "qualification" : "",
+          "dateOfJoining" : "2026-10-07"
+        }
+      },
+      "subject" : {
+        "id" : 1,
+        "name" : "Maths",
+        "code" : "MATHS101"
+      },
+      "academicYear" : "2025-2026"
+    }, {
+      "id" : 9,
+      "teacher" : {
+        "id" : 3,
+        "user" : {
+          "id" : 5,
+          "username" : "s",
+          "role" : "TEACHER",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-10-07T18:24:34.967455"
+        },
+        "fullName" : "Shankarr",
+        "employeeId" : "102",
+        "phone" : "",
+        "email" : "",
+        "qualification" : "",
+        "dateOfJoining" : "2026-10-07"
+      },
+      "schoolClass" : {
+        "id" : 2,
+        "name" : "Grade 9",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 1,
+          "user" : {
+            "id" : 2,
+            "username" : "teacher1",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-09-05T07:26:33.351429"
+          },
+          "fullName" : "Sarah Jenkins",
+          "employeeId" : "T101",
+          "phone" : "9876543210",
+          "email" : "sarah.jenkins@school.edu",
+          "qualification" : "M.Sc. Mathematics",
+          "dateOfJoining" : "2020-06-01"
+        }
+      },
+      "subject" : {
+        "id" : 2,
+        "name" : "Physics",
+        "code" : "PHY102"
+      },
+      "academicYear" : "2025-2026"
+    }, {
+      "id" : 12,
+      "teacher" : {
+        "id" : 4,
+        "user" : {
+          "id" : 16,
+          "username" : "G",
+          "role" : "TEACHER",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-10-08T00:23:40.338671"
+        },
+        "fullName" : "GOPI",
+        "employeeId" : "G1000",
+        "phone" : "",
+        "email" : "",
+        "qualification" : "",
+        "dateOfJoining" : "2026-10-08"
+      },
+      "schoolClass" : {
+        "id" : 1,
+        "name" : "Grade 10",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 3,
+          "user" : {
+            "id" : 5,
+            "username" : "s",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-10-07T18:24:34.967455"
+          },
+          "fullName" : "Shankarr",
+          "employeeId" : "102",
+          "phone" : "",
+          "email" : "",
+          "qualification" : "",
+          "dateOfJoining" : "2026-10-07"
+        }
+      },
+      "subject" : {
+        "id" : 3,
+        "name" : "AI",
+        "code" : "AI1000"
+      },
+      "academicYear" : "2025-2026"
+    }, {
+      "id" : 7,
+      "teacher" : {
+        "id" : 4,
+        "user" : {
+          "id" : 16,
+          "username" : "G",
+          "role" : "TEACHER",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-10-08T00:23:40.338671"
+        },
+        "fullName" : "GOPI",
+        "employeeId" : "G1000",
+        "phone" : "",
+        "email" : "",
+        "qualification" : "",
+        "dateOfJoining" : "2026-10-08"
+      },
+      "schoolClass" : {
+        "id" : 2,
+        "name" : "Grade 9",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 1,
+          "user" : {
+            "id" : 2,
+            "username" : "teacher1",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-09-05T07:26:33.351429"
+          },
+          "fullName" : "Sarah Jenkins",
+          "employeeId" : "T101",
+          "phone" : "9876543210",
+          "email" : "sarah.jenkins@school.edu",
+          "qualification" : "M.Sc. Mathematics",
+          "dateOfJoining" : "2020-06-01"
+        }
+      },
+      "subject" : {
+        "id" : 3,
+        "name" : "AI",
+        "code" : "AI1000"
+      },
+      "academicYear" : "2025-2026"
+    }, {
+      "id" : 13,
+      "teacher" : {
+        "id" : 5,
+        "user" : {
+          "id" : 19,
+          "username" : "SURYA",
+          "role" : "TEACHER",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-10-09T21:56:38.380458"
+        },
+        "fullName" : "SURYA",
+        "employeeId" : "EMP121",
+        "phone" : "",
+        "email" : "",
+        "qualification" : "CN",
+        "dateOfJoining" : "2026-10-09"
+      },
+      "schoolClass" : {
+        "id" : 1,
+        "name" : "Grade 10",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 3,
+          "user" : {
+            "id" : 5,
+            "username" : "s",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-10-07T18:24:34.967455"
+          },
+          "fullName" : "Shankarr",
+          "employeeId" : "102",
+          "phone" : "",
+          "email" : "",
+          "qualification" : "",
+          "dateOfJoining" : "2026-10-07"
+        }
+      },
+      "subject" : {
+        "id" : 4,
+        "name" : "CN121",
+        "code" : "CN"
+      },
+      "academicYear" : "2025-2026"
+    }, {
+      "id" : 14,
+      "teacher" : {
+        "id" : 5,
+        "user" : {
+          "id" : 19,
+          "username" : "SURYA",
+          "role" : "TEACHER",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-10-09T21:56:38.380458"
+        },
+        "fullName" : "SURYA",
+        "employeeId" : "EMP121",
+        "phone" : "",
+        "email" : "",
+        "qualification" : "CN",
+        "dateOfJoining" : "2026-10-09"
+      },
+      "schoolClass" : {
+        "id" : 2,
+        "name" : "Grade 9",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 1,
+          "user" : {
+            "id" : 2,
+            "username" : "teacher1",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-09-05T07:26:33.351429"
+          },
+          "fullName" : "Sarah Jenkins",
+          "employeeId" : "T101",
+          "phone" : "9876543210",
+          "email" : "sarah.jenkins@school.edu",
+          "qualification" : "M.Sc. Mathematics",
+          "dateOfJoining" : "2020-06-01"
+        }
+      },
+      "subject" : {
+        "id" : 4,
+        "name" : "CN121",
+        "code" : "CN"
+      },
+      "academicYear" : "2025-2026"
+    } ],
+    "attendance" : [ {
+      "id" : 1,
+      "student" : {
+        "id" : 1,
+        "user" : {
+          "id" : 3,
+          "username" : "student1",
+          "role" : "STUDENT",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-09-05T07:26:33.509023"
+        },
+        "fullName" : "Alex Morgan",
+        "admissionNumber" : "ADM2025001",
+        "schoolClass" : {
+          "id" : 1,
+          "name" : "Grade 10",
+          "section" : "A",
+          "academicYear" : "2025-2026",
+          "sortOrder" : 1,
+          "classTeacher" : {
+            "id" : 3,
+            "user" : {
+              "id" : 5,
+              "username" : "s",
+              "role" : "TEACHER",
+              "staffRole" : null,
+              "permissions" : null,
+              "isActive" : true,
+              "createdAt" : "2026-10-07T18:24:34.967455"
+            },
+            "fullName" : "Shankarr",
+            "employeeId" : "102",
+            "phone" : "",
+            "email" : "",
+            "qualification" : "",
+            "dateOfJoining" : "2026-10-07"
+          }
+        },
+        "dateOfBirth" : "2010-05-15",
+        "gender" : "MALE",
+        "address" : "123 Education Lane, Tech City",
+        "admissionDate" : "2025-04-01",
+        "academicYear" : "2025-2026",
+        "isActive" : false
+      },
+      "schoolClass" : {
+        "id" : 1,
+        "name" : "Grade 10",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 3,
+          "user" : {
+            "id" : 5,
+            "username" : "s",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-10-07T18:24:34.967455"
+          },
+          "fullName" : "Shankarr",
+          "employeeId" : "102",
+          "phone" : "",
+          "email" : "",
+          "qualification" : "",
+          "dateOfJoining" : "2026-10-07"
+        }
+      },
+      "subject" : null,
+      "date" : "2026-10-07",
+      "status" : "PRESENT",
+      "markedBy" : {
+        "id" : 5,
+        "username" : "s",
+        "role" : "TEACHER",
+        "staffRole" : null,
+        "permissions" : null,
+        "isActive" : true,
+        "createdAt" : "2026-10-07T18:24:34.967455"
+      }
+    }, {
+      "id" : 2,
+      "student" : {
+        "id" : 2,
+        "user" : {
+          "id" : 8,
+          "username" : "teststudent1",
+          "role" : "STUDENT",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-10-07T19:11:15.423409"
+        },
+        "fullName" : "Test Student",
+        "admissionNumber" : "ADM1791380475273",
+        "schoolClass" : {
+          "id" : 1,
+          "name" : "Grade 10",
+          "section" : "A",
+          "academicYear" : "2025-2026",
+          "sortOrder" : 1,
+          "classTeacher" : {
+            "id" : 3,
+            "user" : {
+              "id" : 5,
+              "username" : "s",
+              "role" : "TEACHER",
+              "staffRole" : null,
+              "permissions" : null,
+              "isActive" : true,
+              "createdAt" : "2026-10-07T18:24:34.967455"
+            },
+            "fullName" : "Shankarr",
+            "employeeId" : "102",
+            "phone" : "",
+            "email" : "",
+            "qualification" : "",
+            "dateOfJoining" : "2026-10-07"
+          }
+        },
+        "dateOfBirth" : "2010-01-01",
+        "gender" : "MALE",
+        "address" : "Test Address",
+        "admissionDate" : "2026-10-07",
+        "academicYear" : "2025-2026",
+        "isActive" : true
+      },
+      "schoolClass" : {
+        "id" : 1,
+        "name" : "Grade 10",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 3,
+          "user" : {
+            "id" : 5,
+            "username" : "s",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-10-07T18:24:34.967455"
+          },
+          "fullName" : "Shankarr",
+          "employeeId" : "102",
+          "phone" : "",
+          "email" : "",
+          "qualification" : "",
+          "dateOfJoining" : "2026-10-07"
+        }
+      },
+      "subject" : null,
+      "date" : "2026-10-07",
+      "status" : "PRESENT",
+      "markedBy" : {
+        "id" : 5,
+        "username" : "s",
+        "role" : "TEACHER",
+        "staffRole" : null,
+        "permissions" : null,
+        "isActive" : true,
+        "createdAt" : "2026-10-07T18:24:34.967455"
+      }
+    }, {
+      "id" : 3,
+      "student" : {
+        "id" : 4,
+        "user" : {
+          "id" : 11,
+          "username" : "rohansharma",
+          "role" : "STUDENT",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-10-07T19:14:12.375898"
+        },
+        "fullName" : "Rohan Sharma",
+        "admissionNumber" : "ADM2025003",
+        "schoolClass" : {
+          "id" : 1,
+          "name" : "Grade 10",
+          "section" : "A",
+          "academicYear" : "2025-2026",
+          "sortOrder" : 1,
+          "classTeacher" : {
+            "id" : 3,
+            "user" : {
+              "id" : 5,
+              "username" : "s",
+              "role" : "TEACHER",
+              "staffRole" : null,
+              "permissions" : null,
+              "isActive" : true,
+              "createdAt" : "2026-10-07T18:24:34.967455"
+            },
+            "fullName" : "Shankarr",
+            "employeeId" : "102",
+            "phone" : "",
+            "email" : "",
+            "qualification" : "",
+            "dateOfJoining" : "2026-10-07"
+          }
+        },
+        "dateOfBirth" : null,
+        "gender" : "MALE",
+        "address" : null,
+        "admissionDate" : "2026-10-07",
+        "academicYear" : "2025-2026",
+        "isActive" : true
+      },
+      "schoolClass" : {
+        "id" : 1,
+        "name" : "Grade 10",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 3,
+          "user" : {
+            "id" : 5,
+            "username" : "s",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-10-07T18:24:34.967455"
+          },
+          "fullName" : "Shankarr",
+          "employeeId" : "102",
+          "phone" : "",
+          "email" : "",
+          "qualification" : "",
+          "dateOfJoining" : "2026-10-07"
+        }
+      },
+      "subject" : null,
+      "date" : "2026-10-07",
+      "status" : "PRESENT",
+      "markedBy" : {
+        "id" : 5,
+        "username" : "s",
+        "role" : "TEACHER",
+        "staffRole" : null,
+        "permissions" : null,
+        "isActive" : true,
+        "createdAt" : "2026-10-07T18:24:34.967455"
+      }
+    }, {
+      "id" : 4,
+      "student" : {
+        "id" : 5,
+        "user" : {
+          "id" : 12,
+          "username" : "priya.sundaram.2025",
+          "role" : "STUDENT",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-10-07T19:15:04.394018"
+        },
+        "fullName" : "Priya Sundaram (Updated)",
+        "admissionNumber" : "ADM2025004",
+        "schoolClass" : {
+          "id" : 1,
+          "name" : "Grade 10",
+          "section" : "A",
+          "academicYear" : "2025-2026",
+          "sortOrder" : 1,
+          "classTeacher" : {
+            "id" : 3,
+            "user" : {
+              "id" : 5,
+              "username" : "s",
+              "role" : "TEACHER",
+              "staffRole" : null,
+              "permissions" : null,
+              "isActive" : true,
+              "createdAt" : "2026-10-07T18:24:34.967455"
+            },
+            "fullName" : "Shankarr",
+            "employeeId" : "102",
+            "phone" : "",
+            "email" : "",
+            "qualification" : "",
+            "dateOfJoining" : "2026-10-07"
+          }
+        },
+        "dateOfBirth" : "2010-08-14",
+        "gender" : "FEMALE",
+        "address" : null,
+        "admissionDate" : "2026-10-07",
+        "academicYear" : "2025-2026",
+        "isActive" : true
+      },
+      "schoolClass" : {
+        "id" : 1,
+        "name" : "Grade 10",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 3,
+          "user" : {
+            "id" : 5,
+            "username" : "s",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-10-07T18:24:34.967455"
+          },
+          "fullName" : "Shankarr",
+          "employeeId" : "102",
+          "phone" : "",
+          "email" : "",
+          "qualification" : "",
+          "dateOfJoining" : "2026-10-07"
+        }
+      },
+      "subject" : null,
+      "date" : "2026-10-07",
+      "status" : "PRESENT",
+      "markedBy" : {
+        "id" : 5,
+        "username" : "s",
+        "role" : "TEACHER",
+        "staffRole" : null,
+        "permissions" : null,
+        "isActive" : true,
+        "createdAt" : "2026-10-07T18:24:34.967455"
+      }
+    }, {
+      "id" : 5,
+      "student" : {
+        "id" : 6,
+        "user" : {
+          "id" : 13,
+          "username" : "shankarsaisai",
+          "role" : "STUDENT",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-10-07T19:16:07.219746"
+        },
+        "fullName" : "shankar sai Sai",
+        "admissionNumber" : "ADM2025005",
+        "schoolClass" : {
+          "id" : 1,
+          "name" : "Grade 10",
+          "section" : "A",
+          "academicYear" : "2025-2026",
+          "sortOrder" : 1,
+          "classTeacher" : {
+            "id" : 3,
+            "user" : {
+              "id" : 5,
+              "username" : "s",
+              "role" : "TEACHER",
+              "staffRole" : null,
+              "permissions" : null,
+              "isActive" : true,
+              "createdAt" : "2026-10-07T18:24:34.967455"
+            },
+            "fullName" : "Shankarr",
+            "employeeId" : "102",
+            "phone" : "",
+            "email" : "",
+            "qualification" : "",
+            "dateOfJoining" : "2026-10-07"
+          }
+        },
+        "dateOfBirth" : null,
+        "gender" : "MALE",
+        "address" : "",
+        "admissionDate" : "2026-10-07",
+        "academicYear" : "2025-2026",
+        "isActive" : true
+      },
+      "schoolClass" : {
+        "id" : 1,
+        "name" : "Grade 10",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 3,
+          "user" : {
+            "id" : 5,
+            "username" : "s",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-10-07T18:24:34.967455"
+          },
+          "fullName" : "Shankarr",
+          "employeeId" : "102",
+          "phone" : "",
+          "email" : "",
+          "qualification" : "",
+          "dateOfJoining" : "2026-10-07"
+        }
+      },
+      "subject" : null,
+      "date" : "2026-10-07",
+      "status" : "PRESENT",
+      "markedBy" : {
+        "id" : 5,
+        "username" : "s",
+        "role" : "TEACHER",
+        "staffRole" : null,
+        "permissions" : null,
+        "isActive" : true,
+        "createdAt" : "2026-10-07T18:24:34.967455"
+      }
+    }, {
+      "id" : 7,
+      "student" : {
+        "id" : 1,
+        "user" : {
+          "id" : 3,
+          "username" : "student1",
+          "role" : "STUDENT",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-09-05T07:26:33.509023"
+        },
+        "fullName" : "Alex Morgan",
+        "admissionNumber" : "ADM2025001",
+        "schoolClass" : {
+          "id" : 1,
+          "name" : "Grade 10",
+          "section" : "A",
+          "academicYear" : "2025-2026",
+          "sortOrder" : 1,
+          "classTeacher" : {
+            "id" : 3,
+            "user" : {
+              "id" : 5,
+              "username" : "s",
+              "role" : "TEACHER",
+              "staffRole" : null,
+              "permissions" : null,
+              "isActive" : true,
+              "createdAt" : "2026-10-07T18:24:34.967455"
+            },
+            "fullName" : "Shankarr",
+            "employeeId" : "102",
+            "phone" : "",
+            "email" : "",
+            "qualification" : "",
+            "dateOfJoining" : "2026-10-07"
+          }
+        },
+        "dateOfBirth" : "2010-05-15",
+        "gender" : "MALE",
+        "address" : "123 Education Lane, Tech City",
+        "admissionDate" : "2025-04-01",
+        "academicYear" : "2025-2026",
+        "isActive" : false
+      },
+      "schoolClass" : {
+        "id" : 1,
+        "name" : "Grade 10",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 3,
+          "user" : {
+            "id" : 5,
+            "username" : "s",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-10-07T18:24:34.967455"
+          },
+          "fullName" : "Shankarr",
+          "employeeId" : "102",
+          "phone" : "",
+          "email" : "",
+          "qualification" : "",
+          "dateOfJoining" : "2026-10-07"
+        }
+      },
+      "subject" : {
+        "id" : 1,
+        "name" : "Maths",
+        "code" : "MATHS101"
+      },
+      "date" : "2026-10-07",
+      "status" : "PRESENT",
+      "markedBy" : {
+        "id" : 2,
+        "username" : "teacher1",
+        "role" : "TEACHER",
+        "staffRole" : null,
+        "permissions" : null,
+        "isActive" : true,
+        "createdAt" : "2026-09-05T07:26:33.351429"
+      }
+    }, {
+      "id" : 8,
+      "student" : {
+        "id" : 1,
+        "user" : {
+          "id" : 3,
+          "username" : "student1",
+          "role" : "STUDENT",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-09-05T07:26:33.509023"
+        },
+        "fullName" : "Alex Morgan",
+        "admissionNumber" : "ADM2025001",
+        "schoolClass" : {
+          "id" : 1,
+          "name" : "Grade 10",
+          "section" : "A",
+          "academicYear" : "2025-2026",
+          "sortOrder" : 1,
+          "classTeacher" : {
+            "id" : 3,
+            "user" : {
+              "id" : 5,
+              "username" : "s",
+              "role" : "TEACHER",
+              "staffRole" : null,
+              "permissions" : null,
+              "isActive" : true,
+              "createdAt" : "2026-10-07T18:24:34.967455"
+            },
+            "fullName" : "Shankarr",
+            "employeeId" : "102",
+            "phone" : "",
+            "email" : "",
+            "qualification" : "",
+            "dateOfJoining" : "2026-10-07"
+          }
+        },
+        "dateOfBirth" : "2010-05-15",
+        "gender" : "MALE",
+        "address" : "123 Education Lane, Tech City",
+        "admissionDate" : "2025-04-01",
+        "academicYear" : "2025-2026",
+        "isActive" : false
+      },
+      "schoolClass" : {
+        "id" : 1,
+        "name" : "Grade 10",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 3,
+          "user" : {
+            "id" : 5,
+            "username" : "s",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-10-07T18:24:34.967455"
+          },
+          "fullName" : "Shankarr",
+          "employeeId" : "102",
+          "phone" : "",
+          "email" : "",
+          "qualification" : "",
+          "dateOfJoining" : "2026-10-07"
+        }
+      },
+      "subject" : {
+        "id" : 2,
+        "name" : "Physics",
+        "code" : "PHY102"
+      },
+      "date" : "2026-10-07",
+      "status" : "ABSENT",
+      "markedBy" : {
+        "id" : 2,
+        "username" : "teacher1",
+        "role" : "TEACHER",
+        "staffRole" : null,
+        "permissions" : null,
+        "isActive" : true,
+        "createdAt" : "2026-09-05T07:26:33.351429"
+      }
+    } ],
+    "studentFees" : [ {
+      "id" : 1,
+      "student" : {
+        "id" : 1,
+        "user" : {
+          "id" : 3,
+          "username" : "student1",
+          "role" : "STUDENT",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-09-05T07:26:33.509023"
+        },
+        "fullName" : "Alex Morgan",
+        "admissionNumber" : "ADM2025001",
+        "schoolClass" : {
+          "id" : 1,
+          "name" : "Grade 10",
+          "section" : "A",
+          "academicYear" : "2025-2026",
+          "sortOrder" : 1,
+          "classTeacher" : {
+            "id" : 3,
+            "user" : {
+              "id" : 5,
+              "username" : "s",
+              "role" : "TEACHER",
+              "staffRole" : null,
+              "permissions" : null,
+              "isActive" : true,
+              "createdAt" : "2026-10-07T18:24:34.967455"
+            },
+            "fullName" : "Shankarr",
+            "employeeId" : "102",
+            "phone" : "",
+            "email" : "",
+            "qualification" : "",
+            "dateOfJoining" : "2026-10-07"
+          }
+        },
+        "dateOfBirth" : "2010-05-15",
+        "gender" : "MALE",
+        "address" : "123 Education Lane, Tech City",
+        "admissionDate" : "2025-04-01",
+        "academicYear" : "2025-2026",
+        "isActive" : false
+      },
+      "academicYear" : "2025-2026",
+      "currentYearDue" : 0.00,
+      "previousYearPending" : 97000.00,
+      "totalPaid" : 0.00,
+      "grandTotal" : 97000.00,
+      "balanceDue" : 97000.00,
+      "status" : "UNPAID"
+    }, {
+      "id" : 2,
+      "student" : {
+        "id" : 2,
+        "user" : {
+          "id" : 8,
+          "username" : "teststudent1",
+          "role" : "STUDENT",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-10-07T19:11:15.423409"
+        },
+        "fullName" : "Test Student",
+        "admissionNumber" : "ADM1791380475273",
+        "schoolClass" : {
+          "id" : 1,
+          "name" : "Grade 10",
+          "section" : "A",
+          "academicYear" : "2025-2026",
+          "sortOrder" : 1,
+          "classTeacher" : {
+            "id" : 3,
+            "user" : {
+              "id" : 5,
+              "username" : "s",
+              "role" : "TEACHER",
+              "staffRole" : null,
+              "permissions" : null,
+              "isActive" : true,
+              "createdAt" : "2026-10-07T18:24:34.967455"
+            },
+            "fullName" : "Shankarr",
+            "employeeId" : "102",
+            "phone" : "",
+            "email" : "",
+            "qualification" : "",
+            "dateOfJoining" : "2026-10-07"
+          }
+        },
+        "dateOfBirth" : "2010-01-01",
+        "gender" : "MALE",
+        "address" : "Test Address",
+        "admissionDate" : "2026-10-07",
+        "academicYear" : "2025-2026",
+        "isActive" : true
+      },
+      "academicYear" : "2025-2026",
+      "currentYearDue" : 45000.00,
+      "previousYearPending" : 0.00,
+      "totalPaid" : 0.00,
+      "grandTotal" : 45000.00,
+      "balanceDue" : 45000.00,
+      "status" : "UNPAID"
+    }, {
+      "id" : 3,
+      "student" : {
+        "id" : 4,
+        "user" : {
+          "id" : 11,
+          "username" : "rohansharma",
+          "role" : "STUDENT",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-10-07T19:14:12.375898"
+        },
+        "fullName" : "Rohan Sharma",
+        "admissionNumber" : "ADM2025003",
+        "schoolClass" : {
+          "id" : 1,
+          "name" : "Grade 10",
+          "section" : "A",
+          "academicYear" : "2025-2026",
+          "sortOrder" : 1,
+          "classTeacher" : {
+            "id" : 3,
+            "user" : {
+              "id" : 5,
+              "username" : "s",
+              "role" : "TEACHER",
+              "staffRole" : null,
+              "permissions" : null,
+              "isActive" : true,
+              "createdAt" : "2026-10-07T18:24:34.967455"
+            },
+            "fullName" : "Shankarr",
+            "employeeId" : "102",
+            "phone" : "",
+            "email" : "",
+            "qualification" : "",
+            "dateOfJoining" : "2026-10-07"
+          }
+        },
+        "dateOfBirth" : null,
+        "gender" : "MALE",
+        "address" : null,
+        "admissionDate" : "2026-10-07",
+        "academicYear" : "2025-2026",
+        "isActive" : true
+      },
+      "academicYear" : "2025-2026",
+      "currentYearDue" : 45000.00,
+      "previousYearPending" : 0.00,
+      "totalPaid" : 0.00,
+      "grandTotal" : 45000.00,
+      "balanceDue" : 45000.00,
+      "status" : "UNPAID"
+    }, {
+      "id" : 4,
+      "student" : {
+        "id" : 5,
+        "user" : {
+          "id" : 12,
+          "username" : "priya.sundaram.2025",
+          "role" : "STUDENT",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-10-07T19:15:04.394018"
+        },
+        "fullName" : "Priya Sundaram (Updated)",
+        "admissionNumber" : "ADM2025004",
+        "schoolClass" : {
+          "id" : 1,
+          "name" : "Grade 10",
+          "section" : "A",
+          "academicYear" : "2025-2026",
+          "sortOrder" : 1,
+          "classTeacher" : {
+            "id" : 3,
+            "user" : {
+              "id" : 5,
+              "username" : "s",
+              "role" : "TEACHER",
+              "staffRole" : null,
+              "permissions" : null,
+              "isActive" : true,
+              "createdAt" : "2026-10-07T18:24:34.967455"
+            },
+            "fullName" : "Shankarr",
+            "employeeId" : "102",
+            "phone" : "",
+            "email" : "",
+            "qualification" : "",
+            "dateOfJoining" : "2026-10-07"
+          }
+        },
+        "dateOfBirth" : "2010-08-14",
+        "gender" : "FEMALE",
+        "address" : null,
+        "admissionDate" : "2026-10-07",
+        "academicYear" : "2025-2026",
+        "isActive" : true
+      },
+      "academicYear" : "2025-2026",
+      "currentYearDue" : 45000.00,
+      "previousYearPending" : 0.00,
+      "totalPaid" : 0.00,
+      "grandTotal" : 45000.00,
+      "balanceDue" : 45000.00,
+      "status" : "UNPAID"
+    }, {
+      "id" : 5,
+      "student" : {
+        "id" : 6,
+        "user" : {
+          "id" : 13,
+          "username" : "shankarsaisai",
+          "role" : "STUDENT",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-10-07T19:16:07.219746"
+        },
+        "fullName" : "shankar sai Sai",
+        "admissionNumber" : "ADM2025005",
+        "schoolClass" : {
+          "id" : 1,
+          "name" : "Grade 10",
+          "section" : "A",
+          "academicYear" : "2025-2026",
+          "sortOrder" : 1,
+          "classTeacher" : {
+            "id" : 3,
+            "user" : {
+              "id" : 5,
+              "username" : "s",
+              "role" : "TEACHER",
+              "staffRole" : null,
+              "permissions" : null,
+              "isActive" : true,
+              "createdAt" : "2026-10-07T18:24:34.967455"
+            },
+            "fullName" : "Shankarr",
+            "employeeId" : "102",
+            "phone" : "",
+            "email" : "",
+            "qualification" : "",
+            "dateOfJoining" : "2026-10-07"
+          }
+        },
+        "dateOfBirth" : null,
+        "gender" : "MALE",
+        "address" : "",
+        "admissionDate" : "2026-10-07",
+        "academicYear" : "2025-2026",
+        "isActive" : true
+      },
+      "academicYear" : "2025-2026",
+      "currentYearDue" : 45000.00,
+      "previousYearPending" : 0.00,
+      "totalPaid" : 0.00,
+      "grandTotal" : 45000.00,
+      "balanceDue" : 45000.00,
+      "status" : "UNPAID"
+    }, {
+      "id" : 6,
+      "student" : {
+        "id" : 7,
+        "user" : {
+          "id" : 14,
+          "username" : "v",
+          "role" : "STUDENT",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-10-07T20:38:16.661746"
+        },
+        "fullName" : "vishwa",
+        "admissionNumber" : "ADM2025006",
+        "schoolClass" : {
+          "id" : 2,
+          "name" : "Grade 9",
+          "section" : "A",
+          "academicYear" : "2025-2026",
+          "sortOrder" : 1,
+          "classTeacher" : {
+            "id" : 1,
+            "user" : {
+              "id" : 2,
+              "username" : "teacher1",
+              "role" : "TEACHER",
+              "staffRole" : null,
+              "permissions" : null,
+              "isActive" : true,
+              "createdAt" : "2026-09-05T07:26:33.351429"
+            },
+            "fullName" : "Sarah Jenkins",
+            "employeeId" : "T101",
+            "phone" : "9876543210",
+            "email" : "sarah.jenkins@school.edu",
+            "qualification" : "M.Sc. Mathematics",
+            "dateOfJoining" : "2020-06-01"
+          }
+        },
+        "dateOfBirth" : null,
+        "gender" : "MALE",
+        "address" : "",
+        "admissionDate" : "2026-10-07",
+        "academicYear" : "2025-2026",
+        "isActive" : true
+      },
+      "academicYear" : "2025-2026",
+      "currentYearDue" : 45000.00,
+      "previousYearPending" : 0.00,
+      "totalPaid" : 0.00,
+      "grandTotal" : 45000.00,
+      "balanceDue" : 45000.00,
+      "status" : "UNPAID"
+    }, {
+      "id" : 7,
+      "student" : {
+        "id" : 8,
+        "user" : {
+          "id" : 15,
+          "username" : "ss",
+          "role" : "STUDENT",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-10-07T20:51:55.478349"
+        },
+        "fullName" : "Surya",
+        "admissionNumber" : "ADM2025007",
+        "schoolClass" : {
+          "id" : 2,
+          "name" : "Grade 9",
+          "section" : "A",
+          "academicYear" : "2025-2026",
+          "sortOrder" : 1,
+          "classTeacher" : {
+            "id" : 1,
+            "user" : {
+              "id" : 2,
+              "username" : "teacher1",
+              "role" : "TEACHER",
+              "staffRole" : null,
+              "permissions" : null,
+              "isActive" : true,
+              "createdAt" : "2026-09-05T07:26:33.351429"
+            },
+            "fullName" : "Sarah Jenkins",
+            "employeeId" : "T101",
+            "phone" : "9876543210",
+            "email" : "sarah.jenkins@school.edu",
+            "qualification" : "M.Sc. Mathematics",
+            "dateOfJoining" : "2020-06-01"
+          }
+        },
+        "dateOfBirth" : null,
+        "gender" : "MALE",
+        "address" : "",
+        "admissionDate" : "2026-10-07",
+        "academicYear" : "2025-2026",
+        "isActive" : true
+      },
+      "academicYear" : "2025-2026",
+      "currentYearDue" : 60000.00,
+      "previousYearPending" : 0.00,
+      "totalPaid" : 50000.00,
+      "grandTotal" : 60000.00,
+      "balanceDue" : 10000.00,
+      "status" : "PARTIAL"
+    }, {
+      "id" : 8,
+      "student" : {
+        "id" : 9,
+        "user" : {
+          "id" : 17,
+          "username" : "sss",
+          "role" : "STUDENT",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-10-08T19:55:35.551435"
+        },
+        "fullName" : "Surya",
+        "admissionNumber" : "ADM2025008",
+        "schoolClass" : {
+          "id" : 1,
+          "name" : "Grade 10",
+          "section" : "A",
+          "academicYear" : "2025-2026",
+          "sortOrder" : 1,
+          "classTeacher" : {
+            "id" : 3,
+            "user" : {
+              "id" : 5,
+              "username" : "s",
+              "role" : "TEACHER",
+              "staffRole" : null,
+              "permissions" : null,
+              "isActive" : true,
+              "createdAt" : "2026-10-07T18:24:34.967455"
+            },
+            "fullName" : "Shankarr",
+            "employeeId" : "102",
+            "phone" : "",
+            "email" : "",
+            "qualification" : "",
+            "dateOfJoining" : "2026-10-07"
+          }
+        },
+        "dateOfBirth" : null,
+        "gender" : "MALE",
+        "address" : "",
+        "admissionDate" : "2026-10-08",
+        "academicYear" : "2025-2026",
+        "isActive" : true
+      },
+      "academicYear" : "2025-2026",
+      "currentYearDue" : 35000.00,
+      "previousYearPending" : 71000.00,
+      "totalPaid" : 0.00,
+      "grandTotal" : 106000.00,
+      "balanceDue" : 106000.00,
+      "status" : "UNPAID"
+    }, {
+      "id" : 9,
+      "student" : {
+        "id" : 10,
+        "user" : {
+          "id" : 18,
+          "username" : "rohansharma1",
+          "role" : "STUDENT",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-10-08T20:30:12.124828"
+        },
+        "fullName" : "Rohan Sharma",
+        "admissionNumber" : "ADM_TEST_1793",
+        "schoolClass" : {
+          "id" : 1,
+          "name" : "Grade 10",
+          "section" : "A",
+          "academicYear" : "2025-2026",
+          "sortOrder" : 1,
+          "classTeacher" : {
+            "id" : 3,
+            "user" : {
+              "id" : 5,
+              "username" : "s",
+              "role" : "TEACHER",
+              "staffRole" : null,
+              "permissions" : null,
+              "isActive" : true,
+              "createdAt" : "2026-10-07T18:24:34.967455"
+            },
+            "fullName" : "Shankarr",
+            "employeeId" : "102",
+            "phone" : "",
+            "email" : "",
+            "qualification" : "",
+            "dateOfJoining" : "2026-10-07"
+          }
+        },
+        "dateOfBirth" : null,
+        "gender" : "MALE",
+        "address" : null,
+        "admissionDate" : "2026-10-08",
+        "academicYear" : "2025-2026",
+        "isActive" : true
+      },
+      "academicYear" : "2025-2026",
+      "currentYearDue" : 0.00,
+      "previousYearPending" : 48500.00,
+      "totalPaid" : 0.00,
+      "grandTotal" : 48500.00,
+      "balanceDue" : 48500.00,
+      "status" : "UNPAID"
+    } ],
+    "paymentHistory" : [ {
+      "id" : 1,
+      "studentFee" : {
+        "id" : 7,
+        "student" : {
+          "id" : 8,
+          "user" : {
+            "id" : 15,
+            "username" : "ss",
+            "role" : "STUDENT",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-10-07T20:51:55.478349"
+          },
+          "fullName" : "Surya",
+          "admissionNumber" : "ADM2025007",
+          "schoolClass" : {
+            "id" : 2,
+            "name" : "Grade 9",
+            "section" : "A",
+            "academicYear" : "2025-2026",
+            "sortOrder" : 1,
+            "classTeacher" : {
+              "id" : 1,
+              "user" : {
+                "id" : 2,
+                "username" : "teacher1",
+                "role" : "TEACHER",
+                "staffRole" : null,
+                "permissions" : null,
+                "isActive" : true,
+                "createdAt" : "2026-09-05T07:26:33.351429"
+              },
+              "fullName" : "Sarah Jenkins",
+              "employeeId" : "T101",
+              "phone" : "9876543210",
+              "email" : "sarah.jenkins@school.edu",
+              "qualification" : "M.Sc. Mathematics",
+              "dateOfJoining" : "2020-06-01"
+            }
+          },
+          "dateOfBirth" : null,
+          "gender" : "MALE",
+          "address" : "",
+          "admissionDate" : "2026-10-07",
+          "academicYear" : "2025-2026",
+          "isActive" : true
+        },
+        "academicYear" : "2025-2026",
+        "currentYearDue" : 60000.00,
+        "previousYearPending" : 0.00,
+        "totalPaid" : 50000.00,
+        "grandTotal" : 60000.00,
+        "balanceDue" : 10000.00,
+        "status" : "PARTIAL"
+      },
+      "amountPaid" : 2000.00,
+      "paymentDate" : "2026-10-07T21:00:01.417653",
+      "paymentMode" : "CASH",
+      "receiptNumber" : "RCP-1791387001412-457F",
+      "recordedBy" : {
+        "id" : 1,
+        "username" : "admin",
+        "role" : "MANAGEMENT",
+        "staffRole" : "SUPER_ADMIN",
+        "permissions" : "*",
+        "isActive" : true,
+        "createdAt" : "2026-09-05T07:26:33.146207"
+      },
+      "notes" : ""
+    }, {
+      "id" : 2,
+      "studentFee" : {
+        "id" : 7,
+        "student" : {
+          "id" : 8,
+          "user" : {
+            "id" : 15,
+            "username" : "ss",
+            "role" : "STUDENT",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-10-07T20:51:55.478349"
+          },
+          "fullName" : "Surya",
+          "admissionNumber" : "ADM2025007",
+          "schoolClass" : {
+            "id" : 2,
+            "name" : "Grade 9",
+            "section" : "A",
+            "academicYear" : "2025-2026",
+            "sortOrder" : 1,
+            "classTeacher" : {
+              "id" : 1,
+              "user" : {
+                "id" : 2,
+                "username" : "teacher1",
+                "role" : "TEACHER",
+                "staffRole" : null,
+                "permissions" : null,
+                "isActive" : true,
+                "createdAt" : "2026-09-05T07:26:33.351429"
+              },
+              "fullName" : "Sarah Jenkins",
+              "employeeId" : "T101",
+              "phone" : "9876543210",
+              "email" : "sarah.jenkins@school.edu",
+              "qualification" : "M.Sc. Mathematics",
+              "dateOfJoining" : "2020-06-01"
+            }
+          },
+          "dateOfBirth" : null,
+          "gender" : "MALE",
+          "address" : "",
+          "admissionDate" : "2026-10-07",
+          "academicYear" : "2025-2026",
+          "isActive" : true
+        },
+        "academicYear" : "2025-2026",
+        "currentYearDue" : 60000.00,
+        "previousYearPending" : 0.00,
+        "totalPaid" : 50000.00,
+        "grandTotal" : 60000.00,
+        "balanceDue" : 10000.00,
+        "status" : "PARTIAL"
+      },
+      "amountPaid" : 43000.00,
+      "paymentDate" : "2026-10-07T21:00:26.381306",
+      "paymentMode" : "CASH",
+      "receiptNumber" : "RCP-1791387026381-D343",
+      "recordedBy" : {
+        "id" : 1,
+        "username" : "admin",
+        "role" : "MANAGEMENT",
+        "staffRole" : "SUPER_ADMIN",
+        "permissions" : "*",
+        "isActive" : true,
+        "createdAt" : "2026-09-05T07:26:33.146207"
+      },
+      "notes" : ""
+    }, {
+      "id" : 4,
+      "studentFee" : {
+        "id" : 1,
+        "student" : {
+          "id" : 1,
+          "user" : {
+            "id" : 3,
+            "username" : "student1",
+            "role" : "STUDENT",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-09-05T07:26:33.509023"
+          },
+          "fullName" : "Alex Morgan",
+          "admissionNumber" : "ADM2025001",
+          "schoolClass" : {
+            "id" : 1,
+            "name" : "Grade 10",
+            "section" : "A",
+            "academicYear" : "2025-2026",
+            "sortOrder" : 1,
+            "classTeacher" : {
+              "id" : 3,
+              "user" : {
+                "id" : 5,
+                "username" : "s",
+                "role" : "TEACHER",
+                "staffRole" : null,
+                "permissions" : null,
+                "isActive" : true,
+                "createdAt" : "2026-10-07T18:24:34.967455"
+              },
+              "fullName" : "Shankarr",
+              "employeeId" : "102",
+              "phone" : "",
+              "email" : "",
+              "qualification" : "",
+              "dateOfJoining" : "2026-10-07"
+            }
+          },
+          "dateOfBirth" : "2010-05-15",
+          "gender" : "MALE",
+          "address" : "123 Education Lane, Tech City",
+          "admissionDate" : "2025-04-01",
+          "academicYear" : "2025-2026",
+          "isActive" : false
+        },
+        "academicYear" : "2025-2026",
+        "currentYearDue" : 0.00,
+        "previousYearPending" : 97000.00,
+        "totalPaid" : 0.00,
+        "grandTotal" : 97000.00,
+        "balanceDue" : 97000.00,
+        "status" : "UNPAID"
+      },
+      "amountPaid" : 3000.00,
+      "paymentDate" : "2026-10-08T19:45:53.627167",
+      "paymentMode" : "UPI",
+      "receiptNumber" : "RCP-1791468953626-3BA8",
+      "recordedBy" : {
+        "id" : 1,
+        "username" : "admin",
+        "role" : "MANAGEMENT",
+        "staffRole" : "SUPER_ADMIN",
+        "permissions" : "*",
+        "isActive" : true,
+        "createdAt" : "2026-09-05T07:26:33.146207"
+      },
+      "notes" : "Testing UPI partial payment"
+    }, {
+      "id" : 5,
+      "studentFee" : {
+        "id" : 7,
+        "student" : {
+          "id" : 8,
+          "user" : {
+            "id" : 15,
+            "username" : "ss",
+            "role" : "STUDENT",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-10-07T20:51:55.478349"
+          },
+          "fullName" : "Surya",
+          "admissionNumber" : "ADM2025007",
+          "schoolClass" : {
+            "id" : 2,
+            "name" : "Grade 9",
+            "section" : "A",
+            "academicYear" : "2025-2026",
+            "sortOrder" : 1,
+            "classTeacher" : {
+              "id" : 1,
+              "user" : {
+                "id" : 2,
+                "username" : "teacher1",
+                "role" : "TEACHER",
+                "staffRole" : null,
+                "permissions" : null,
+                "isActive" : true,
+                "createdAt" : "2026-09-05T07:26:33.351429"
+              },
+              "fullName" : "Sarah Jenkins",
+              "employeeId" : "T101",
+              "phone" : "9876543210",
+              "email" : "sarah.jenkins@school.edu",
+              "qualification" : "M.Sc. Mathematics",
+              "dateOfJoining" : "2020-06-01"
+            }
+          },
+          "dateOfBirth" : null,
+          "gender" : "MALE",
+          "address" : "",
+          "admissionDate" : "2026-10-07",
+          "academicYear" : "2025-2026",
+          "isActive" : true
+        },
+        "academicYear" : "2025-2026",
+        "currentYearDue" : 60000.00,
+        "previousYearPending" : 0.00,
+        "totalPaid" : 50000.00,
+        "grandTotal" : 60000.00,
+        "balanceDue" : 10000.00,
+        "status" : "PARTIAL"
+      },
+      "amountPaid" : 5000.00,
+      "paymentDate" : "2026-10-08T19:53:32.474977",
+      "paymentMode" : "CASH",
+      "receiptNumber" : "RCP-1791469412474-19B3",
+      "recordedBy" : {
+        "id" : 1,
+        "username" : "admin",
+        "role" : "MANAGEMENT",
+        "staffRole" : "SUPER_ADMIN",
+        "permissions" : "*",
+        "isActive" : true,
+        "createdAt" : "2026-09-05T07:26:33.146207"
+      },
+      "notes" : "SHANKAR COLLECTED"
+    }, {
+      "id" : 6,
+      "studentFee" : {
+        "id" : 8,
+        "student" : {
+          "id" : 9,
+          "user" : {
+            "id" : 17,
+            "username" : "sss",
+            "role" : "STUDENT",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-10-08T19:55:35.551435"
+          },
+          "fullName" : "Surya",
+          "admissionNumber" : "ADM2025008",
+          "schoolClass" : {
+            "id" : 1,
+            "name" : "Grade 10",
+            "section" : "A",
+            "academicYear" : "2025-2026",
+            "sortOrder" : 1,
+            "classTeacher" : {
+              "id" : 3,
+              "user" : {
+                "id" : 5,
+                "username" : "s",
+                "role" : "TEACHER",
+                "staffRole" : null,
+                "permissions" : null,
+                "isActive" : true,
+                "createdAt" : "2026-10-07T18:24:34.967455"
+              },
+              "fullName" : "Shankarr",
+              "employeeId" : "102",
+              "phone" : "",
+              "email" : "",
+              "qualification" : "",
+              "dateOfJoining" : "2026-10-07"
+            }
+          },
+          "dateOfBirth" : null,
+          "gender" : "MALE",
+          "address" : "",
+          "admissionDate" : "2026-10-08",
+          "academicYear" : "2025-2026",
+          "isActive" : true
+        },
+        "academicYear" : "2025-2026",
+        "currentYearDue" : 35000.00,
+        "previousYearPending" : 71000.00,
+        "totalPaid" : 0.00,
+        "grandTotal" : 106000.00,
+        "balanceDue" : 106000.00,
+        "status" : "UNPAID"
+      },
+      "amountPaid" : 24000.00,
+      "paymentDate" : "2026-10-08T19:57:45.381287",
+      "paymentMode" : "CASH",
+      "receiptNumber" : "RCP-1791469665381-5CBA",
+      "recordedBy" : {
+        "id" : 1,
+        "username" : "admin",
+        "role" : "MANAGEMENT",
+        "staffRole" : "SUPER_ADMIN",
+        "permissions" : "*",
+        "isActive" : true,
+        "createdAt" : "2026-09-05T07:26:33.146207"
+      },
+      "notes" : "Shankar collected"
+    } ],
+    "libraryBooks" : [ {
+      "id" : 1,
+      "title" : "Concepts of Physics — Vol 1",
+      "author" : "H.C. Verma",
+      "isbn" : "978-8177091877",
+      "category" : "Physics",
+      "totalCopies" : 15,
+      "availableCopies" : 12
+    }, {
+      "id" : 2,
+      "title" : "Mathematics for Class 10",
+      "author" : "R.D. Sharma",
+      "isbn" : "978-9351448834",
+      "category" : "Mathematics",
+      "totalCopies" : 20,
+      "availableCopies" : 18
+    } ],
+    "studyMaterials" : [ {
+      "id" : 3,
+      "title" : "Physics Lab Manual — Ray Optics & Reflection Experiments",
+      "description" : "Comprehensive experimental setup diagram, observation tables, and precautions for optical bench experiments.",
+      "schoolClass" : {
+        "id" : 1,
+        "name" : "Grade 10",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 3,
+          "user" : {
+            "id" : 5,
+            "username" : "s",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-10-07T18:24:34.967455"
+          },
+          "fullName" : "Shankarr",
+          "employeeId" : "102",
+          "phone" : "",
+          "email" : "",
+          "qualification" : "",
+          "dateOfJoining" : "2026-10-07"
+        }
+      },
+      "subject" : {
+        "id" : 2,
+        "name" : "Physics",
+        "code" : "PHY102"
+      },
+      "teacher" : {
+        "id" : 1,
+        "user" : {
+          "id" : 2,
+          "username" : "teacher1",
+          "role" : "TEACHER",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-09-05T07:26:33.351429"
+        },
+        "fullName" : "Sarah Jenkins",
+        "employeeId" : "T101",
+        "phone" : "9876543210",
+        "email" : "sarah.jenkins@school.edu",
+        "qualification" : "M.Sc. Mathematics",
+        "dateOfJoining" : "2020-06-01"
+      },
+      "fileUrl" : "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "fileType" : "PDF",
+      "authorOrSource" : "Sarah Jenkins",
+      "uploadedByRole" : null,
+      "isInstituteWide" : null,
+      "uploadedDate" : "2026-10-07"
+    }, {
+      "id" : 4,
+      "title" : "Cell Division Diagram & Process Note",
+      "description" : "Detailed diagram of Mitosis and Meiosis phases.",
+      "schoolClass" : {
+        "id" : 1,
+        "name" : "Grade 10",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 3,
+          "user" : {
+            "id" : 5,
+            "username" : "s",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-10-07T18:24:34.967455"
+          },
+          "fullName" : "Shankarr",
+          "employeeId" : "102",
+          "phone" : "",
+          "email" : "",
+          "qualification" : "",
+          "dateOfJoining" : "2026-10-07"
+        }
+      },
+      "subject" : null,
+      "teacher" : null,
+      "fileUrl" : "data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"300\" height=\"200\"><rect width=\"300\" height=\"200\" fill=\"%23e0f2fe\"/><text x=\"20\" y=\"50\" fill=\"%230369a1\" font-size=\"20\">Cell Division Diagram</text></svg>",
+      "fileType" : "IMAGE",
+      "authorOrSource" : "Faculty",
+      "uploadedByRole" : null,
+      "isInstituteWide" : null,
+      "uploadedDate" : "2026-10-07"
+    }, {
+      "id" : 5,
+      "title" : "Cell Division Diagram & Process Note",
+      "description" : "Detailed diagram of Mitosis and Meiosis phases.",
+      "schoolClass" : {
+        "id" : 1,
+        "name" : "Grade 10",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 3,
+          "user" : {
+            "id" : 5,
+            "username" : "s",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-10-07T18:24:34.967455"
+          },
+          "fullName" : "Shankarr",
+          "employeeId" : "102",
+          "phone" : "",
+          "email" : "",
+          "qualification" : "",
+          "dateOfJoining" : "2026-10-07"
+        }
+      },
+      "subject" : null,
+      "teacher" : null,
+      "fileUrl" : "data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"300\" height=\"200\"><rect width=\"300\" height=\"200\" fill=\"%23e0f2fe\"/><text x=\"20\" y=\"50\" fill=\"%230369a1\" font-size=\"20\">Cell Division Diagram</text></svg>",
+      "fileType" : "IMAGE",
+      "authorOrSource" : "Faculty",
+      "uploadedByRole" : null,
+      "isInstituteWide" : null,
+      "uploadedDate" : "2026-10-07"
+    }, {
+      "id" : 6,
+      "title" : "Cell Division Diagram & Process Note",
+      "description" : "Detailed diagram of Mitosis and Meiosis phases.",
+      "schoolClass" : {
+        "id" : 1,
+        "name" : "Grade 10",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 3,
+          "user" : {
+            "id" : 5,
+            "username" : "s",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-10-07T18:24:34.967455"
+          },
+          "fullName" : "Shankarr",
+          "employeeId" : "102",
+          "phone" : "",
+          "email" : "",
+          "qualification" : "",
+          "dateOfJoining" : "2026-10-07"
+        }
+      },
+      "subject" : null,
+      "teacher" : null,
+      "fileUrl" : "data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"300\" height=\"200\"><rect width=\"300\" height=\"200\" fill=\"%23e0f2fe\"/><text x=\"20\" y=\"50\" fill=\"%230369a1\" font-size=\"20\">Cell Division Diagram</text></svg>",
+      "fileType" : "IMAGE",
+      "authorOrSource" : "Faculty",
+      "uploadedByRole" : null,
+      "isInstituteWide" : null,
+      "uploadedDate" : "2026-10-07"
+    }, {
+      "id" : 7,
+      "title" : "Cell Division Diagram & Process Note",
+      "description" : "Detailed diagram of Mitosis and Meiosis phases.",
+      "schoolClass" : {
+        "id" : 1,
+        "name" : "Grade 10",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 3,
+          "user" : {
+            "id" : 5,
+            "username" : "s",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-10-07T18:24:34.967455"
+          },
+          "fullName" : "Shankarr",
+          "employeeId" : "102",
+          "phone" : "",
+          "email" : "",
+          "qualification" : "",
+          "dateOfJoining" : "2026-10-07"
+        }
+      },
+      "subject" : null,
+      "teacher" : null,
+      "fileUrl" : "data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"300\" height=\"200\"><rect width=\"300\" height=\"200\" fill=\"%23e0f2fe\"/><text x=\"20\" y=\"50\" fill=\"%230369a1\" font-size=\"20\">Cell Division Diagram</text></svg>",
+      "fileType" : "IMAGE",
+      "authorOrSource" : "Faculty",
+      "uploadedByRole" : null,
+      "isInstituteWide" : null,
+      "uploadedDate" : "2026-10-07"
+    }, {
+      "id" : 8,
+      "title" : "Cell Division Diagram & Process Note",
+      "description" : "Detailed diagram of Mitosis and Meiosis phases.",
+      "schoolClass" : {
+        "id" : 1,
+        "name" : "Grade 10",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 3,
+          "user" : {
+            "id" : 5,
+            "username" : "s",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-10-07T18:24:34.967455"
+          },
+          "fullName" : "Shankarr",
+          "employeeId" : "102",
+          "phone" : "",
+          "email" : "",
+          "qualification" : "",
+          "dateOfJoining" : "2026-10-07"
+        }
+      },
+      "subject" : null,
+      "teacher" : null,
+      "fileUrl" : "data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"300\" height=\"200\"><rect width=\"300\" height=\"200\" fill=\"%23e0f2fe\"/><text x=\"20\" y=\"50\" fill=\"%230369a1\" font-size=\"20\">Cell Division Diagram</text></svg>",
+      "fileType" : "IMAGE",
+      "authorOrSource" : "Faculty",
+      "uploadedByRole" : null,
+      "isInstituteWide" : null,
+      "uploadedDate" : "2026-10-07"
+    }, {
+      "id" : 9,
+      "title" : "Trigonometry & Calculus Formula Diagrams",
+      "description" : "Handwritten chapter notes and mind-maps for upcoming unit test.",
+      "schoolClass" : {
+        "id" : 1,
+        "name" : "Grade 10",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 3,
+          "user" : {
+            "id" : 5,
+            "username" : "s",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-10-07T18:24:34.967455"
+          },
+          "fullName" : "Shankarr",
+          "employeeId" : "102",
+          "phone" : "",
+          "email" : "",
+          "qualification" : "",
+          "dateOfJoining" : "2026-10-07"
+        }
+      },
+      "subject" : null,
+      "teacher" : null,
+      "fileUrl" : "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=1200&auto=format&fit=crop&q=80",
+      "fileType" : "IMAGE",
+      "authorOrSource" : "Faculty",
+      "uploadedByRole" : null,
+      "isInstituteWide" : null,
+      "uploadedDate" : "2026-10-08"
+    }, {
+      "id" : 10,
+      "title" : "Springdale Institute Handbook & Annual Academic Calendar",
+      "description" : "Official institute rules, event schedules, and safety policies applicable to all classes.",
+      "schoolClass" : null,
+      "subject" : null,
+      "teacher" : null,
+      "fileUrl" : "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "fileType" : "PDF",
+      "authorOrSource" : "Faculty",
+      "uploadedByRole" : null,
+      "isInstituteWide" : null,
+      "uploadedDate" : "2026-10-08"
+    }, {
+      "id" : 11,
+      "title" : "Unauthorized Global Broadcast",
+      "description" : "Teacher trying to broadcast institute-wide",
+      "schoolClass" : null,
+      "subject" : null,
+      "teacher" : null,
+      "fileUrl" : "https://example.com/test.pdf",
+      "fileType" : "PDF",
+      "authorOrSource" : "Faculty",
+      "uploadedByRole" : null,
+      "isInstituteWide" : null,
+      "uploadedDate" : "2026-10-08"
+    }, {
+      "id" : 12,
+      "title" : "Grade 9 Mathematics Formula Guide & Mind Map",
+      "description" : "Quick revision sheets covering Quadratic Equations and Trigonometric ratios.",
+      "schoolClass" : {
+        "id" : 2,
+        "name" : "Grade 9",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 1,
+          "user" : {
+            "id" : 2,
+            "username" : "teacher1",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-09-05T07:26:33.351429"
+          },
+          "fullName" : "Sarah Jenkins",
+          "employeeId" : "T101",
+          "phone" : "9876543210",
+          "email" : "sarah.jenkins@school.edu",
+          "qualification" : "M.Sc. Mathematics",
+          "dateOfJoining" : "2020-06-01"
+        }
+      },
+      "subject" : {
+        "id" : 1,
+        "name" : "Maths",
+        "code" : "MATHS101"
+      },
+      "teacher" : null,
+      "fileUrl" : "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=1200&auto=format&fit=crop&q=80",
+      "fileType" : "IMAGE",
+      "authorOrSource" : "Faculty",
+      "uploadedByRole" : null,
+      "isInstituteWide" : null,
+      "uploadedDate" : "2026-10-08"
+    }, {
+      "id" : 13,
+      "title" : "Springdale Annual Student Handbook & Safety Guidelines 2026",
+      "description" : "Comprehensive code of conduct, campus library timings, and laboratory safety protocols.",
+      "schoolClass" : null,
+      "subject" : null,
+      "teacher" : null,
+      "fileUrl" : "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "fileType" : "PDF",
+      "authorOrSource" : "Faculty",
+      "uploadedByRole" : null,
+      "isInstituteWide" : null,
+      "uploadedDate" : "2026-10-08"
+    }, {
+      "id" : 15,
+      "title" : "Springdale Annual Student Handbook & Safety Guidelines 2026",
+      "description" : "Comprehensive code of conduct, campus library timings, and laboratory safety protocols.",
+      "schoolClass" : null,
+      "subject" : null,
+      "teacher" : null,
+      "fileUrl" : "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "fileType" : "PDF",
+      "authorOrSource" : "School Academic Directorate / Management",
+      "uploadedByRole" : "MANAGEMENT",
+      "isInstituteWide" : true,
+      "uploadedDate" : "2026-10-08"
+    }, {
+      "id" : 17,
+      "title" : "BIG DATA",
+      "description" : "",
+      "schoolClass" : null,
+      "subject" : null,
+      "teacher" : null,
+      "fileUrl" : "/uploads/ab489f31-a88e-464e-80fb-4237f93c5a42.pdf",
+      "fileType" : "PDF",
+      "authorOrSource" : "School Academic Directorate / Management",
+      "uploadedByRole" : "MANAGEMENT",
+      "isInstituteWide" : true,
+      "uploadedDate" : "2026-10-08"
+    } ],
+    "timetableSlots" : [ {
+      "id" : 1,
+      "schoolClass" : {
+        "id" : 1,
+        "name" : "Grade 10",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 3,
+          "user" : {
+            "id" : 5,
+            "username" : "s",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-10-07T18:24:34.967455"
+          },
+          "fullName" : "Shankarr",
+          "employeeId" : "102",
+          "phone" : "",
+          "email" : "",
+          "qualification" : "",
+          "dateOfJoining" : "2026-10-07"
+        }
+      },
+      "dayOfWeek" : "Monday",
+      "periodId" : "p1",
+      "periodLabel" : "Period 1",
+      "startTime" : "09:00 AM",
+      "endTime" : "09:45 AM",
+      "subject" : {
+        "id" : 2,
+        "name" : "Physics",
+        "code" : "PHY102"
+      },
+      "subjectName" : "Physics",
+      "teacher" : {
+        "id" : 1,
+        "user" : {
+          "id" : 2,
+          "username" : "teacher1",
+          "role" : "TEACHER",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-09-05T07:26:33.351429"
+        },
+        "fullName" : "Sarah Jenkins",
+        "employeeId" : "T101",
+        "phone" : "9876543210",
+        "email" : "sarah.jenkins@school.edu",
+        "qualification" : "M.Sc. Mathematics",
+        "dateOfJoining" : "2020-06-01"
+      },
+      "teacherName" : "Sarah Jenkins",
+      "room" : "Advanced Science Lab",
+      "academicYear" : "2025-2026"
+    }, {
+      "id" : 2,
+      "schoolClass" : {
+        "id" : 2,
+        "name" : "Grade 9",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 1,
+          "user" : {
+            "id" : 2,
+            "username" : "teacher1",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-09-05T07:26:33.351429"
+          },
+          "fullName" : "Sarah Jenkins",
+          "employeeId" : "T101",
+          "phone" : "9876543210",
+          "email" : "sarah.jenkins@school.edu",
+          "qualification" : "M.Sc. Mathematics",
+          "dateOfJoining" : "2020-06-01"
+        }
+      },
+      "dayOfWeek" : "Monday",
+      "periodId" : "p2",
+      "periodLabel" : "Period 2",
+      "startTime" : "09:45 AM",
+      "endTime" : "10:30 AM",
+      "subject" : {
+        "id" : 2,
+        "name" : "Physics",
+        "code" : "PHY102"
+      },
+      "subjectName" : "Physics",
+      "teacher" : {
+        "id" : 1,
+        "user" : {
+          "id" : 2,
+          "username" : "teacher1",
+          "role" : "TEACHER",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-09-05T07:26:33.351429"
+        },
+        "fullName" : "Sarah Jenkins",
+        "employeeId" : "T101",
+        "phone" : "9876543210",
+        "email" : "sarah.jenkins@school.edu",
+        "qualification" : "M.Sc. Mathematics",
+        "dateOfJoining" : "2020-06-01"
+      },
+      "teacherName" : "Sarah Jenkins",
+      "room" : "Room 202",
+      "academicYear" : "2025-2026"
+    }, {
+      "id" : 3,
+      "schoolClass" : {
+        "id" : 1,
+        "name" : "Grade 10",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 3,
+          "user" : {
+            "id" : 5,
+            "username" : "s",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-10-07T18:24:34.967455"
+          },
+          "fullName" : "Shankarr",
+          "employeeId" : "102",
+          "phone" : "",
+          "email" : "",
+          "qualification" : "",
+          "dateOfJoining" : "2026-10-07"
+        }
+      },
+      "dayOfWeek" : "Monday",
+      "periodId" : "p2",
+      "periodLabel" : "Period 2",
+      "startTime" : "09:45 AM",
+      "endTime" : "10:30 AM",
+      "subject" : {
+        "id" : 3,
+        "name" : "AI",
+        "code" : "AI1000"
+      },
+      "subjectName" : "AI",
+      "teacher" : {
+        "id" : 4,
+        "user" : {
+          "id" : 16,
+          "username" : "G",
+          "role" : "TEACHER",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-10-08T00:23:40.338671"
+        },
+        "fullName" : "GOPI",
+        "employeeId" : "G1000",
+        "phone" : "",
+        "email" : "",
+        "qualification" : "",
+        "dateOfJoining" : "2026-10-08"
+      },
+      "teacherName" : "GOPI",
+      "room" : "Room 101",
+      "academicYear" : "2025-2026"
+    }, {
+      "id" : 4,
+      "schoolClass" : {
+        "id" : 2,
+        "name" : "Grade 9",
+        "section" : "A",
+        "academicYear" : "2025-2026",
+        "sortOrder" : 1,
+        "classTeacher" : {
+          "id" : 1,
+          "user" : {
+            "id" : 2,
+            "username" : "teacher1",
+            "role" : "TEACHER",
+            "staffRole" : null,
+            "permissions" : null,
+            "isActive" : true,
+            "createdAt" : "2026-09-05T07:26:33.351429"
+          },
+          "fullName" : "Sarah Jenkins",
+          "employeeId" : "T101",
+          "phone" : "9876543210",
+          "email" : "sarah.jenkins@school.edu",
+          "qualification" : "M.Sc. Mathematics",
+          "dateOfJoining" : "2020-06-01"
+        }
+      },
+      "dayOfWeek" : "Monday",
+      "periodId" : "p3",
+      "periodLabel" : "Period 3",
+      "startTime" : "10:45 AM",
+      "endTime" : "11:30 AM",
+      "subject" : null,
+      "subjectName" : "Computer Science",
+      "teacher" : {
+        "id" : 4,
+        "user" : {
+          "id" : 16,
+          "username" : "G",
+          "role" : "TEACHER",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-10-08T00:23:40.338671"
+        },
+        "fullName" : "GOPI",
+        "employeeId" : "G1000",
+        "phone" : "",
+        "email" : "",
+        "qualification" : "",
+        "dateOfJoining" : "2026-10-08"
+      },
+      "teacherName" : "GOPI",
+      "room" : "Room 101",
+      "academicYear" : "2025-2026"
+    } ],
+    "timetablePeriodConfigs" : [ {
+      "id" : 1,
+      "periodId" : "p1",
+      "periodLabel" : "Period 1",
+      "startTime" : "09:00 AM",
+      "endTime" : "09:45 AM",
+      "sortOrder" : 1,
+      "academicYear" : "2025-2026"
+    }, {
+      "id" : 2,
+      "periodId" : "p2",
+      "periodLabel" : "Period 2",
+      "startTime" : "09:45 AM",
+      "endTime" : "10:30 AM",
+      "sortOrder" : 2,
+      "academicYear" : "2025-2026"
+    }, {
+      "id" : 3,
+      "periodId" : "p3",
+      "periodLabel" : "Period 3",
+      "startTime" : "10:45 AM",
+      "endTime" : "11:30 AM",
+      "sortOrder" : 3,
+      "academicYear" : "2025-2026"
+    }, {
+      "id" : 4,
+      "periodId" : "p4",
+      "periodLabel" : "Period 4",
+      "startTime" : "11:30 AM",
+      "endTime" : "12:15 PM",
+      "sortOrder" : 4,
+      "academicYear" : "2025-2026"
+    }, {
+      "id" : 5,
+      "periodId" : "p5",
+      "periodLabel" : "Period 5",
+      "startTime" : "01:00 PM",
+      "endTime" : "01:45 PM",
+      "sortOrder" : 5,
+      "academicYear" : "2025-2026"
+    }, {
+      "id" : 6,
+      "periodId" : "p6",
+      "periodLabel" : "Period 6",
+      "startTime" : "01:45 PM",
+      "endTime" : "02:30 PM",
+      "sortOrder" : 6,
+      "academicYear" : "2025-2026"
+    } ],
+    "teacherSalaries" : [ ],
+    "studentHealth" : [ ],
+    "schoolAssets" : [ ],
+    "transportRoutes" : [ {
+      "id" : 1,
+      "routeName" : "Route 1 — North Campus Express",
+      "busNumber" : "KA-01-EQ-1001",
+      "driverName" : "Suresh Kumar",
+      "driverPhone" : "9876111222",
+      "monthlyFee" : 1800.00,
+      "capacity" : 40
+    }, {
+      "id" : 2,
+      "routeName" : "Route 2 — South City Line",
+      "busNumber" : "KA-01-EQ-2002",
+      "driverName" : "Ramesh Rao",
+      "driverPhone" : "9876333444",
+      "monthlyFee" : 2200.00,
+      "capacity" : 35
+    } ],
+    "notices" : [ {
+      "id" : 2,
+      "title" : "First Periodic Assessments Schedule",
+      "content" : "Periodic Assessments FA1 start from the 15th of this month. Please check your student portal for exam dates and subject syllabus.",
+      "audience" : "STUDENTS",
+      "createdAt" : "2026-09-05T07:26:33.554093",
+      "postedBy" : {
+        "id" : 1,
+        "username" : "admin",
+        "role" : "MANAGEMENT",
+        "staffRole" : "SUPER_ADMIN",
+        "permissions" : "*",
+        "isActive" : true,
+        "createdAt" : "2026-09-05T07:26:33.146207"
+      }
+    } ],
+    "schoolEvents" : [ {
+      "id" : 1,
+      "title" : "Exam",
+      "description" : "",
+      "eventDate" : "2026-10-15",
+      "eventType" : "EXAM",
+      "venue" : "Auditorium"
+    } ],
+    "ptmAppointments" : [ {
+      "id" : 1,
+      "student" : {
+        "id" : 1,
+        "user" : {
+          "id" : 3,
+          "username" : "student1",
+          "role" : "STUDENT",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-09-05T07:26:33.509023"
+        },
+        "fullName" : "Alex Morgan",
+        "admissionNumber" : "ADM2025001",
+        "schoolClass" : {
+          "id" : 1,
+          "name" : "Grade 10",
+          "section" : "A",
+          "academicYear" : "2025-2026",
+          "sortOrder" : 1,
+          "classTeacher" : {
+            "id" : 3,
+            "user" : {
+              "id" : 5,
+              "username" : "s",
+              "role" : "TEACHER",
+              "staffRole" : null,
+              "permissions" : null,
+              "isActive" : true,
+              "createdAt" : "2026-10-07T18:24:34.967455"
+            },
+            "fullName" : "Shankarr",
+            "employeeId" : "102",
+            "phone" : "",
+            "email" : "",
+            "qualification" : "",
+            "dateOfJoining" : "2026-10-07"
+          }
+        },
+        "dateOfBirth" : "2010-05-15",
+        "gender" : "MALE",
+        "address" : "123 Education Lane, Tech City",
+        "admissionDate" : "2025-04-01",
+        "academicYear" : "2025-2026",
+        "isActive" : false
+      },
+      "teacher" : {
+        "id" : 1,
+        "user" : {
+          "id" : 2,
+          "username" : "teacher1",
+          "role" : "TEACHER",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-09-05T07:26:33.351429"
+        },
+        "fullName" : "Sarah Jenkins",
+        "employeeId" : "T101",
+        "phone" : "9876543210",
+        "email" : "sarah.jenkins@school.edu",
+        "qualification" : "M.Sc. Mathematics",
+        "dateOfJoining" : "2020-06-01"
+      },
+      "appointmentDate" : "2026-10-15",
+      "timeSlot" : "11:00 AM - 11:30 AM",
+      "notes" : "Discussion regarding upcoming board exams.",
+      "adminRemarks" : "Slot occupied. Please request another time.",
+      "status" : "REJECTED"
+    }, {
+      "id" : 2,
+      "student" : {
+        "id" : 1,
+        "user" : {
+          "id" : 3,
+          "username" : "student1",
+          "role" : "STUDENT",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-09-05T07:26:33.509023"
+        },
+        "fullName" : "Alex Morgan",
+        "admissionNumber" : "ADM2025001",
+        "schoolClass" : {
+          "id" : 1,
+          "name" : "Grade 10",
+          "section" : "A",
+          "academicYear" : "2025-2026",
+          "sortOrder" : 1,
+          "classTeacher" : {
+            "id" : 3,
+            "user" : {
+              "id" : 5,
+              "username" : "s",
+              "role" : "TEACHER",
+              "staffRole" : null,
+              "permissions" : null,
+              "isActive" : true,
+              "createdAt" : "2026-10-07T18:24:34.967455"
+            },
+            "fullName" : "Shankarr",
+            "employeeId" : "102",
+            "phone" : "",
+            "email" : "",
+            "qualification" : "",
+            "dateOfJoining" : "2026-10-07"
+          }
+        },
+        "dateOfBirth" : "2010-05-15",
+        "gender" : "MALE",
+        "address" : "123 Education Lane, Tech City",
+        "admissionDate" : "2025-04-01",
+        "academicYear" : "2025-2026",
+        "isActive" : false
+      },
+      "teacher" : {
+        "id" : 1,
+        "user" : {
+          "id" : 2,
+          "username" : "teacher1",
+          "role" : "TEACHER",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-09-05T07:26:33.351429"
+        },
+        "fullName" : "Sarah Jenkins",
+        "employeeId" : "T101",
+        "phone" : "9876543210",
+        "email" : "sarah.jenkins@school.edu",
+        "qualification" : "M.Sc. Mathematics",
+        "dateOfJoining" : "2020-06-01"
+      },
+      "appointmentDate" : "2026-10-15",
+      "timeSlot" : "11:00 AM - 11:30 AM",
+      "notes" : "Discussion regarding upcoming board exams.",
+      "adminRemarks" : "Confirmed slot in Conference Room B.",
+      "status" : "ACCEPTED"
+    }, {
+      "id" : 3,
+      "student" : {
+        "id" : 1,
+        "user" : {
+          "id" : 3,
+          "username" : "student1",
+          "role" : "STUDENT",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-09-05T07:26:33.509023"
+        },
+        "fullName" : "Alex Morgan",
+        "admissionNumber" : "ADM2025001",
+        "schoolClass" : {
+          "id" : 1,
+          "name" : "Grade 10",
+          "section" : "A",
+          "academicYear" : "2025-2026",
+          "sortOrder" : 1,
+          "classTeacher" : {
+            "id" : 3,
+            "user" : {
+              "id" : 5,
+              "username" : "s",
+              "role" : "TEACHER",
+              "staffRole" : null,
+              "permissions" : null,
+              "isActive" : true,
+              "createdAt" : "2026-10-07T18:24:34.967455"
+            },
+            "fullName" : "Shankarr",
+            "employeeId" : "102",
+            "phone" : "",
+            "email" : "",
+            "qualification" : "",
+            "dateOfJoining" : "2026-10-07"
+          }
+        },
+        "dateOfBirth" : "2010-05-15",
+        "gender" : "MALE",
+        "address" : "123 Education Lane, Tech City",
+        "admissionDate" : "2025-04-01",
+        "academicYear" : "2025-2026",
+        "isActive" : false
+      },
+      "teacher" : {
+        "id" : 1,
+        "user" : {
+          "id" : 2,
+          "username" : "teacher1",
+          "role" : "TEACHER",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-09-05T07:26:33.351429"
+        },
+        "fullName" : "Sarah Jenkins",
+        "employeeId" : "T101",
+        "phone" : "9876543210",
+        "email" : "sarah.jenkins@school.edu",
+        "qualification" : "M.Sc. Mathematics",
+        "dateOfJoining" : "2020-06-01"
+      },
+      "appointmentDate" : "2026-10-15",
+      "timeSlot" : "11:00 AM - 11:30 AM",
+      "notes" : "Discussion regarding upcoming board exams.",
+      "adminRemarks" : "Confirmed slot in Conference Room B.",
+      "status" : "ACCEPTED"
+    }, {
+      "id" : 4,
+      "student" : {
+        "id" : 1,
+        "user" : {
+          "id" : 3,
+          "username" : "student1",
+          "role" : "STUDENT",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-09-05T07:26:33.509023"
+        },
+        "fullName" : "Alex Morgan",
+        "admissionNumber" : "ADM2025001",
+        "schoolClass" : {
+          "id" : 1,
+          "name" : "Grade 10",
+          "section" : "A",
+          "academicYear" : "2025-2026",
+          "sortOrder" : 1,
+          "classTeacher" : {
+            "id" : 3,
+            "user" : {
+              "id" : 5,
+              "username" : "s",
+              "role" : "TEACHER",
+              "staffRole" : null,
+              "permissions" : null,
+              "isActive" : true,
+              "createdAt" : "2026-10-07T18:24:34.967455"
+            },
+            "fullName" : "Shankarr",
+            "employeeId" : "102",
+            "phone" : "",
+            "email" : "",
+            "qualification" : "",
+            "dateOfJoining" : "2026-10-07"
+          }
+        },
+        "dateOfBirth" : "2010-05-15",
+        "gender" : "MALE",
+        "address" : "123 Education Lane, Tech City",
+        "admissionDate" : "2025-04-01",
+        "academicYear" : "2025-2026",
+        "isActive" : false
+      },
+      "teacher" : {
+        "id" : 1,
+        "user" : {
+          "id" : 2,
+          "username" : "teacher1",
+          "role" : "TEACHER",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-09-05T07:26:33.351429"
+        },
+        "fullName" : "Sarah Jenkins",
+        "employeeId" : "T101",
+        "phone" : "9876543210",
+        "email" : "sarah.jenkins@school.edu",
+        "qualification" : "M.Sc. Mathematics",
+        "dateOfJoining" : "2020-06-01"
+      },
+      "appointmentDate" : "2026-10-15",
+      "timeSlot" : "11:00 AM - 11:30 AM",
+      "notes" : "Discussion regarding upcoming board exams.",
+      "adminRemarks" : "Confirmed slot in Conference Room B.",
+      "status" : "ACCEPTED"
+    }, {
+      "id" : 5,
+      "student" : {
+        "id" : 8,
+        "user" : {
+          "id" : 15,
+          "username" : "ss",
+          "role" : "STUDENT",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-10-07T20:51:55.478349"
+        },
+        "fullName" : "Surya",
+        "admissionNumber" : "ADM2025007",
+        "schoolClass" : {
+          "id" : 2,
+          "name" : "Grade 9",
+          "section" : "A",
+          "academicYear" : "2025-2026",
+          "sortOrder" : 1,
+          "classTeacher" : {
+            "id" : 1,
+            "user" : {
+              "id" : 2,
+              "username" : "teacher1",
+              "role" : "TEACHER",
+              "staffRole" : null,
+              "permissions" : null,
+              "isActive" : true,
+              "createdAt" : "2026-09-05T07:26:33.351429"
+            },
+            "fullName" : "Sarah Jenkins",
+            "employeeId" : "T101",
+            "phone" : "9876543210",
+            "email" : "sarah.jenkins@school.edu",
+            "qualification" : "M.Sc. Mathematics",
+            "dateOfJoining" : "2020-06-01"
+          }
+        },
+        "dateOfBirth" : null,
+        "gender" : "MALE",
+        "address" : "",
+        "admissionDate" : "2026-10-07",
+        "academicYear" : "2025-2026",
+        "isActive" : true
+      },
+      "teacher" : {
+        "id" : 4,
+        "user" : {
+          "id" : 16,
+          "username" : "G",
+          "role" : "TEACHER",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-10-08T00:23:40.338671"
+        },
+        "fullName" : "GOPI",
+        "employeeId" : "G1000",
+        "phone" : "",
+        "email" : "",
+        "qualification" : "",
+        "dateOfJoining" : "2026-10-08"
+      },
+      "appointmentDate" : "2026-10-08",
+      "timeSlot" : "11:00 AM - 11:30 AM",
+      "notes" : "",
+      "adminRemarks" : "Slot occupied. Please request another time.",
+      "status" : "REJECTED"
+    } ],
+    "leaveRequests" : [ {
+      "id" : 1,
+      "student" : {
+        "id" : 1,
+        "user" : {
+          "id" : 3,
+          "username" : "student1",
+          "role" : "STUDENT",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-09-05T07:26:33.509023"
+        },
+        "fullName" : "Alex Morgan",
+        "admissionNumber" : "ADM2025001",
+        "schoolClass" : {
+          "id" : 1,
+          "name" : "Grade 10",
+          "section" : "A",
+          "academicYear" : "2025-2026",
+          "sortOrder" : 1,
+          "classTeacher" : {
+            "id" : 3,
+            "user" : {
+              "id" : 5,
+              "username" : "s",
+              "role" : "TEACHER",
+              "staffRole" : null,
+              "permissions" : null,
+              "isActive" : true,
+              "createdAt" : "2026-10-07T18:24:34.967455"
+            },
+            "fullName" : "Shankarr",
+            "employeeId" : "102",
+            "phone" : "",
+            "email" : "",
+            "qualification" : "",
+            "dateOfJoining" : "2026-10-07"
+          }
+        },
+        "dateOfBirth" : "2010-05-15",
+        "gender" : "MALE",
+        "address" : "123 Education Lane, Tech City",
+        "admissionDate" : "2025-04-01",
+        "academicYear" : "2025-2026",
+        "isActive" : false
+      },
+      "startDate" : "2026-10-09",
+      "endDate" : "2026-10-15",
+      "reason" : "ABS",
+      "adminRemarks" : null,
+      "status" : "REJECTED",
+      "appliedDate" : "2026-10-07"
+    }, {
+      "id" : 2,
+      "student" : {
+        "id" : 1,
+        "user" : {
+          "id" : 3,
+          "username" : "student1",
+          "role" : "STUDENT",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-09-05T07:26:33.509023"
+        },
+        "fullName" : "Alex Morgan",
+        "admissionNumber" : "ADM2025001",
+        "schoolClass" : {
+          "id" : 1,
+          "name" : "Grade 10",
+          "section" : "A",
+          "academicYear" : "2025-2026",
+          "sortOrder" : 1,
+          "classTeacher" : {
+            "id" : 3,
+            "user" : {
+              "id" : 5,
+              "username" : "s",
+              "role" : "TEACHER",
+              "staffRole" : null,
+              "permissions" : null,
+              "isActive" : true,
+              "createdAt" : "2026-10-07T18:24:34.967455"
+            },
+            "fullName" : "Shankarr",
+            "employeeId" : "102",
+            "phone" : "",
+            "email" : "",
+            "qualification" : "",
+            "dateOfJoining" : "2026-10-07"
+          }
+        },
+        "dateOfBirth" : "2010-05-15",
+        "gender" : "MALE",
+        "address" : "123 Education Lane, Tech City",
+        "admissionDate" : "2025-04-01",
+        "academicYear" : "2025-2026",
+        "isActive" : false
+      },
+      "startDate" : "2026-10-20",
+      "endDate" : "2026-10-22",
+      "reason" : "Family wedding event.",
+      "adminRemarks" : "Approved by Principal Office.",
+      "status" : "APPROVED",
+      "appliedDate" : "2026-10-07"
+    }, {
+      "id" : 3,
+      "student" : {
+        "id" : 1,
+        "user" : {
+          "id" : 3,
+          "username" : "student1",
+          "role" : "STUDENT",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-09-05T07:26:33.509023"
+        },
+        "fullName" : "Alex Morgan",
+        "admissionNumber" : "ADM2025001",
+        "schoolClass" : {
+          "id" : 1,
+          "name" : "Grade 10",
+          "section" : "A",
+          "academicYear" : "2025-2026",
+          "sortOrder" : 1,
+          "classTeacher" : {
+            "id" : 3,
+            "user" : {
+              "id" : 5,
+              "username" : "s",
+              "role" : "TEACHER",
+              "staffRole" : null,
+              "permissions" : null,
+              "isActive" : true,
+              "createdAt" : "2026-10-07T18:24:34.967455"
+            },
+            "fullName" : "Shankarr",
+            "employeeId" : "102",
+            "phone" : "",
+            "email" : "",
+            "qualification" : "",
+            "dateOfJoining" : "2026-10-07"
+          }
+        },
+        "dateOfBirth" : "2010-05-15",
+        "gender" : "MALE",
+        "address" : "123 Education Lane, Tech City",
+        "admissionDate" : "2025-04-01",
+        "academicYear" : "2025-2026",
+        "isActive" : false
+      },
+      "startDate" : "2026-10-20",
+      "endDate" : "2026-10-22",
+      "reason" : "Family wedding event.",
+      "adminRemarks" : "Approved by Principal Office.",
+      "status" : "APPROVED",
+      "appliedDate" : "2026-10-07"
+    }, {
+      "id" : 4,
+      "student" : {
+        "id" : 1,
+        "user" : {
+          "id" : 3,
+          "username" : "student1",
+          "role" : "STUDENT",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-09-05T07:26:33.509023"
+        },
+        "fullName" : "Alex Morgan",
+        "admissionNumber" : "ADM2025001",
+        "schoolClass" : {
+          "id" : 1,
+          "name" : "Grade 10",
+          "section" : "A",
+          "academicYear" : "2025-2026",
+          "sortOrder" : 1,
+          "classTeacher" : {
+            "id" : 3,
+            "user" : {
+              "id" : 5,
+              "username" : "s",
+              "role" : "TEACHER",
+              "staffRole" : null,
+              "permissions" : null,
+              "isActive" : true,
+              "createdAt" : "2026-10-07T18:24:34.967455"
+            },
+            "fullName" : "Shankarr",
+            "employeeId" : "102",
+            "phone" : "",
+            "email" : "",
+            "qualification" : "",
+            "dateOfJoining" : "2026-10-07"
+          }
+        },
+        "dateOfBirth" : "2010-05-15",
+        "gender" : "MALE",
+        "address" : "123 Education Lane, Tech City",
+        "admissionDate" : "2025-04-01",
+        "academicYear" : "2025-2026",
+        "isActive" : false
+      },
+      "startDate" : "2026-10-20",
+      "endDate" : "2026-10-22",
+      "reason" : "Family wedding event.",
+      "adminRemarks" : "Approved by Principal Office.",
+      "status" : "APPROVED",
+      "appliedDate" : "2026-10-07"
+    } ],
+    "admissions" : [ {
+      "id" : 1,
+      "applicationNo" : "ADM-1791401491622",
+      "studentName" : "Prospective Student Test",
+      "applyingForGrade" : "Grade 9",
+      "parentName" : "Test Parent",
+      "phone" : "9988776655",
+      "email" : "testparent@example.com",
+      "previousSchool" : null,
+      "dateOfBirth" : null,
+      "address" : null,
+      "status" : "PENDING",
+      "appliedDate" : "2026-10-08"
+    }, {
+      "id" : 2,
+      "applicationNo" : "ADM-1791401518970",
+      "studentName" : "Prospective Student Test",
+      "applyingForGrade" : "Grade 9",
+      "parentName" : "Test Parent",
+      "phone" : "9988776655",
+      "email" : "testparent@example.com",
+      "previousSchool" : null,
+      "dateOfBirth" : null,
+      "address" : null,
+      "status" : "PENDING",
+      "appliedDate" : "2026-10-08"
+    }, {
+      "id" : 3,
+      "applicationNo" : "ADM-1791401527377",
+      "studentName" : "Prospective Student Test",
+      "applyingForGrade" : "Grade 9",
+      "parentName" : "Test Parent",
+      "phone" : "9988776655",
+      "email" : "testparent@example.com",
+      "previousSchool" : null,
+      "dateOfBirth" : null,
+      "address" : null,
+      "status" : "PENDING",
+      "appliedDate" : "2026-10-08"
+    } ],
+    "alumni" : [ {
+      "id" : 1,
+      "student" : {
+        "id" : 1,
+        "user" : {
+          "id" : 3,
+          "username" : "student1",
+          "role" : "STUDENT",
+          "staffRole" : null,
+          "permissions" : null,
+          "isActive" : true,
+          "createdAt" : "2026-09-05T07:26:33.509023"
+        },
+        "fullName" : "Alex Morgan",
+        "admissionNumber" : "ADM2025001",
+        "schoolClass" : {
+          "id" : 1,
+          "name" : "Grade 10",
+          "section" : "A",
+          "academicYear" : "2025-2026",
+          "sortOrder" : 1,
+          "classTeacher" : {
+            "id" : 3,
+            "user" : {
+              "id" : 5,
+              "username" : "s",
+              "role" : "TEACHER",
+              "staffRole" : null,
+              "permissions" : null,
+              "isActive" : true,
+              "createdAt" : "2026-10-07T18:24:34.967455"
+            },
+            "fullName" : "Shankarr",
+            "employeeId" : "102",
+            "phone" : "",
+            "email" : "",
+            "qualification" : "",
+            "dateOfJoining" : "2026-10-07"
+          }
+        },
+        "dateOfBirth" : "2010-05-15",
+        "gender" : "MALE",
+        "address" : "123 Education Lane, Tech City",
+        "admissionDate" : "2025-04-01",
+        "academicYear" : "2025-2026",
+        "isActive" : false
+      },
+      "fullName" : "Alex Morgan",
+      "admissionNumber" : "ADM2025001",
+      "graduationYear" : "2025-2026",
+      "finalClass" : "Grade 10 A",
+      "dateOfBirth" : "2010-05-15",
+      "parentPhone" : "919876500000",
+      "migratedAt" : "2026-10-08T20:30:12.398772"
+    } ],
+    "substitutions" : [ ]
+  }
+}

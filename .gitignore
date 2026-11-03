@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Build outputs
+dist/
+frontend/dist/
+target/
+backend/target/
+*.class
+
+# Embedded JDKs / Scratch files
+backend/src/main/java/com/sms/oracleJdk-26/
+backend/src/main/java/com/sms/scratch/
+
+# Database lock and local runtime databases
+*.lock.db
+backend/data/*.lock.db
+backend/data/*.trace.db
+
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE & OS files
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
