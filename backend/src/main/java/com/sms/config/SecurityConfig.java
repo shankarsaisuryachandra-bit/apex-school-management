@@ -46,7 +46,7 @@ public class SecurityConfig {
 
                 // Public backend endpoints
                 .requestMatchers("/h2-console/**").permitAll()
-                .requestMatchers("/api/auth/**").permitAll()
+                .requestMatchers("/api/auth/**", "/api/status").permitAll()
                 .requestMatchers(HttpMethod.GET, "/api/cms/**").permitAll()
                 .requestMatchers("/api/admissions/apply").permitAll()
                 .requestMatchers("/api/alumni/public").permitAll()
