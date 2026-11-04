@@ -41,6 +41,9 @@ RUN mkdir -p /app/data /app/uploads
 # Pre-populate production uploads directory with initial media assets & campus imagery
 COPY backend/uploads /app/uploads
 
+# Pre-populate production database with master dataset (720 students, report cards, assignments)
+COPY backend/data/schooldb.mv.db /app/data/schooldb.mv.db
+
 # Copy executable jar from builder stage
 COPY --from=backend-builder /app/backend/target/school-management-system-*.jar app.jar
 
